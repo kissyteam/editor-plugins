@@ -1,7 +1,1 @@
-/*
-Copyright 2014, KISSY v5.0.0
-MIT Licensed
-build time: Jul 18 13:58
-*/
-KISSY.add("editor-plugins/lib/justify-right",["editor","./justify-right/cmd","./button","node"],function(j,c,k,f){function g(){var a=this.get("editor");a.execCommand("justifyRight");a.focus()}function d(){}var e=c("editor"),h=c("./justify-right/cmd");c("./button");var i=c("node");d.prototype={pluginRenderUI:function(a){h.init(a);a.addButton("justifyRight",{tooltip:"\u53f3\u5bf9\u9f50",checkable:!0,listeners:{click:g,afterSyncUI:function(){var b=this;a.on("selectionChange",function(){a.get("mode")!==e.Mode.SOURCE_MODE&&
-(a.queryCommandValue("justifyRight")?b.set("checked",!0):b.set("checked",!1))})}},mode:e.Mode.WYSIWYG_MODE});a.docReady(function(){a.get("document").on("keydown",function(b){b.ctrlKey&&b.keyCode===i.Event.KeyCode.R&&(a.execCommand("justifyRight"),b.preventDefault())})})}};f.exports=d});
+KISSY.add('editor-plugins/lib/justify-right',["editor","./justify-right/cmd","./button","node"],function(S ,require, exports, module) {function e(){var e=this.get("editor");e.execCommand("justifyRight"),e.focus()}function t(){}var n=require("editor"),o=require("./justify-right/cmd");require("./button");var i=require("node");t.prototype={pluginRenderUI:function(t){o.init(t),t.addButton("justifyRight",{tooltip:"右对齐",checkable:!0,listeners:{click:e,afterSyncUI:function(){var e=this;t.on("selectionChange",function(){t.get("mode")!==n.Mode.SOURCE_MODE&&(t.queryCommandValue("justifyRight")?e.set("checked",!0):e.set("checked",!1))})}},mode:n.Mode.WYSIWYG_MODE}),t.docReady(function(){t.get("document").on("keydown",function(e){e.ctrlKey&&e.keyCode===i.Event.KeyCode.R&&(t.execCommand("justifyRight"),e.preventDefault())})})}},module.exports=t;});

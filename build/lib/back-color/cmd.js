@@ -1,6 +1,1 @@
-/*
-Copyright 2014, KISSY v5.0.0
-MIT Licensed
-build time: Jul 18 13:55
-*/
-KISSY.add("editor-plugins/lib/back-color/cmd",["../color/cmd"],function(f,b,g,c){var d=b("../color/cmd"),e={element:"span",styles:{"background-color":"#(color)"},overrides:[{element:"*",styles:{"background-color":null}}],childRule:function(a){return!!a.style("background-color")}};c.exports={init:function(a){a.hasCommand("backColor")||a.addCommand("backColor",{exec:function(a,b){a.execCommand("save");d.applyColor(a,b,e);a.execCommand("save")}})}}});
+KISSY.add('editor-plugins/lib/back-color/cmd',["../color/cmd"],function(S ,require, exports, module) {var o=require("../color/cmd"),e={element:"span",styles:{"background-color":"#(color)"},overrides:[{element:"*",styles:{"background-color":null}}],childRule:function(o){return!!o.style("background-color")}};module.exports={init:function(n){n.hasCommand("backColor")||n.addCommand("backColor",{exec:function(n,c){n.execCommand("save"),o.applyColor(n,c,e),n.execCommand("save")}})}};});

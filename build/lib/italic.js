@@ -1,6 +1,1 @@
-/*
-Copyright 2014, KISSY v5.0.0
-MIT Licensed
-build time: Jul 18 13:58
-*/
-KISSY.add("editor-plugins/lib/italic",["./font/ui","./italic/cmd","./button","node"],function(h,a,i,d){function c(){}var e=a("./font/ui"),f=a("./italic/cmd");a("./button");var g=a("node");c.prototype={pluginRenderUI:function(b){f.init(b);b.addButton("italic",{cmdType:"italic",tooltip:"\u659c\u4f53"},e.Button);b.docReady(function(){b.get("document").on("keydown",function(a){a.ctrlKey&&a.keyCode===g.Event.KeyCode.I&&(b.execCommand("italic"),a.preventDefault())})})}};d.exports=c});
+KISSY.add('editor-plugins/lib/italic',["./font/ui","./italic/cmd","./button","node"],function(S ,require, exports, module) {function e(){}var t=require("./font/ui"),n=require("./italic/cmd");require("./button");var o=require("node");e.prototype={pluginRenderUI:function(e){n.init(e),e.addButton("italic",{cmdType:"italic",tooltip:"斜体"},t.Button),e.docReady(function(){e.get("document").on("keydown",function(t){t.ctrlKey&&t.keyCode===o.Event.KeyCode.I&&(e.execCommand("italic"),t.preventDefault())})})}},module.exports=e;});

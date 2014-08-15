@@ -1,7 +1,1 @@
-/*
-Copyright 2014, KISSY v5.0.0
-MIT Licensed
-build time: Jul 18 13:59
-*/
-KISSY.add("editor-plugins/lib/menubutton",["editor","util","menubutton"],function(j,b,k,h){var c=b("editor"),i=b("util"),f=b("menubutton");c.prototype.addSelect=function(b,a,e){var e=e||f.Select,g=this.get("prefixCls")+"editor-";if(a&&(a.editor=this,a.menu&&(a.menu.zIndex=c.baseZIndex(c.ZIndexManager.SELECT)),a.elCls))a.elCls=g+a.elCls;var d=(new e(i.mix({render:this.get("toolBarEl"),prefixCls:g},a))).render();a.mode===c.Mode.WYSIWYG_MODE&&(this.on("wysiwygMode",function(){d.set("disabled",!1)}),this.on("sourceMode",
-function(){d.set("disabled",!0)}));this.addControl(b+"/select",d);return d};h.exports=f});
+KISSY.add('editor-plugins/lib/menubutton',["editor","util","menubutton"],function(S ,require, exports, module) {var e=require("editor"),r=require("util"),t=require("menubutton");e.prototype.addSelect=function(n,o,d){d=d||t.Select;var i=this,l=i.get("prefixCls")+"editor-";o&&(o.editor=i,o.menu&&(o.menu.zIndex=e.baseZIndex(e.ZIndexManager.SELECT)),o.elCls&&(o.elCls=l+o.elCls));var s=new d(r.mix({render:i.get("toolBarEl"),prefixCls:l},o)).render();return o.mode===e.Mode.WYSIWYG_MODE&&(i.on("wysiwygMode",function(){s.set("disabled",!1)}),i.on("sourceMode",function(){s.set("disabled",!0)})),i.addControl(n+"/select",s),s},module.exports=t;});

@@ -1,7 +1,1 @@
-/*
-Copyright 2014, KISSY v5.0.0
-MIT Licensed
-build time: Jul 18 13:56
-*/
-KISSY.add("editor-plugins/lib/button",["util","editor","button"],function(j,c,k,e){var i=c("util"),g=c("editor"),h=c("button");g.prototype.addButton=function(c,a,f){void 0===f&&(f=h);var d=this.get("prefixCls")+"editor-toolbar-";a.elCls&&(a.elCls=d+a.elCls);a.elCls=d+"button "+(a.elCls||"");var b=(new f(i.mix({render:this.get("toolBarEl"),content:'<span class="'+d+"item "+d+c+'"></span>',prefixCls:this.get("prefixCls")+"editor-",editor:this},a))).render();if(!a.content){var e=b.get("el").one("span");b.on("afterContentClsChange",
-function(a){e[0].className=d+"item "+d+a.newVal})}b.get("mode")===g.Mode.WYSIWYG_MODE&&(this.on("wysiwygMode",function(){b.set("disabled",false)}),this.on("sourceMode",function(){b.set("disabled",true)}));this.addControl(c+"/button",b);return b};e.exports=h});
+KISSY.add('editor-plugins/lib/button',["util","editor","button"],function(S ,require, exports, module) {var e=require("util"),t=require("editor"),o=require("button");t.prototype.addButton=function(n,r,l){void 0===l&&(l=o);var i=this,s=i.get("prefixCls")+"editor-toolbar-";r.elCls&&(r.elCls=s+r.elCls),r.elCls=s+"button "+(r.elCls||"");var d=new l(e.mix({render:i.get("toolBarEl"),content:'<span class="'+s+"item "+s+n+'"></span>',prefixCls:i.get("prefixCls")+"editor-",editor:i},r)).render();if(!r.content){var a=d.get("el").one("span");d.on("afterContentClsChange",function(e){a[0].className=s+"item "+s+e.newVal})}return d.get("mode")===t.Mode.WYSIWYG_MODE&&(i.on("wysiwygMode",function(){d.set("disabled",!1)}),i.on("sourceMode",function(){d.set("disabled",!0)})),i.addControl(n+"/button",d),d},module.exports=o;});

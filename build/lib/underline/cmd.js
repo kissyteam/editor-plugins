@@ -1,6 +1,1 @@
-/*
-Copyright 2014, KISSY v5.0.0
-MIT Licensed
-build time: Jul 18 14:01
-*/
-KISSY.add("editor-plugins/lib/underline/cmd",["editor","../font/cmd"],function(a,b,f,c){var a=b("editor"),d=b("../font/cmd"),e=new a.Style({element:"u",overrides:[{element:"span",attributes:{style:"text-decoration: underline;"}}]});c.exports={init:function(a){d.addButtonCmd(a,"underline",e)}}});
+KISSY.add('editor-plugins/lib/underline/cmd',["editor","../font/cmd"],function(S ,require, exports, module) {var e=require("editor"),t=require("../font/cmd"),n=new e.Style({element:"u",overrides:[{element:"span",attributes:{style:"text-decoration: underline;"}}]});module.exports={init:function(e){t.addButtonCmd(e,"underline",n)}};});

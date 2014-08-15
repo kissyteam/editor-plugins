@@ -68,7 +68,7 @@ from : resource://gre/res/html.css
 .ks-editor-post select,
 /* for ie */
 .ks-editor-post textarea {
-    font: 14px/1.5 tahoma, arial, \5b8b\4f53, sans-serif;
+    font: 14px/1.5 tahoma, arial, ~"\5b8b\4f53", sans-serif;
 }
 
 .ks-editor-post h1 {
@@ -120,12 +120,12 @@ from : resource://gre/res/html.css
     font-style: italic;
     font-weight: inherit;
     /*防止reset css破坏层叠继承性*/
-    *font-weight:expression(function (el) { el.runtimeStyle.fontWeight = el.parentNode.currentStyle.fontWeight;}(this));
+    *font-weight:~"expression(function (el) { el.runtimeStyle.fontWeight = el.parentNode.currentStyle.fontWeight}(this))";
 }
 
 .ks-editor-post strong {
     font-style: inherit;
-    *font-style:expression(function (el) { el.runtimeStyle.fontStyle = el.parentNode.currentStyle.fontStyle;}(this));
+    *font-style:~"expression(function (el) { el.runtimeStyle.fontStyle = el.parentNode.currentStyle.fontStyle}(this))";
     font-weight: bold;
 }
 

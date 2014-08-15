@@ -1,7 +1,1 @@
-/*
-Copyright 2014, KISSY v5.0.0
-MIT Licensed
-build time: Jul 18 13:59
-*/
-KISSY.add("editor-plugins/lib/ordered-list/cmd",["editor","../list-utils/cmd"],function(b,d,i,f){var e=d("editor"),b=d("../list-utils/cmd"),g=b.queryActive,h=new b.ListCommand("ol");f.exports={init:function(c){c.hasCommand("insertOrderedList")||c.addCommand("insertOrderedList",{exec:function(a,b){a.focus();h.exec(a,b)}});var b=e.Utils.getQueryCmd("insertOrderedList");c.hasCommand(b)||c.addCommand(b,{exec:function(a){if((a=a.getSelection())&&!a.isInvalid)return a=a.getStartElement(),a=new e.ElementPath(a),
-g("ol",a)}})}}});
+KISSY.add('editor-plugins/lib/ordered-list/cmd',["editor","../list-utils/cmd"],function(S ,require, exports, module) {var e=require("editor"),t=require("../list-utils/cmd"),n="insertOrderedList",i=t.ListCommand,r=t.queryActive,a=new i("ol");module.exports={init:function(t){t.hasCommand(n)||t.addCommand(n,{exec:function(e,t){e.focus(),a.exec(e,t)}});var i=e.Utils.getQueryCmd(n);t.hasCommand(i)||t.addCommand(i,{exec:function(t){var n=t.getSelection();if(n&&!n.isInvalid){var i=n.getStartElement(),a=new e.ElementPath(i);return r("ol",a)}}})}};});

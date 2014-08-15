@@ -1,7 +1,1 @@
-/*
-Copyright 2014, KISSY v5.0.0
-MIT Licensed
-build time: Jul 18 13:56
-*/
-KISSY.add("editor-plugins/lib/dialog","editor,overlay,./focus-fix,dd/plugin/constrain,component/plugin/drag,dom".split(","),function(b,a,c,e){var b=a("editor"),c=a("overlay"),f=a("./focus-fix"),g=a("dd/plugin/constrain"),h=a("component/plugin/drag"),d=a("dom");e.exports=c.Dialog.extend({initializer:function(){this.plug(new h({handlers:[".ks-editor-dialog-header"],plugins:[new g({constrain:window})]}))},bindUI:function(){f.init(this)},show:function(){this.center();var a=this.get("y");if(a-d.scrollTop()>
-200){a=d.scrollTop()+200;this.set("y",a)}this.callSuper()}},{ATTRS:{prefixCls:{value:"ks-editor-"},zIndex:{value:b.baseZIndex(b.ZIndexManager.OVERLAY)}}})});
+KISSY.add('editor-plugins/lib/dialog',["editor","overlay","./focus-fix","dd/plugin/constrain","component/plugin/drag","dom"],function(S ,require, exports, module) {var e=require("editor"),i=require("overlay"),r=require("./focus-fix"),n=require("dd/plugin/constrain"),o=require("component/plugin/drag"),t=require("dom");module.exports=i.Dialog.extend({initializer:function(){this.plug(new o({handlers:[".ks-editor-dialog-header"],plugins:[new n({constrain:window})]}))},bindUI:function(){r.init(this)},show:function(){var e=this;e.center();var i=e.get("y");i-t.scrollTop()>200&&(i=t.scrollTop()+200,e.set("y",i)),e.callSuper()}},{ATTRS:{prefixCls:{value:"ks-editor-"},zIndex:{value:e.baseZIndex(e.ZIndexManager.OVERLAY)}}});});

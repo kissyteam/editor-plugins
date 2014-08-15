@@ -1,7 +1,1 @@
-/*
-Copyright 2014, KISSY v5.0.0
-MIT Licensed
-build time: Jul 18 13:57
-*/
-KISSY.add("editor-plugins/lib/focus-fix",["editor","ua"],function(b,d,k,e){function f(){var a=this._focusEditor=g.currentInstance();if(h.ie&&a){window.focus();document.body.focus();var i=a.get("document")[0].selection,c;try{c=i.createRange()}catch(b){c=0}c&&c.item&&c.item(0).ownerDocument===a.get("document")[0]&&(a=document.body.createTextRange(),a.moveToElementText(this.get("el").first()[0]),a.collapse(!0),a.select())}}function j(){var a=this._focusEditor;a&&a.focus()}var b=d("editor"),h=d("ua"),g=b.focusManager;
-e.exports={init:function(a){a.on("beforeVisibleChange",function(b){b.newVal&&f.call(a)});a.on("hide",function(){j.call(a)})}}});
+KISSY.add('editor-plugins/lib/focus-fix',["editor","ua"],function(S ,require, exports, module) {function e(){var e=this;e._focusEditor=c.currentInstance();var t=e._focusEditor;if(n.ie&&t){window.focus(),document.body.focus();var o,i=t.get("document")[0].selection;try{o=i.createRange()}catch(r){o=0}if(o&&o.item&&o.item(0).ownerDocument===t.get("document")[0]){var u=document.body.createTextRange();u.moveToElementText(e.get("el").first()[0]),u.collapse(!0),u.select()}}}function t(){var e=this,t=e._focusEditor;t&&t.focus()}var o=require("editor"),n=require("ua"),c=o.focusManager;module.exports={init:function(o){o.on("beforeVisibleChange",function(t){t.newVal&&e.call(o)}),o.on("hide",function(){t.call(o)})}};});

@@ -1,7 +1,1 @@
-/*
-Copyright 2014, KISSY v5.0.0
-MIT Licensed
-build time: Jul 18 14:01
-*/
-KISSY.add("editor-plugins/lib/unordered-list/cmd",["editor","../list-utils/cmd"],function(b,d,i,f){var e=d("editor"),b=d("../list-utils/cmd"),g=b.queryActive,h=new b.ListCommand("ul");f.exports={init:function(c){c.hasCommand("insertUnorderedList")||c.addCommand("insertUnorderedList",{exec:function(a,b){a.focus();h.exec(a,b)}});var b=e.Utils.getQueryCmd("insertUnorderedList");c.hasCommand(b)||c.addCommand(b,{exec:function(a){if((a=a.getSelection())&&!a.isInvalid)return a=a.getStartElement(),a=new e.ElementPath(a),
-g("ul",a)}})}}});
+KISSY.add('editor-plugins/lib/unordered-list/cmd',["editor","../list-utils/cmd"],function(S ,require, exports, module) {var e=require("editor"),t=require("../list-utils/cmd"),n="insertUnorderedList",i=t.ListCommand,r=t.queryActive,a=new i("ul");module.exports={init:function(t){t.hasCommand(n)||t.addCommand(n,{exec:function(e,t){e.focus(),a.exec(e,t)}});var i=e.Utils.getQueryCmd(n);t.hasCommand(i)||t.addCommand(i,{exec:function(t){var n=t.getSelection();if(n&&!n.isInvalid){var i=n.getStartElement(),a=new e.ElementPath(i);return r("ul",a)}}})}};});

@@ -1,7 +1,1 @@
-/*
-Copyright 2014, KISSY v5.0.0
-MIT Licensed
-build time: Jul 18 13:56
-*/
-KISSY.add("editor-plugins/lib/dialog-loader",["editor","overlay","dom","ua"],function(j,c,k,f){var e=c("editor"),h=c("overlay"),d=c("dom"),i=c("ua"),a,g={loading:function(b){a||(a=new h({x:0,width:6===i.ie?d.docWidth():"100%",y:0,zIndex:e.baseZIndex(e.ZIndexManager.LOADING),prefixCls:b+"editor-",elCls:b+"editor-global-loading"}));a.set("height",d.docHeight());a.show();a.loading()},unloading:function(){a.hide()}};f.exports={useDialog:function(b,a,e,d){b.focus();var f=b.get("prefixCls");b.getControl(a+"/dialog")?
-setTimeout(function(){b.showDialog(a,d)},0):(g.loading(f),c(["editor-plugins/lib/"+a+"/dialog"],function(c){g.unloading();b.addControl(a+"/dialog",new c(b,e));b.showDialog(a,d)}))}}});
+KISSY.add('editor-plugins/lib/dialog-loader',["editor","overlay","dom","ua"],function(S ,require, exports, module) {var o,i=require("editor"),e=require("overlay"),n=require("dom"),d=require("ua"),r={loading:function(r){o||(o=new e({x:0,width:6===d.ie?n.docWidth():"100%",y:0,zIndex:i.baseZIndex(i.ZIndexManager.LOADING),prefixCls:r+"editor-",elCls:r+"editor-global-loading"})),o.set("height",n.docHeight()),o.show(),o.loading()},unloading:function(){o.hide()}};module.exports={useDialog:function(o,i,e,n){o.focus();var d=o.get("prefixCls");return o.getControl(i+"/dialog")?void setTimeout(function(){o.showDialog(i,n)},0):(r.loading(d),void require(["editor/plugin/"+i+"/dialog"],function(d){r.unloading(),o.addControl(i+"/dialog",new d(o,e)),o.showDialog(i,n)}))}};});

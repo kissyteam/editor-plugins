@@ -1,6 +1,1 @@
-/*
-Copyright 2014, KISSY v5.0.0
-MIT Licensed
-build time: Jul 18 13:59
-*/
-KISSY.add("editor-plugins/lib/maximize",["./maximize/cmd","./button"],function(f,b,g,d){function c(){}var e=b("./maximize/cmd");b("./button");c.prototype={pluginRenderUI:function(a){e.init(a);a.addButton("maximize",{tooltip:"\u5168\u5c4f",listeners:{click:function(){this.get("checked")?(a.execCommand("maximizeWindow"),this.set("tooltip","\u53d6\u6d88\u5168\u5c4f"),this.set("contentCls","restore")):(a.execCommand("restoreWindow"),this.set("tooltip","\u5168\u5c4f"),this.set("contentCls","maximize"));a.focus()}},checkable:!0})}};d.exports=c});
+KISSY.add('editor-plugins/lib/maximize',["./maximize/cmd","./button"],function(S ,require, exports, module) {function e(){}var t=require("./maximize/cmd");require("./button");var i="maximize",o="restore",n="全屏",c="取消全屏";e.prototype={pluginRenderUI:function(e){t.init(e),e.addButton("maximize",{tooltip:n,listeners:{click:function(){var t=this,r=t.get("checked");r?(e.execCommand("maximizeWindow"),t.set("tooltip",c),t.set("contentCls",o)):(e.execCommand("restoreWindow"),t.set("tooltip",n),t.set("contentCls",i)),e.focus()}},checkable:!0})}},module.exports=e;});

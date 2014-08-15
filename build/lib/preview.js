@@ -1,7 +1,1 @@
-/*
-Copyright 2014, KISSY v5.0.0
-MIT Licensed
-build time: Jul 18 14:00
-*/
-KISSY.add("editor-plugins/lib/preview",["./button","util"],function(j,c,k,h){function e(){}var g=window;c("./button");var i=c("util");e.prototype={pluginRenderUI:function(c){c.addButton("preview",{tooltip:"\u9884\u89c8",listeners:{click:function(){var b,a,f;try{var d=g.screen;a=Math.round(0.7*d.height);f=Math.round(0.1*d.width);b=Math.round(0.8*d.width)}catch(e){b=640,a=420,f=80}d=i.substitute(c.getDocHtml(),{title:"\u9884\u89c8"});b=g.open("","","toolbar=yes,location=no,status=yes,menubar=yes,scrollbars=yes,resizable=yes,width="+
-b+",height="+a+",left="+f);a=b.document;a.open();a.write(d);a.close();b.focus()}}})}};h.exports=e});
+KISSY.add('editor-plugins/lib/preview',["./button","util"],function(S ,require, exports, module) {function t(){}var e=window;require("./button");var o=require("util");t.prototype={pluginRenderUI:function(t){t.addButton("preview",{tooltip:"预览",listeners:{click:function(){var r,n,i;try{var u=e.screen;n=Math.round(.7*u.height),i=Math.round(.1*u.width),r=Math.round(.8*u.width)}catch(s){r=640,n=420,i=80}var a=o.substitute(t.getDocHtml(),{title:"预览"}),c="",l=e.open(c,"","toolbar=yes,location=no,status=yes,menubar=yes,scrollbars=yes,resizable=yes,width="+r+",height="+n+",left="+i),d=l.document;d.open(),d.write(a),d.close(),l.focus()}}})}},module.exports=t;});

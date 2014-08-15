@@ -1,7 +1,1 @@
-/*
-Copyright 2014, KISSY v5.0.0
-MIT Licensed
-build time: Jul 18 13:58
-*/
-KISSY.add("editor-plugins/lib/heading/cmd",["editor"],function(g,b,h,f){var d=b("editor");f.exports={init:function(e){if(!e.hasCommand("heading")){e.addCommand("heading",{exec:function(a,c){var b;a.execCommand("save");"p"!==c&&(b=a.queryCommandValue("heading"));c===b&&(c="p");(new d.Style({element:c})).apply(a.get("document")[0]);a.execCommand("save")}});var b=d.Utils.getQueryCmd("heading");e.addCommand(b,{exec:function(a){if((a=a.getSelection())&&!a.isInvalid)if(a=a.getStartElement(),a=new d.ElementPath(a),
-a=(a=a.block||a.blockLimit)&&a.nodeName()||"",a.match(/^h\d$/)||"p"===a)return a}})}}}});
+KISSY.add('editor-plugins/lib/heading/cmd',["editor"],function(S ,require, exports, module) {var e=require("editor");module.exports={init:function(n){if(!n.hasCommand("heading")){n.addCommand("heading",{exec:function(n,a){var t;n.execCommand("save"),"p"!==a&&(t=n.queryCommandValue("heading")),a===t&&(a="p"),new e.Style({element:a}).apply(n.get("document")[0]),n.execCommand("save")}});var a=e.Utils.getQueryCmd("heading");n.addCommand(a,{exec:function(n){var a=n.getSelection();if(a&&!a.isInvalid){var t=a.getStartElement(),d=new e.ElementPath(t),i=d.block||d.blockLimit,m=i&&i.nodeName()||"";if(m.match(/^h\d$/)||"p"===m)return m}}})}}};});
