@@ -1,0 +1,19 @@
+{
+  "name": "KISSY-Editor-Plugins",
+  "version": "1.0.0",
+  "description": "KISSY Editor Plugins",
+  "homepage": "http://gitlab.alibaba-inc.com/kg/editor-plugins",
+  "engines": {
+    "node": "~0.10"
+  },
+  "dependencies": {
+    "gulp": "^3.8.7",
+    "gulp-kmc": "0.0.29",
+    "gulp-rename": "^1.2.0",
+    "joycss": "^0.5.10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.alibaba-inc.com:kg/editor-plugins.git"
+  }
+}

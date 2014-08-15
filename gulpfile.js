@@ -35,8 +35,8 @@ gulp.task('kmc', function(cb){
 
 gulp.task('buildCss', function(cb){
 	var process = require('child_process');
-	process.exec('joycss assets/editor.less --dest build/assets/editor.css --imgPath ../build/assets',function(){
-		process.exec('joycss assets/iframe.less --dest build/assets/iframe.css');
+	process.exec('node node_modules/joycss/bin/joycss assets/editor.less --dest build/assets/editor.css --imgPath ../build/assets',function(){
+		process.exec('node node_modules/joycss/bin/joycss assets/iframe.less --dest build/assets/iframe.css');
 	});
 	
 	//本来想调用joycss接口做的，但是生成的iframe.css中部分css规则丢失了。先用上面的方法编译了，到时候 @翰文 修复了bug再配合修改
