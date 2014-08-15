@@ -1,13 +1,13 @@
 KISSY.use('util, node', function (S, util, Node) {
     /*jshint quotmark:false*/
     var cfg = util.mix({
-        // ÊÇ·ñ³õÊ¼¾Û½¹
+        // æ˜¯å¦åˆå§‹èšç„¦
         focused: true,
         attachForm: true,
         baseZIndex: 10000
-        // ×Ô¶¨ÒåÑùÊ½
+        // è‡ªå®šä¹‰æ ·å¼
         // customStyle:"p{line-height: 1.4;margin: 1.12em 0;padding: 0;}",
-        // ×Ô¶¨ÒåÍâ²¿ÑùÊ½
+        // è‡ªå®šä¹‰å¤–éƒ¨æ ·å¼
         // customLink:["http://localhost/customLink.css","http://xx.com/y2.css"],
 
     }, window.EDITOR_CFG);
@@ -73,7 +73,7 @@ KISSY.use('util, node', function (S, util, Node) {
                 suffix: "png,jpg,jpeg,gif",
                 fileInput: "Filedata",
                 sizeLimit: 1000, //k
-                extraHTML: "<p style='margin-top:10px;'><input type='checkbox' id='ke_img_up_watermark_1' checked='checked'> Í¼Æ¬¼ÓË®Ó¡£¬·ÀÖ¹±ğÈËµÁÓÃ</p>"
+                extraHTML: "<p style='margin-top:10px;'><input type='checkbox' id='ke_img_up_watermark_1' checked='checked'> å›¾ç‰‡åŠ æ°´å°ï¼Œé˜²æ­¢åˆ«äººç›—ç”¨</p>"
             }
         },
         'flash': {
@@ -82,12 +82,12 @@ KISSY.use('util, node', function (S, util, Node) {
         },
         "templates": [
             {
-                demo: "Ä£°å1Ğ§¹ûÑİÊ¾html",
-                html: "<div style='border:1px solid red'>Ä£°å1Ğ§¹ûÑİÊ¾html</div><p></p>"
+                demo: "æ¨¡æ¿1æ•ˆæœæ¼”ç¤ºhtml",
+                html: "<div style='border:1px solid red'>æ¨¡æ¿1æ•ˆæœæ¼”ç¤ºhtml</div><p></p>"
             },
             {
-                demo: "Ä£°å2Ğ§¹ûÑİÊ¾html",
-                html: "<div style='border:1px solid red'>Ä£°å2Ğ§¹ûÑİÊ¾html</div>"
+                demo: "æ¨¡æ¿2æ•ˆæœæ¼”ç¤ºhtml",
+                html: "<div style='border:1px solid red'>æ¨¡æ¿2æ•ˆæœæ¼”ç¤ºhtml</div>"
             }
         ],
         "font-size": {
@@ -96,41 +96,41 @@ KISSY.use('util, node', function (S, util, Node) {
                 children: [
                     {
                         value: "14px",
-                        textContent: "±ê×¼",
+                        textContent: "æ ‡å‡†",
                         elAttrs: {
                             style: 'position: relative; border: 1px solid #DDDDDD; margin: 2px; padding: 2px;'
                         },
-                        content: " <span style='font-size:14px'>±ê×¼</span>" +
+                        content: " <span style='font-size:14px'>æ ‡å‡†</span>" +
                             "<span style='position:absolute;top:1px;right:3px;'>14px</span>"
                     },
                     {
                         value: "16px",
-                        textContent: "´ó",
+                        textContent: "å¤§",
                         elAttrs: {
                             style: 'position: relative; border: 1px solid #DDDDDD; margin: 2px; padding: 2px;'
                         },
                         content: "" +
-                            " <span style='font-size:16px'>´ó</span>" +
+                            " <span style='font-size:16px'>å¤§</span>" +
                             "<span style='position:absolute;top:1px;right:3px;'>16px</span>"
                     },
                     {
                         value: "18px",
-                        textContent: "ÌØ´ó",
+                        textContent: "ç‰¹å¤§",
                         elAttrs: {
                             style: 'position: relative; border: 1px solid #DDDDDD; margin: 2px; padding: 2px;'
                         },
                         content: "" +
-                            " <span style='font-size:18px'>ÌØ´ó</span>" +
+                            " <span style='font-size:18px'>ç‰¹å¤§</span>" +
                             "<span style='position:absolute;top:1px;right:3px;'>18px</span>"
                     },
                     {
                         value: "20px",
-                        textContent: "¼«´ó",
+                        textContent: "æå¤§",
                         elAttrs: {
                             style: 'position: relative; border: 1px solid #DDDDDD; margin: 2px; padding: 2px;'
                         },
                         content: "" +
-                            " <span style='font-size:20px'>¼«´ó</span>" +
+                            " <span style='font-size:20px'>æå¤§</span>" +
                             "<span style='position:absolute;top:1px;right:3px;'>20px</span>"
                     }
                 ],
@@ -145,12 +145,12 @@ KISSY.use('util, node', function (S, util, Node) {
                     paramName: "url"
                 }
             ],
-            "urlTip": "ÇëÊäÈëÓÅ¿áÍø¡¢ÍÁ¶¹Íø¡¢¿á7ÍøµÄÊÓÆµ²¥·ÅÒ³Á´½Ó...",
+            "urlTip": "è¯·è¾“å…¥ä¼˜é…·ç½‘ã€åœŸè±†ç½‘ã€é…·7ç½‘çš„è§†é¢‘æ’­æ”¾é¡µé“¾æ¥...",
             "providers": [
                 {
-                    // ÔÊĞí°×Ãûµ¥
+                    // å…è®¸ç™½åå•
                     reg: /taohua\.com/i,
-                    //Ä¬ÈÏ¸ß¿í
+                    //é»˜è®¤é«˜å®½
                     width: 480,
                     height: 400,
                     detect: function (url) {
@@ -205,15 +205,15 @@ KISSY.use('util, node', function (S, util, Node) {
             ]
         },
         "draft": {
-            // µ±Ç°±à¼­Æ÷µÄÀúÊ·ÊÇ·ñÒªµ¥¶À±£´æµ½Ò»¸ö¼üÖµ¶ø²»ÊÇ¹«ÓÃ
+            // å½“å‰ç¼–è¾‘å™¨çš„å†å²æ˜¯å¦è¦å•ç‹¬ä¿å­˜åˆ°ä¸€ä¸ªé”®å€¼è€Œä¸æ˜¯å…¬ç”¨
             // saveKey:"xxx",
             interval: 5,
             limit: 10,
             "helpHTML": "<div " +
                 "style='width:200px;'>" +
-                "<div style='padding:5px;'>²İ¸åÏäÄÜ¹»×Ô¶¯±£´æÄú×îĞÂ±à¼­µÄÄÚÈİ£¬" +
-                "Èç¹û·¢ÏÖÄÚÈİ¶ªÊ§£¬" +
-                "ÇëÑ¡Ôñ»Ö¸´±à¼­ÀúÊ·</div></div>"
+                "<div style='padding:5px;'>è‰ç¨¿ç®±èƒ½å¤Ÿè‡ªåŠ¨ä¿å­˜æ‚¨æœ€æ–°ç¼–è¾‘çš„å†…å®¹ï¼Œ" +
+                "å¦‚æœå‘ç°å†…å®¹ä¸¢å¤±ï¼Œ" +
+                "è¯·é€‰æ‹©æ¢å¤ç¼–è¾‘å†å²</div></div>"
         },
         "resize": {
             //direction:['y']
