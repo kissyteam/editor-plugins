@@ -1,4 +1,4 @@
-/** generate by joycss v0.5.10, on time: 2014-08-15 16:04:11 */
+/** generate by joycss v0.5.10, on time: 2014-08-15 19:10:10 */
 .ks-editor-toolbar-sourceArea,
 .ks-editor-toolbar-preview,
 .ks-editor-toolbar-bold,
@@ -43,7 +43,8 @@
 .ks-editor-big-menu-button-dropdown-inner,
 .ks-editor-toolbar-xiamiMusic,
 .ks-editor-big-menu-button-dropdown {
-  background-image: url(./editor-sprite8.png);
+  _background-image: url(./editor-sprite8.png);
+  background-image: url(./editor-sprite.png);
   background-repeat: no-repeat;
 }
 .ks-editor {
