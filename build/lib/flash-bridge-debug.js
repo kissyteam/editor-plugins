@@ -6,7 +6,7 @@ KISSY.add('editor-plugins/lib/flash-bridge',["logger-manager","util","editor","s
  */
 
 var LoggerManager = require('logger-manager');
-var logger = LoggerManager.getLogger('s/editor/flash-bridge');
+var logger = LoggerManager.getLogger('editor/flash-bridge');
 var util = require('util');
 var Editor = require('editor');
 var SWF = require('swf');

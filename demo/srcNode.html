@@ -20,15 +20,18 @@
 </div>
 <script src="http://g.tbcdn.cn/kissy/edge/2014.07.16/seed-debug.js"></script>
 <script>
-    window.EDITOR_CFG = {
-        fromTextarea: '#ks-editor-textarea'
-    };
-    KISSY.config('packages', {
-        'editor-plugins': {
-            filter: 'debug',
-            path: '../build/'
-        }
-    });
+    (function(){
+        var isBuild = location.search.indexOf('build') !== -1;
+        window.EDITOR_CFG = {
+            fromTextarea: '#ks-editor-textarea'
+        };
+        KISSY.config('packages', {
+            'editor-plugins': {
+                filter: isBuild?'debug':'',
+                path: isBuild?'../build/':'../'
+            }
+        });
+    })();
 </script>
 <script src="./demo.js"></script>
 </body>
