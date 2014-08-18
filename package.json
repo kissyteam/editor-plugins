@@ -10,7 +10,7 @@
     "gulp": "^3.8.7",
     "gulp-kmc": "0.0.29",
     "gulp-rename": "^1.2.0",
-    "joycss": "^0.5.10"
+    "joycss": "0.5.11"
   },
   "repository": {
     "type": "git",
