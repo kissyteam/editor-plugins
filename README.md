@@ -2,6 +2,15 @@
 
 plugins of kissy editor
 
+## example
+
+````
+gulp server
+```
+
+open http://localhost:8001/demo/srcNode.html
+
+
 ## 构建
 
 ```
