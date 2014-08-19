@@ -33,7 +33,7 @@
                 {
                     filter : isBuild ? 'debug' : '',
                     name : 'kg/editor-plugins/1.0.0',
-                    path : '../build',
+                    path : isBuild ? '../build' : '../',
                     ignorePackageNameInUri:true
                 }
             ]
