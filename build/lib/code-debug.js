@@ -1,4 +1,4 @@
-KISSY.add('editor-plugins/lib/code',["editor","./button","./dialog-loader"],function(S ,require, exports, module) {
+KISSY.add('kg/editor-plugins/lib/1.0.0/code',["editor","./button","./dialog-loader"],function(S ,require, exports, module) {
 /**
  * @ignore
  * insert program code

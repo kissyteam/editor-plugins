@@ -1,4 +1,4 @@
-KISSY.add('editor-plugins/lib/element-path',["editor","node"],function(S ,require, exports, module) {
+KISSY.add('kg/editor-plugins/lib/1.0.0/element-path',["editor","node"],function(S ,require, exports, module) {
 /**
  * @ignore
  * ElementPath for debug.

@@ -1,4 +1,4 @@
-KISSY.add('editor-plugins/lib/justify-center/cmd',["../justify-cmd"],function(S ,require, exports, module) {
+KISSY.add('kg/editor-plugins/lib/1.0.0/justify-center/cmd',["../justify-cmd"],function(S ,require, exports, module) {
 /**
  * @ignore
  * Add justifyCenter command identifier for Editor.

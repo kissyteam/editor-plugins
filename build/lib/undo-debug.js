@@ -1,4 +1,4 @@
-KISSY.add('editor-plugins/lib/undo',["editor","./undo/btn","./undo/cmd","./button"],function(S ,require, exports, module) {
+KISSY.add('kg/editor-plugins/lib/1.0.0/undo',["editor","./undo/btn","./undo/cmd","./button"],function(S ,require, exports, module) {
 /**
  * @ignore
  * undo button

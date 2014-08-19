@@ -1,4 +1,4 @@
-KISSY.add('editor-plugins/lib/unordered-list/cmd',["editor","../list-utils/cmd"],function(S ,require, exports, module) {
+KISSY.add('kg/editor-plugins/lib/1.0.0/unordered-list/cmd',["editor","../list-utils/cmd"],function(S ,require, exports, module) {
 /**
  * @ignore
  * ol command

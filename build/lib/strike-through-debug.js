@@ -1,4 +1,4 @@
-KISSY.add('editor-plugins/lib/strike-through',["./font/ui","./strike-through/cmd","./button"],function(S ,require, exports, module) {
+KISSY.add('kg/editor-plugins/lib/1.0.0/strike-through',["./font/ui","./strike-through/cmd","./button"],function(S ,require, exports, module) {
 /**
  * @ignore
  * strikeThrough button

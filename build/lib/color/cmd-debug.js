@@ -1,4 +1,4 @@
-KISSY.add('editor-plugins/lib/color/cmd',["editor"],function(S ,require, exports, module) {
+KISSY.add('kg/editor-plugins/lib/1.0.0/color/cmd',["editor"],function(S ,require, exports, module) {
 /**
  * @ignore
  * color command.

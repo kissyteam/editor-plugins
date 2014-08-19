@@ -1,4 +1,4 @@
-KISSY.add('editor-plugins/lib/font-size',["editor","./font/ui","./font-size/cmd","./menubutton","util"],function(S ,require, exports, module) {
+KISSY.add('kg/editor-plugins/lib/1.0.0/font-size',["editor","./font/ui","./font-size/cmd","./menubutton","util"],function(S ,require, exports, module) {
 /**
  * @ignore
  * font formatting for kissy editor

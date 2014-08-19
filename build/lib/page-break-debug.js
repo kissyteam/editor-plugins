@@ -1,4 +1,4 @@
-KISSY.add('editor-plugins/lib/page-break',["editor","./fake-objects","./button","node"],function(S ,require, exports, module) {
+KISSY.add('kg/editor-plugins/lib/1.0.0/page-break',["editor","./fake-objects","./button","node"],function(S ,require, exports, module) {
 /**
  * @ignore
  * pagebreak functionality

@@ -1,4 +1,4 @@
-KISSY.add('editor-plugins/lib/table/dialog',["util","editor","../dialog","../menubutton","ua","node","dom"],function(S ,require, exports, module) {
+KISSY.add('kg/editor-plugins/lib/1.0.0/table/dialog',["util","editor","../dialog","../menubutton","ua","node","dom"],function(S ,require, exports, module) {
 /**
  * @ignore
  * table dialog

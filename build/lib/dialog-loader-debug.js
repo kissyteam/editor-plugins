@@ -1,4 +1,4 @@
-KISSY.add('editor-plugins/lib/dialog-loader',["editor","overlay","dom","ua"],function(S ,require, exports, module) {
+KISSY.add('kg/editor-plugins/lib/1.0.0/dialog-loader',["editor","overlay","dom","ua"],function(S ,require, exports, module) {
 /**
  * @ignore
  * load editor's dialog dynamically

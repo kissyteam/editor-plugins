@@ -15,5 +15,11 @@
   "repository": {
     "type": "git",
     "url": "git@gitlab.alibaba-inc.com:kg/editor-plugins.git"
+  },
+  "devDependencies": {
+    "gulp-kmd": "^1.0.0",
+    "gulp-util": "^3.0.0",
+    "kmd": "0.0.10",
+    "through2": "^0.6.1"
   }
 }

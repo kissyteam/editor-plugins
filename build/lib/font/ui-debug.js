@@ -1,4 +1,4 @@
-KISSY.add('editor-plugins/lib/font/ui',["editor","../button","../menubutton"],function(S ,require, exports, module) {
+KISSY.add('kg/editor-plugins/lib/1.0.0/font/ui',["editor","../button","../menubutton"],function(S ,require, exports, module) {
 /**
  * @ignore
  * font formatting for kissy editor

@@ -1,4 +1,4 @@
-KISSY.add('editor-plugins/lib/unordered-list',["./list-utils/btn","./unordered-list/cmd"],function(S ,require, exports, module) {
+KISSY.add('kg/editor-plugins/lib/1.0.0/unordered-list',["./list-utils/btn","./unordered-list/cmd"],function(S ,require, exports, module) {
 /**
  * @ignore
  * Add ul/ol button.

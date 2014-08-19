@@ -1,4 +1,4 @@
-KISSY.add('editor-plugins/lib/flash-common/base-class',["./utils","base","editor","node","ua","util","../dialog-loader","../bubble","../contextmenu"],function(S ,require, exports, module) {
+KISSY.add('kg/editor-plugins/lib/1.0.0/flash-common/base-class',["./utils","base","editor","node","ua","util","../dialog-loader","../bubble","../contextmenu"],function(S ,require, exports, module) {
 /**
  * @ignore
  * BaseClass for Flash Based plugin.

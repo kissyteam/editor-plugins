@@ -1,4 +1,4 @@
-KISSY.add('editor-plugins/lib/bold/cmd',["editor","../font/cmd"],function(S ,require, exports, module) {
+KISSY.add('kg/editor-plugins/lib/1.0.0/bold/cmd',["editor","../font/cmd"],function(S ,require, exports, module) {
 /**
  * @ignore
  * bold command.

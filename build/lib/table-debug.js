@@ -1,4 +1,4 @@
-KISSY.add('editor-plugins/lib/table',["editor","./dialog-loader","./contextmenu","./button","util","ua","dom","node"],function(S ,require, exports, module) {
+KISSY.add('kg/editor-plugins/lib/1.0.0/table',["editor","./dialog-loader","./contextmenu","./button","util","ua","dom","node"],function(S ,require, exports, module) {
 /**
  * @ignore
  * Add table plugin for KISSY.

@@ -1,4 +1,4 @@
-KISSY.add('editor-plugins/lib/image',["./button","editor","./bubble","./contextmenu","./dialog-loader","util","ua","node"],function(S ,require, exports, module) {
+KISSY.add('kg/editor-plugins/lib/1.0.0/image',["./button","editor","./bubble","./contextmenu","./dialog-loader","util","ua","node"],function(S ,require, exports, module) {
 /**
  * @ignore
  * insert image for kissy editor

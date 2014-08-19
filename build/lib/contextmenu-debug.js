@@ -1,4 +1,4 @@
-KISSY.add('editor-plugins/lib/contextmenu',["editor","menu","./focus-fix","event/dom","node"],function(S ,require, exports, module) {
+KISSY.add('kg/editor-plugins/lib/1.0.0/contextmenu',["editor","menu","./focus-fix","event/dom","node"],function(S ,require, exports, module) {
 /**
  * @ignore
  * contextmenu for kissy editor

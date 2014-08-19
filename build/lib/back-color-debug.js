@@ -1,4 +1,4 @@
-KISSY.add('editor-plugins/lib/back-color',["./color/btn","./back-color/cmd"],function(S ,require, exports, module) {
+KISSY.add('kg/editor-plugins/lib/1.0.0/back-color',["./color/btn","./back-color/cmd"],function(S ,require, exports, module) {
 /**
  * @ignore
  * backColor button.

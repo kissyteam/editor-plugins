@@ -1,4 +1,4 @@
-KISSY.add('editor-plugins/lib/drag-upload',["util","editor","event/dom","node","dom"],function(S ,require, exports, module) {
+KISSY.add('kg/editor-plugins/lib/1.0.0/drag-upload',["util","editor","event/dom","node","dom"],function(S ,require, exports, module) {
 /**
  * @ignore
  * drag file support for html5 file&dd

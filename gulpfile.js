@@ -1,13 +1,16 @@
 var gulp = require('gulp'),
 	rename = require('gulp-rename'),
-	kmc = require('gulp-kmc');
+	kmc = require('gulp-kmc'),
+	packageJson = require('./package.json');
 
+// var confirmCmd = require('./tools/confirm-cmd');
+var gulpKmd = require('gulp-kmd');
 
 kmc.config({
 	depFilePath : './build/mods.js',  
 	packages : [
 		{
-			name : 'editor-plugins/lib',
+			name : 'kg/editor-plugins/lib/' + packageJson.version,
 			combine : false,  
 			base : './lib'   
 		}
@@ -16,6 +19,7 @@ kmc.config({
 
 gulp.task('kmc', function(cb){
 	gulp.src('./lib/**/*.js')
+		.pipe(gulpKmd())
 		.pipe(kmc.convert({
 			 fixModuleName:true,
 			 minify : true,
@@ -23,7 +27,6 @@ gulp.task('kmc', function(cb){
 			 	src : '-debug.js',
 			 	min : '.js'
 			 }
-
 		}))
 		.pipe(rename(function(path){
 			if(path.basename === 'mods' || path.basename === 'mods-debug'){
