@@ -6,20 +6,19 @@
   "engines": {
     "node": "~0.10"
   },
-  "dependencies": {
-    "gulp": "^3.8.7",
-    "gulp-kmc": "0.0.29",
-    "gulp-rename": "^1.2.0",
-    "joycss": "0.5.11"
-  },
   "repository": {
     "type": "git",
     "url": "git@gitlab.alibaba-inc.com:kg/editor-plugins.git"
   },
   "devDependencies": {
     "gulp-kmd": "^1.0.0",
-    "gulp-util": "^3.0.0",
-    "kmd": "0.0.10",
-    "through2": "^0.6.1"
+    "express": "^4.8.4",
+    "gulp": "^3.8.7",
+    "gulp-kmc": "0.0.29",
+    "gulp-rename": "^1.2.0",
+    "joycss": "0.5.11",
+    "less": "^1.7.4",
+    "serve-index": "^1.1.6",
+    "serve-static": "^1.5.3"
   }
 }

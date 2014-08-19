@@ -20,20 +20,26 @@
 </div>
 <script src="http://g.tbcdn.cn/kissy/edge/2014.07.16/seed-debug.js"></script>
 <script>
-    window.EDITOR_CFG = {
-        fromTextarea: '#ks-editor-textarea'
-    };
-    window.EDITOR_VERSION = '1.0.0';
+    
+    (function(){
+        var isBuild = location.search.indexOf('build') !== -1;
+        window.EDITOR_CFG = {
+            fromTextarea: '#ks-editor-textarea'
+        };
+        window.EDITOR_VERSION = '1.0.0';
 
-    KISSY.config({
-        packages : [
-            {
-                name : 'kg/editor-plugins/lib/1.0.0',
-                path : '../build/lib',
-                ignorePackageNameInUri:true
-            }
-        ]
-    })
+        KISSY.config({
+            packages : [
+                {
+                    filter : isBuild ? 'debug' : '',
+                    name : 'kg/editor-plugins/lib/1.0.0',
+                    path : '../build/lib',
+                    ignorePackageNameInUri:true
+                }
+            ]
+        })
+
+    })();
 </script>
 <script src="./demo.js"></script>
 </body>

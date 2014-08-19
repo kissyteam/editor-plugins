@@ -45,7 +45,7 @@ module.exports = {
             return;
         }
         loadMask.loading(prefixCls);
-        require(['editor/plugin/' + name + '/dialog'], function (Dialog) {
+        require(['editor-plugins/lib/' + name + '/dialog'], function (Dialog) {
             loadMask.unloading();
             editor.addControl(name + '/dialog', new Dialog(editor, config));
             editor.showDialog(name, args);
