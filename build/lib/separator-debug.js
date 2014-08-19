@@ -1,4 +1,4 @@
-KISSY.add('kg/editor-plugins/lib/1.0.0/separator',["node"],function(S ,require, exports, module) {
+KISSY.add('kg/editor-plugins/1.0.0/lib/separator',["node"],function(S ,require, exports, module) {
 /**
  * @ignore
  * separator for button

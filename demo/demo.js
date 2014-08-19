@@ -53,7 +53,7 @@ KISSY.use('util, node', function (S, util, Node) {
     var fullPlugins = [];
 
     util.each(plugins, function (p, i) {
-        fullPlugins[i] = "kg/editor-plugins/lib/" + window.EDITOR_VERSION + '/' + p;
+        fullPlugins[i] = "kg/editor-plugins/" + window.EDITOR_VERSION + '/lib/' + p;
     });
 
     var pluginConfig = {

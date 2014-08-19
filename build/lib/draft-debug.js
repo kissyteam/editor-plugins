@@ -1,4 +1,4 @@
-KISSY.add('kg/editor-plugins/lib/1.0.0/draft',["editor","json","event/dom","./local-storage","overlay","./menubutton","util","node"],function(S ,require, exports, module) {
+KISSY.add('kg/editor-plugins/1.0.0/lib/draft',["editor","json","event/dom","./local-storage","overlay","./menubutton","util","node"],function(S ,require, exports, module) {
 /**
  * @ignore
  * draft for kissy editor

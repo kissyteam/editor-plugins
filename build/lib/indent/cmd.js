@@ -1,1 +1,1 @@
-KISSY.add('kg/editor-plugins/lib/1.0.0/indent/cmd',["../dent-cmd"],function(S ,require, exports, module) {var n=require("../dent-cmd"),d=n.addCommand;module.exports={init:function(n){d(n,"indent")}};});
+KISSY.add('kg/editor-plugins/1.0.0/lib/indent/cmd',["../dent-cmd"],function(S ,require, exports, module) {var n=require("../dent-cmd"),d=n.addCommand;module.exports={init:function(n){d(n,"indent")}};});

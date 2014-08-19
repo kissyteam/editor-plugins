@@ -1,4 +1,4 @@
-KISSY.add('kg/editor-plugins/lib/1.0.0/progressbar',["base","util","node"],function(S ,require, exports, module) {
+KISSY.add('kg/editor-plugins/1.0.0/lib/progressbar',["base","util","node"],function(S ,require, exports, module) {
 /**
  * @ignore
  * progressbar ui

@@ -1,4 +1,4 @@
-KISSY.add('kg/editor-plugins/lib/1.0.0/flash-bridge',["logger-manager","util","editor","swf","event/custom"],function(S ,require, exports, module) {
+KISSY.add('kg/editor-plugins/1.0.0/lib/flash-bridge',["logger-manager","util","editor","swf","event/custom"],function(S ,require, exports, module) {
 /**
  * @ignore
  * simplified flash bridge for yui swf

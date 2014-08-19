@@ -8,7 +8,7 @@ kmc.config({
     depFilePath : './build/mods.js',  
     packages : [
         {
-            name : 'kg/editor-plugins/lib/' + packageJson.version,
+            name : 'kg/editor-plugins/' + packageJson.version + '/lib',
             combine : false,  
             base : './lib'   
         }

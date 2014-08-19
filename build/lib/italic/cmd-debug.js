@@ -1,4 +1,4 @@
-KISSY.add('kg/editor-plugins/lib/1.0.0/italic/cmd',["editor","../font/cmd"],function(S ,require, exports, module) {
+KISSY.add('kg/editor-plugins/1.0.0/lib/italic/cmd',["editor","../font/cmd"],function(S ,require, exports, module) {
 /**
  * @ignore
  * italic command.

@@ -1,4 +1,4 @@
-KISSY.add('kg/editor-plugins/lib/1.0.0/remove-format',["editor","./button","./remove-format/cmd"],function(S ,require, exports, module) {
+KISSY.add('kg/editor-plugins/1.0.0/lib/remove-format',["editor","./button","./remove-format/cmd"],function(S ,require, exports, module) {
 /**
  * @ignore
  * removeFormat for selection.

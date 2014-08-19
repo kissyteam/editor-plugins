@@ -1,4 +1,4 @@
-KISSY.add('kg/editor-plugins/lib/1.0.0/focus-fix',["editor","ua"],function(S ,require, exports, module) {
+KISSY.add('kg/editor-plugins/1.0.0/lib/focus-fix',["editor","ua"],function(S ,require, exports, module) {
 /**
  * @ignore
  * save and restore focus when overlay shows or hides

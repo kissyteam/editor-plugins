@@ -1,4 +1,4 @@
-KISSY.add('kg/editor-plugins/lib/1.0.0/justify-center',["editor","./justify-center/cmd","./button","node"],function(S ,require, exports, module) {
+KISSY.add('kg/editor-plugins/1.0.0/lib/justify-center',["editor","./justify-center/cmd","./button","node"],function(S ,require, exports, module) {
 /**
  * @ignore
  * justifyCenter button.

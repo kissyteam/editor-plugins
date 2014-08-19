@@ -1,4 +1,4 @@
-KISSY.add('kg/editor-plugins/lib/1.0.0/code/dialog',["util","editor","menubutton","dom","../dialog","node","ua"],function(S ,require, exports, module) {
+KISSY.add('kg/editor-plugins/1.0.0/lib/code/dialog',["util","editor","menubutton","dom","../dialog","node","ua"],function(S ,require, exports, module) {
 /**
  * @ignore
  * insert program code dialog

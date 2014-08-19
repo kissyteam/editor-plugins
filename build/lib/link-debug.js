@@ -1,4 +1,4 @@
-KISSY.add('kg/editor-plugins/lib/1.0.0/link',["./button","./bubble","util","editor","./link/utils","./dialog-loader","node"],function(S ,require, exports, module) {
+KISSY.add('kg/editor-plugins/1.0.0/lib/link',["./button","./bubble","util","editor","./link/utils","./dialog-loader","node"],function(S ,require, exports, module) {
 /**
  * @ignore
  * link editor support for kissy editor ,innovation from google doc and ckeditor
