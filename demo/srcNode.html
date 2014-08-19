@@ -23,12 +23,17 @@
     window.EDITOR_CFG = {
         fromTextarea: '#ks-editor-textarea'
     };
-    KISSY.config('packages', {
-        'editor-plugins': {
-            filter: 'debug',
-            path: '../build/'
-        }
-    });
+    window.EDITOR_VERSION = '1.0.0';
+
+    KISSY.config({
+        packages : [
+            {
+                name : 'kg/editor-plugins/lib/1.0.0',
+                path : '../build/lib',
+                ignorePackageNameInUri:true
+            }
+        ]
+    })
 </script>
 <script src="./demo.js"></script>
 </body>
