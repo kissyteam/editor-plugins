@@ -2,14 +2,14 @@ var gulp = require('gulp'),
     rename = require('gulp-rename'),
     gulpKmd = require('gulp-kmd')
     kmc = require('gulp-kmc'),
-    gulpJoycss =require('./gulp-joycss'),
+    gulpJoycss =require('gulp-joycss'),
     packageJson = require('./package.json');
 
 kmc.config({
     depFilePath : './build/mods.js',  
     packages : [
         {
-            name : 'kg/editor-plugins/' + packageJson.version + '/lib',
+            name : 'kg/editor-plugins/' + packageJson.version,
             combine : false,  
             base : './lib'   
         }
@@ -27,12 +27,12 @@ gulp.task('kmc', function(cb){
                 min : '.js'
              }
         }))
-        .pipe(rename(function(path){
-            if(path.basename === 'mods' || path.basename === 'mods-debug'){
-                path.dirname = '../';
-            }
-        }))
-        .pipe(gulp.dest('./build/lib'));
+        // .pipe(rename(function(path){
+        //     if(path.basename === 'mods' || path.basename === 'mods-debug'){
+        //         path.dirname = '../';
+        //     }
+        // }))
+        .pipe(gulp.dest('./build'));
 });
 
 gulp.task('buildCss', function(cb){
@@ -41,7 +41,7 @@ gulp.task('buildCss', function(cb){
             'editor.less' : {
                 imgPath : 'build/assets',
                 dest : 'build/assets/editor.css',
-                prefixUrl : 'kg/editor-plugins/' + packageJson.version + '/assets'
+                prefixUrl : '/kg/editor-plugins/' + packageJson.version + '/assets'
             },
             'iframe.less' : {
                 dest : 'build/assets/iframe.css'
