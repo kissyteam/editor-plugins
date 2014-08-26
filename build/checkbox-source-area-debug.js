@@ -1,4 +1,4 @@
-KISSY.add('kg/editor-plugins/1.0.0/checkbox-source-area',["editor","util","node"],function(S ,require, exports, module) {
+KISSY.add('kg/editor-plugins/1.1.0/checkbox-source-area',["editor","util","node"],function(S ,require, exports, module) {
 /**
  * @ignore
  * checkbox source editor for kissy editor

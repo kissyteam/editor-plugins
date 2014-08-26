@@ -1,4 +1,4 @@
-KISSY.add('kg/editor-plugins/1.0.0/flash-common/utils',["swf","dom","node"],function(S ,require, exports, module) {
+KISSY.add('kg/editor-plugins/1.1.0/flash-common/utils',["swf","dom","node"],function(S ,require, exports, module) {
 /**
  * @ignore
  * flash utilities

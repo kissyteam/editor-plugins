@@ -1,4 +1,4 @@
-KISSY.add('kg/editor-plugins/1.0.0/font-family/cmd',["../font/cmd"],function(S ,require, exports, module) {
+KISSY.add('kg/editor-plugins/1.1.0/font-family/cmd',["../font/cmd"],function(S ,require, exports, module) {
 /**
  * @ignore
  * fontFamily command.

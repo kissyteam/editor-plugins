@@ -1,4 +1,4 @@
-KISSY.add('kg/editor-plugins/1.0.0/draft',["editor","json","event/dom","./local-storage","overlay","./menubutton","util","node"],function(S ,require, exports, module) {
+KISSY.add('kg/editor-plugins/1.1.0/draft',["editor","json","event/dom","./local-storage","overlay","./menubutton","util","node"],function(S ,require, exports, module) {
 /**
  * @ignore
  * draft for kissy editor
@@ -67,7 +67,7 @@ util.augment(Draft, {
     _getSaveKey: function () {
         var self = this,
             cfg = self.config;
-        return cfg.draft && cfg.draft.saveKey || DRAFT_SAVE;
+        return cfg.saveKey || DRAFT_SAVE;
     },
 
 
@@ -93,14 +93,13 @@ util.augment(Draft, {
             prefixCls = editor.get('prefixCls'),
             statusbar = editor.get('statusBarEl'),
             cfg = this.config;
-        cfg.draft = cfg.draft || {};
-        self.draftInterval = cfg.draft.interval = cfg.draft.interval || INTERVAL;
-        self.draftLimit = cfg.draft.limit = cfg.draft.limit || LIMIT;
+        cfg.limit = cfg.limit || LIMIT;
+        cfg.interval = cfg.interval || INTERVAL;
         var holder = $(
                 '<div class="' + prefixCls + 'editor-draft">' +
                 '<span class="' + prefixCls + 'editor-draft-title">' +
                 '内容正文每' +
-                cfg.draft.interval + '分钟自动保存一次。' +
+                cfg.interval + '分钟自动保存一次。' +
                 '</span>' +
                 '</div>').appendTo(statusbar);
         self.timeTip = $('<span class="' + prefixCls + 'editor-draft-time"/>')
@@ -172,7 +171,7 @@ util.augment(Draft, {
 
         var timer = setInterval(function () {
             self.save(true);
-        }, self.draftInterval * 60 * 1000);
+        }, self.config.interval * 60 * 1000);
 
         addRes.call(self, function () {
             clearInterval(timer);
@@ -181,7 +180,7 @@ util.augment(Draft, {
         versions.on('click', self.recover, self);
         addRes.call(self, versions);
         self.holder = holder;
-        if (cfg.draft.helpHTML) {
+        if (cfg.helpHtml) {
             var help = $('<a ' +
                 'tabindex="0" ' +
                 'hidefocus="hidefocus" ' +
@@ -215,8 +214,8 @@ util.augment(Draft, {
             editor = self.editor,
             prefixCls = editor.get('prefixCls'),
             cfg = self.config,
-            draftCfg = cfg.draft,
-            help = $(draftCfg.helpHTML || '');
+            draftCfg = cfg,
+            help = $(draftCfg.helpHtml || '');
         var arrowCss = 'height:0;' +
             'position:absolute;' +
             'font-size:0;' +
@@ -242,14 +241,16 @@ util.augment(Draft, {
             'text-align': 'left'
         });
         self.helpPopup = new Overlay({
-            content: help,
             prefixCls: prefixCls + 'editor-',
-            width: help.width() + 'px',
+            width: help.outerWidth() + 'px',
             zIndex: Editor.baseZIndex(Editor.ZIndexManager.OVERLAY),
             mask: false
         }).render();
-        self.helpPopup.get('el')
-            .css('border', 'none');
+        self.helpPopup.get('contentEl').append(help);
+        self.helpPopup.get('el').css({
+            'border': 'none',
+            overflow: 'visible'
+        });
         self.helpPopup.arrow = arrow;
     },
     _realHelp: function () {
@@ -276,14 +277,13 @@ util.augment(Draft, {
     sync: function () {
         var self = this,
             i,
-            draftLimit = self.draftLimit,
             timeTip = self.timeTip,
             versions = self.versions,
             drafts = self._getDrafts(),
             draft, tip;
 
-        if (drafts.length > draftLimit) {
-            drafts.splice(0, drafts.length - draftLimit);
+        if (drafts.length > self.config.limit) {
+            drafts.splice(0, drafts.length - self.config.limit);
         }
 
         versions.removeItems(true);

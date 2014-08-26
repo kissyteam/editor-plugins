@@ -1,4 +1,4 @@
-KISSY.add('kg/editor-plugins/1.0.0/justify-cmd',["editor"],function(S ,require, exports, module) {
+KISSY.add('kg/editor-plugins/1.1.0/justify-cmd',["editor"],function(S ,require, exports, module) {
 /**
  * @ignore
  * Add justify command identifier for Editor.

@@ -1,4 +1,4 @@
-KISSY.add('kg/editor-plugins/1.0.0/bubble',["util","ua","overlay","editor"],function(S ,require, exports, module) {
+KISSY.add('kg/editor-plugins/1.1.0/bubble',["util","ua","overlay","editor"],function(S ,require, exports, module) {
 /**
  * @ignore
  * bubble or tip view for kissy editor

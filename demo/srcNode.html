@@ -9,7 +9,7 @@
     <title>KISSY Editor Test</title>
     <link href="http://g.tbcdn.cn/kissy/edge/2014.07.16/css/dpl/base-debug.css" rel="stylesheet"/>
     <!-- <link href="http://g.tbcdn.cn/kg/editor/1.0.0/assets/editor.css" rel="stylesheet"/> -->
-   <link rel="stylesheet" type="text/css" href="../build/assets/editor-debug.css">  
+    <link rel="stylesheet" type="text/css" href="../build/assets/editor-debug.css">
 
 </head>
 <body>
@@ -22,22 +22,22 @@
 </div>
 <script src="http://g.tbcdn.cn/kissy/edge/2014.07.16/seed-debug.js"></script>
 <script>
-    
-    (function(){
+
+    (function () {
         var S = KISSY;
-        window.EDITOR_VERSION = '1.0.0';
+        window.EDITOR_VERSION = '1.1.0';
 
         var isDebug = location.search.indexOf('debug') !== -1;
         window.EDITOR_CFG = {
             fromTextarea: '#ks-editor-textarea'
         };
         KISSY.config({
-            packages : [
+            packages: [
                 {
-                    filter : isDebug ? 'debug' : '',
-                    name : isDebug ? 'kg/editor-plugins/1.0.0' : 'kg',
-                    path : isDebug ? '../build' : 'http://g.tbcdn.cn/kg/',
-                    ignorePackageNameInUri:true
+                    filter: isDebug ? '' : '',
+                    name: 'kg/editor-plugins/' + EDITOR_VERSION,
+                    path: isDebug ? '../lib' : 'http://g.tbcdn.cn/kg/editor-plugins/' + EDITOR_VERSION,
+                    ignorePackageNameInUri: true
                 }
             ]
         })

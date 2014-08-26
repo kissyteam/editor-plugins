@@ -1,4 +1,4 @@
-KISSY.add('kg/editor-plugins/1.0.0/list-utils/btn',["editor","../button","../menubutton"],function(S ,require, exports, module) {
+KISSY.add('kg/editor-plugins/1.1.0/list-utils/btn',["editor","../button","../menubutton"],function(S ,require, exports, module) {
 /**
  * @ignore
  * Common btn for list.

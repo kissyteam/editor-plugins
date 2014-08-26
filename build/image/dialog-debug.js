@@ -1,4 +1,4 @@
-KISSY.add('kg/editor-plugins/1.0.0/image/dialog',["util","editor","io","../dialog","tabs","../menubutton","./dialog-tpl","ua","node"],function(S ,require, exports, module) {
+KISSY.add('kg/editor-plugins/1.1.0/image/dialog',["util","editor","io","../dialog","tabs","../menubutton","./dialog-tpl","ua","node"],function(S ,require, exports, module) {
 /**
  * @ignore
  * image dialog (support upload and remote)

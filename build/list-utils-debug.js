@@ -1,4 +1,4 @@
-KISSY.add('kg/editor-plugins/1.0.0/list-utils',["node","dom","ua"],function(S ,require, exports, module) {
+KISSY.add('kg/editor-plugins/1.1.0/list-utils',["node","dom","ua"],function(S ,require, exports, module) {
 /**
  * @ignore
  * list Utils

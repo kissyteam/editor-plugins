@@ -1,4 +1,4 @@
-KISSY.add('kg/editor-plugins/1.0.0/dialog',["editor","overlay","./focus-fix","dd/plugin/constrain","component/plugin/drag","dom"],function(S ,require, exports, module) {
+KISSY.add('kg/editor-plugins/1.1.0/dialog',["editor","overlay","./focus-fix","dd/plugin/constrain","component/plugin/drag","dom"],function(S ,require, exports, module) {
 /**
  * @ignore
  * custom dialog for kissy editor
