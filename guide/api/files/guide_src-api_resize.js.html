@@ -55,8 +55,6 @@
             
                 <li><a href="../classes/DragUpload.html">DragUpload</a></li>
             
-                <li><a href="../classes/EditorResize.html">EditorResize</a></li>
-            
                 <li><a href="../classes/ElementPath.html">ElementPath</a></li>
             
                 <li><a href="../classes/Flash.html">Flash</a></li>
@@ -96,6 +94,8 @@
                 <li><a href="../classes/Preview.html">Preview</a></li>
             
                 <li><a href="../classes/RemoveFormat.html">RemoveFormat</a></li>
+            
+                <li><a href="../classes/Resize.html">Resize</a></li>
             
                 <li><a href="../classes/Separator.html">Separator</a></li>
             
@@ -242,13 +242,24 @@
 
 /**
 编辑器的调整大小插件
-@class EditorResize
+@class Resize
 @constructor
 @param config {Object}
+@example
+	KISSY.use(&#x27;editor,kg/editor-plugins/当前版本号/resize&#x27;, function(S, Editor, Resize){
+		var editor = new Editor({
+			render : &#x27;#container&#x27;,
+			plugins : [
+				new Resize({
+					direction : [&quot;x&quot;]  //表示只能在x轴方向拉伸，[&quot;x&quot;, &quot;y&quot;]则表示任意方向拉伸
+				})
+			]
+		})
+	})
 */
 
 /**
-右下角调整大小的配置.
+右下角调整大小的配置
 @attribute direction {String[]}
 */
 

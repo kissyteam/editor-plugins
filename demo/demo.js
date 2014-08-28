@@ -216,7 +216,7 @@ KISSY.use('util, node', function (S, util, Node) {
                 "请选择恢复编辑历史</div></div>"
         },
         "resize": {
-            //direction:['y']
+            direction:['x']
         },
 
         "drag-upload": {

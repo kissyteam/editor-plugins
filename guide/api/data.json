@@ -932,7 +932,7 @@
                 "resize": 1
             },
             "classes": {
-                "EditorResize": 1
+                "Resize": 1
             },
             "fors": {},
             "namespaces": {}
@@ -2000,7 +2000,7 @@
             "name": "resize",
             "submodules": {},
             "classes": {
-                "EditorResize": 1
+                "Resize": 1
             },
             "fors": {},
             "namespaces": {},
@@ -2590,9 +2590,9 @@
             "line": 5,
             "description": "编辑器的清除格式插件\n\n### Commands\n- removeFormat 对选区清除格式."
         },
-        "EditorResize": {
-            "name": "EditorResize",
-            "shortname": "EditorResize",
+        "Resize": {
+            "name": "Resize",
+            "shortname": "Resize",
             "classitems": [],
             "plugins": [],
             "extensions": [],
@@ -2610,6 +2610,9 @@
                     "description": "",
                     "type": "Object"
                 }
+            ],
+            "example": [
+                "\n\tKISSY.use('editor,kg/editor-plugins/当前版本号/resize', function(S, Editor, Resize){\n\t\tvar editor = new Editor({\n\t\t\trender : '#container',\n\t\t\tplugins : [\n\t\t\t\tnew Resize({\n\t\t\t\t\tdirection : [\"x\"]  //表示只能在x轴方向拉伸，[\"x\", \"y\"]则表示任意方向拉伸\n\t\t\t\t})\n\t\t\t]\n\t\t})\n\t})"
             ]
         },
         "Separator": {
@@ -3725,30 +3728,30 @@
         },
         {
             "file": "guide/src-api/resize.js",
-            "line": 12,
-            "description": "右下角调整大小的配置.",
+            "line": 23,
+            "description": "右下角调整大小的配置",
             "itemtype": "attribute",
             "name": "direction",
             "type": "String[]",
-            "class": "EditorResize",
+            "class": "Resize",
             "module": "resize"
         },
         {
             "file": "guide/src-api/resize.js",
-            "line": 17,
+            "line": 28,
             "description": "调整开始时触发",
             "itemtype": "event",
             "name": "resizeStart",
-            "class": "EditorResize",
+            "class": "Resize",
             "module": "resize"
         },
         {
             "file": "guide/src-api/resize.js",
-            "line": 22,
+            "line": 33,
             "description": "调整过程中周期触发",
             "itemtype": "event",
             "name": "resize",
-            "class": "EditorResize",
+            "class": "Resize",
             "module": "resize"
         },
         {
