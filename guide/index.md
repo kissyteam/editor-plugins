@@ -4,7 +4,7 @@ editor-plugins 是 KISSY Editor 的插件集合，涵盖了大部分日常使用
 
 * 版本：1.1.0
 * 作者：承玉、秋知
-* demo：[http://gallery.kissyui.com/editor-plugins/doc/demo/srcNode.html](http://gallery.kissyui.com/editor-plugins/doc/demo/srcNode.html)
+* demo：[http://gallery.kissyui.com/editor-plugins/doc/demo/index.html](http://gallery.kissyui.com/editor-plugins/doc/demo/index.html)
 
 ## 使用组件
 
