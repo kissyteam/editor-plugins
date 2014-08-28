@@ -9,7 +9,7 @@ var util = require('util');
 // 'editor', '../font/cmd'
 var Editor = require('editor');
 var Button = require('button');
-/**
+/*
  * add button to editor
  * @param {String} id control id
  * @param {Object} cfg button config

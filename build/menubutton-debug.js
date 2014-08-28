@@ -8,7 +8,7 @@ KISSY.add('kg/editor-plugins/1.1.0/menubutton',["editor","util","menubutton"],fu
 var Editor = require('editor');
 var util = require('util');
 var MenuButton = require('menubutton');
-/**
+/*
  * add select to editor toolbar
  * @param {String} id control id
  * @param {Object} cfg select config

@@ -19,5 +19,8 @@
     "gulp-rename": "^1.2.0",
     "serve-index": "^1.1.6",
     "serve-static": "^1.5.3"
+  },
+  "dependencies": {
+    "yuidocjs": "^0.3.50"
   }
 }

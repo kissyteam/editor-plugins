@@ -9,7 +9,7 @@ var Editor = require('editor');
 var UA = require('ua'),
     LIMIT = 30;
 var util = require('util');
-/**
+/*
  * current editor status(including html and cursor position)
  * @param editor
  * @class KISSY.Editor.Undo.Snapshot
@@ -39,7 +39,7 @@ function Snapshot(editor) {
     }
 });
 
-/**
+/*
  * manager history of editor content
  * @param editor
  * @class KISSY.Editor.UndoManager

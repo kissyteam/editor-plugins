@@ -50,6 +50,13 @@ gulp.task('buildCss', function(cb){
         .pipe(gulp.dest('build/assets'));
 });
 
+gulp.task('buildApi', function(cb){
+    var process = require('child_process');
+    process.exec('node ./node_modules/yuidocjs/lib/cli.js .', function(){
+        cb();
+    });
+})
+
 gulp.task('server', function () {
     var app = require('express')();
     var fs = require('fs');
@@ -74,4 +81,4 @@ gulp.task('server', function () {
     app.listen(8001);
 });
 
-gulp.task('default', ['kmc', 'buildCss']);
+gulp.task('default', ['kmc', 'buildCss', 'buildApi']);
