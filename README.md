@@ -8,7 +8,7 @@ plugins of kissy editor
 gulp server
 ```
 
-open http://localhost:8001/demo/srcNode.html
+open http://localhost:8001/demo/index.html
 
 
 ## 构建
