@@ -38,7 +38,7 @@ editor-plugins 是 KISSY Editor 的插件集合，涵盖了大部分日常使用
 
 ## API说明
 
-Editor的API 和 editor-plugins 插件集合的API文档地址：
+Editor的API 和 editor-plugins 插件集合的API文档地址： 
 
 [KISSY Editor API](http://docs.kissyui.com/5.0/api/classes/Editor.html)
 
