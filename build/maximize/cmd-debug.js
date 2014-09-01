@@ -1,4 +1,4 @@
-KISSY.add('kg/editor-plugins/1.1.0/maximize/cmd',["editor","event/dom","util","ua","node","dom"],function(S ,require, exports, module) {
+KISSY.add('kg/editor-plugins/1.1.2/maximize/cmd',["editor","event/dom","util","ua","node","dom"],function(S ,require, exports, module) {
 /**
  * @ignore
  * Add maximizeWindow/restoreWindow to Editor.

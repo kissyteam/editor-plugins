@@ -2,13 +2,13 @@
 
 editor-plugins 是 KISSY Editor 的插件集合，涵盖了大部分日常使用的插件，例如 font-family , image , indent 等插件。KISSY@5.0+将 KISSY Editor 核心代码和 KISSY 代码放在一起，而 editor-plugins 则放在 gallery 上。
 
-* 版本：1.1.0
+* 版本：1.1.2
 * 作者：承玉、秋知
 * demo：[http://gallery.kissyui.com/editor-plugins/doc/demo/index.html](http://gallery.kissyui.com/editor-plugins/doc/demo/index.html)
 
 ## 使用组件
 
-	KISSY.use('node,editor,kg/editor-plugins/1.1.0/font-size,kg/editor-plugins/1.1.0/source-area,kg/editor-plugins/1.1.0/image', function(S, Node, Editor, FontSize, SourceArea, Image){
+	KISSY.use('node,editor,kg/editor-plugins/1.1.2/font-size,kg/editor-plugins/1.1.2/source-area,kg/editor-plugins/1.1.2/image', function(S, Node, Editor, FontSize, SourceArea, Image){
 		var myEditor = new Editor({
 			focused : true,
 			attachForm : true,

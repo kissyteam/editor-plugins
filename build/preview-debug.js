@@ -1,4 +1,4 @@
-KISSY.add('kg/editor-plugins/1.1.0/preview',["./button","util"],function(S ,require, exports, module) {
+KISSY.add('kg/editor-plugins/1.1.2/preview',["./button","util"],function(S ,require, exports, module) {
 /**
  * @ignore
  * preview for kissy editor

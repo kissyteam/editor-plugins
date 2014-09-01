@@ -1,4 +1,4 @@
-KISSY.add('kg/editor-plugins/1.1.0/justify-right',["editor","./justify-right/cmd","./button","node"],function(S ,require, exports, module) {
+KISSY.add('kg/editor-plugins/1.1.2/justify-right',["editor","./justify-right/cmd","./button","node"],function(S ,require, exports, module) {
 /**
  * @ignore
  * justifyRight button.

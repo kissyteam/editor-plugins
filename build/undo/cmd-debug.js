@@ -1,4 +1,4 @@
-KISSY.add('kg/editor-plugins/1.1.0/undo/cmd',["editor","ua","util"],function(S ,require, exports, module) {
+KISSY.add('kg/editor-plugins/1.1.2/undo/cmd',["editor","ua","util"],function(S ,require, exports, module) {
 /**
  * @ignore
  * undo,redo manager for kissy editor

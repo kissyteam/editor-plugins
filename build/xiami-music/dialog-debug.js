@@ -1,4 +1,4 @@
-KISSY.add('kg/editor-plugins/1.1.0/xiami-music/dialog',["util","editor","../flash/dialog","../menubutton","dom","node"],function(S ,require, exports, module) {
+KISSY.add('kg/editor-plugins/1.1.2/xiami-music/dialog',["util","editor","../flash/dialog","../menubutton","dom","node"],function(S ,require, exports, module) {
 /**
  * @ignore
  * xiami-music dialog

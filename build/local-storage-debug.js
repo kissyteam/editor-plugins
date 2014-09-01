@@ -1,4 +1,4 @@
-KISSY.add('kg/editor-plugins/1.1.0/local-storage',["editor","overlay","./flash-bridge","util","ua"],function(S ,require, exports, module) {
+KISSY.add('kg/editor-plugins/1.1.2/local-storage',["editor","overlay","./flash-bridge","util","ua"],function(S ,require, exports, module) {
 /**
  * @ignore
  * localStorage support for ie<8

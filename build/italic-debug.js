@@ -1,4 +1,4 @@
-KISSY.add('kg/editor-plugins/1.1.0/italic',["./font/ui","./italic/cmd","./button","node"],function(S ,require, exports, module) {
+KISSY.add('kg/editor-plugins/1.1.2/italic',["./font/ui","./italic/cmd","./button","node"],function(S ,require, exports, module) {
 /**
  * @ignore
  * italic button.

@@ -1,4 +1,4 @@
-KISSY.add('kg/editor-plugins/1.1.0/menubutton',["editor","util","menubutton"],function(S ,require, exports, module) {
+KISSY.add('kg/editor-plugins/1.1.2/menubutton',["editor","util","menubutton"],function(S ,require, exports, module) {
 /**
  * @ignore
  * select component for kissy editor.

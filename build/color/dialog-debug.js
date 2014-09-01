@@ -1,4 +1,4 @@
-KISSY.add('kg/editor-plugins/1.1.0/color/dialog',["editor","util","../dialog","dom","node"],function(S ,require, exports, module) {
+KISSY.add('kg/editor-plugins/1.1.2/color/dialog',["editor","util","../dialog","dom","node"],function(S ,require, exports, module) {
 /**
  * @ignore
  * color picker

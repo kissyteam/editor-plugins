@@ -1,1 +1,1 @@
-KISSY.add('kg/editor-plugins/1.1.0/justify-right/cmd',["../justify-cmd"],function(S ,require, exports, module) {var i=require("../justify-cmd");module.exports={init:function(t){i.addCommand(t,"justifyRight","right")}};});
+KISSY.add('kg/editor-plugins/1.1.2/justify-right/cmd',["../justify-cmd"],function(S ,require, exports, module) {var i=require("../justify-cmd");module.exports={init:function(t){i.addCommand(t,"justifyRight","right")}};});

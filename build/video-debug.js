@@ -1,4 +1,4 @@
-KISSY.add('kg/editor-plugins/1.1.0/video',["editor","./flash-common/utils","./flash-common/base-class","./fake-objects","./button"],function(S ,require, exports, module) {
+KISSY.add('kg/editor-plugins/1.1.2/video',["editor","./flash-common/utils","./flash-common/base-class","./fake-objects","./button"],function(S ,require, exports, module) {
 /**
  * @ignore
  * video button.
