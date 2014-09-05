@@ -8,6 +8,8 @@ editor-plugins 是 KISSY Editor 的插件集合，涵盖了大部分日常使用
 
 ## 使用组件
 
+使用前先引入editor-plugins的模块依赖表，避免模块串行加载，优化性能。`http://g.tbcdn.cn/kg/editor-plugins/1.1.2/mods.js`
+
 	KISSY.use('node,editor,kg/editor-plugins/1.1.2/font-size,kg/editor-plugins/1.1.2/source-area,kg/editor-plugins/1.1.2/image', function(S, Node, Editor, FontSize, SourceArea, Image){
 		var myEditor = new Editor({
 			focused : true,
