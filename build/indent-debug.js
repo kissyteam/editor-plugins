@@ -1,4 +1,4 @@
-KISSY.add('kg/editor-plugins/1.1.2/indent',["editor","./indent/cmd","./button"],function(S ,require, exports, module) {
+define('kg/editor-plugins/1.1.3/indent',["editor","./indent/cmd","./button"],function(require, exports, module) {
 /**
  * @ignore
  * Add indent button.

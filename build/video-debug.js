@@ -1,4 +1,4 @@
-KISSY.add('kg/editor-plugins/1.1.2/video',["editor","./flash-common/utils","./flash-common/base-class","./fake-objects","./button"],function(S ,require, exports, module) {
+define('kg/editor-plugins/1.1.3/video',["editor","./flash-common/utils","./flash-common/base-class","./fake-objects","./button"],function(require, exports, module) {
 /**
  * @ignore
  * video button.
@@ -14,7 +14,7 @@ var CLS_VIDEO = 'ke_video',
     TYPE_VIDEO = 'video';
 
 function Video(config) {
-    this.config = config;
+    this.config = config || {};
 }
 
 Video.prototype = {

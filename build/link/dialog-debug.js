@@ -1,4 +1,4 @@
-KISSY.add('kg/editor-plugins/1.1.2/link/dialog',["util","editor","../dialog","./utils"],function(S ,require, exports, module) {
+define('kg/editor-plugins/1.1.3/link/dialog',["util","editor","../dialog","./utils"],function(require, exports, module) {
 /**
  * @ignore
  * link dialog

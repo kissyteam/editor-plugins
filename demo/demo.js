@@ -1,4 +1,4 @@
-KISSY.use('util, node', function (S, util, Node) {
+require(['util', 'node'], function (util, Node) {
     /*jshint quotmark:false*/
     var cfg = util.mix({
         // 是否初始聚焦
@@ -232,7 +232,7 @@ KISSY.use('util, node', function (S, util, Node) {
         }
     };
 
-    S.use(['editor'].concat(fullPlugins), function (S, Editor) {
+    require(['editor'].concat(fullPlugins), function (Editor) {
         var args = util.makeArray(arguments);
 
         args.shift();
@@ -255,13 +255,13 @@ KISSY.use('util, node', function (S, util, Node) {
             editor.render();
         }
         editor.on('blur', function () {
-            S.log("editor blur");
+            console.log("editor blur");
         });
         editor.on('focus', function () {
-            S.log("editor focus");
+            console.log("editor focus");
         });
         editor.on('selectionChange', function (e) {
-            S.log("selectionChange : " + e.path.toString());
+            console.log("selectionChange : " + e.path.toString());
         });
 
         window.newEditor = editor;

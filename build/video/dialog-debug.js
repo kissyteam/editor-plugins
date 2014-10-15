@@ -1,4 +1,4 @@
-KISSY.add('kg/editor-plugins/1.1.2/video/dialog',["util","editor","io","../flash/dialog","../menubutton"],function(S ,require, exports, module) {
+define('kg/editor-plugins/1.1.3/video/dialog',["util","editor","io","../flash/dialog","../menubutton"],function(require, exports, module) {
 /**
  * @ignore
  * video dialog

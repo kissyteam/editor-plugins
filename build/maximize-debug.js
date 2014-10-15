@@ -1,4 +1,4 @@
-KISSY.add('kg/editor-plugins/1.1.2/maximize',["./maximize/cmd","./button"],function(S ,require, exports, module) {
+define('kg/editor-plugins/1.1.3/maximize',["./maximize/cmd","./button"],function(require, exports, module) {
 /**
  * @ignore
  * Maximize plugin

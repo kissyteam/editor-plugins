@@ -1,4 +1,4 @@
-KISSY.add('kg/editor-plugins/1.1.2/underline/cmd',["editor","../font/cmd"],function(S ,require, exports, module) {
+define('kg/editor-plugins/1.1.3/underline/cmd',["editor","../font/cmd"],function(require, exports, module) {
 /**
  * @ignore
  * underline command

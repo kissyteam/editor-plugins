@@ -1,4 +1,4 @@
-KISSY.add('kg/editor-plugins/1.1.2/bold',["./font/ui","./bold/cmd","node","./button"],function(S ,require, exports, module) {
+define('kg/editor-plugins/1.1.3/bold',["./font/ui","./bold/cmd","node","./button"],function(require, exports, module) {
 /**
  * @ignore
  * bold command.

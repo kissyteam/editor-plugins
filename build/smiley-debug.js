@@ -1,4 +1,4 @@
-KISSY.add('kg/editor-plugins/1.1.2/smiley',["editor","./overlay","./button","node","util"],function(S ,require, exports, module) {
+define('kg/editor-plugins/1.1.3/smiley',["editor","./overlay","./button","node","util"],function(require, exports, module) {
 /**
  * @ignore
  * smiley button

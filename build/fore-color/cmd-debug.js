@@ -1,4 +1,4 @@
-KISSY.add('kg/editor-plugins/1.1.2/fore-color/cmd',["../color/cmd"],function(S ,require, exports, module) {
+define('kg/editor-plugins/1.1.3/fore-color/cmd',["../color/cmd"],function(require, exports, module) {
 /**
  * @ignore
  * foreColor command.

@@ -1,4 +1,4 @@
-KISSY.add('kg/editor-plugins/1.1.2/drag-upload',["util","editor","event/dom","node","dom"],function(S ,require, exports, module) {
+define('kg/editor-plugins/1.1.3/drag-upload',["util","editor","event-dom","node","dom"],function(require, exports, module) {
 /**
  * @ignore
  * drag file support for html5 file&dd
@@ -7,7 +7,7 @@ KISSY.add('kg/editor-plugins/1.1.2/drag-upload',["util","editor","event/dom","no
 
 var util = require('util');
 var Editor = require('editor');
-var Event = require('event/dom');
+var DomEvent = require('event-dom');
 var $ = require('node'),
     Utils = Editor.Utils,
     Dom = require('dom');
@@ -38,16 +38,16 @@ util.augment(dragUpload, {
 
         editor.docReady(function () {
             var document = editor.get('document')[0];
-            Event.on(document, 'dragenter', function () {
+            DomEvent.on(document, 'dragenter', function () {
                 //firefox 会插入伪数据
                 if (!startMonitor) {
-                    Event.on(document, 'DOMNodeInserted', nodeInsert);
+                    DomEvent.on(document, 'DOMNodeInserted', nodeInsert);
                     startMonitor = true;
                 }
             });
 
-            Event.on(document, 'drop', function (ev) {
-                Event.remove(document, 'DOMNodeInserted', nodeInsert);
+            DomEvent.on(document, 'drop', function (ev) {
+                DomEvent.remove(document, 'DOMNodeInserted', nodeInsert);
                 startMonitor = false;
                 ev.halt();
                 ev = ev.originalEvent;

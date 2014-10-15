@@ -1,4 +1,4 @@
-KISSY.add('kg/editor-plugins/1.1.2/link/utils',["editor","node"],function(S ,require, exports, module) {
+define('kg/editor-plugins/1.1.3/link/utils',["editor","node"],function(require, exports, module) {
 /**
  * @ignore
  * link utils

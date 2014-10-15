@@ -236,7 +236,7 @@
 
 <div class="file">
     <pre class="code prettyprint linenums">
-KISSY.add(&#x27;kg/editor-plugins/1.1.0/flash-bridge&#x27;,[&quot;logger-manager&quot;,&quot;util&quot;,&quot;editor&quot;,&quot;swf&quot;,&quot;event/custom&quot;],function(S ,require, exports, module) {
+define(&#x27;kg/editor-plugins/1.1.3/flash-bridge&#x27;,[&quot;logger-manager&quot;,&quot;util&quot;,&quot;editor&quot;,&quot;swf&quot;,&quot;event-custom&quot;],function(require, exports, module) {
 /**
  * @ignore
  * simplified flash bridge for yui swf
@@ -249,7 +249,7 @@ var util = require(&#x27;util&#x27;);
 var Editor = require(&#x27;editor&#x27;);
 var SWF = require(&#x27;swf&#x27;);
 /*global CustomEvent:true*/
-var CustomEvent = require(&#x27;event/custom&#x27;);
+var CustomEvent = require(&#x27;event-custom&#x27;);
 var instances = {};
 
 function FlashBridge(cfg) {

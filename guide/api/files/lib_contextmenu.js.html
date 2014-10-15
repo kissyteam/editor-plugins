@@ -245,7 +245,7 @@
 var Editor = require(&#x27;editor&#x27;);
 var Menu = require(&#x27;menu&#x27;);
 var focusFix = require(&#x27;./focus-fix&#x27;);
-var Event = require(&#x27;event/dom&#x27;);
+var DomEvent = require(&#x27;event-dom&#x27;);
 var $ = require(&#x27;node&#x27;);
 
 Editor.prototype.addContextMenu = function (id, filter, cfg) {
@@ -270,7 +270,7 @@ Editor.prototype.addContextMenu = function (id, filter, cfg) {
 
     menu.on(&#x27;afterRenderUI&#x27;, function () {
         menu.get(&#x27;el&#x27;).on(&#x27;keydown&#x27;, function (e) {
-            if (e.keyCode === Event.KeyCode.ESC) {
+            if (e.keyCode === DomEvent.KeyCode.ESC) {
                 menu.hide();
             }
         });

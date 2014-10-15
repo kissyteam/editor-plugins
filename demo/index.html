@@ -7,7 +7,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-touch-fullscreen" content="yes">
     <title>KISSY Editor Test</title>
-    <link href="http://g.tbcdn.cn/kissy/edge/2014.07.16/css/dpl/base-debug.css" rel="stylesheet"/>
+    <link href="http://g.assets.daily.taobao.net/kissy/edge/2014.10.13/css/dpl/base-debug.css" rel="stylesheet"/>
     <link href="http://g.tbcdn.cn/kg/editor-plugins/1.1.2/assets/editor.css" rel="stylesheet"/>
 <!--    <link rel="stylesheet" type="text/css" href="../build/assets/editor-debug.css">  -->
 
@@ -20,19 +20,18 @@
     <textarea id="ks-editor-textarea" style='width:600px;height:400px'></textarea>
     <button onclick="window.newEditor.destroy();">destroy</button>
 </div>
-<script src="http://g.tbcdn.cn/kissy/edge/2014.07.16/seed-debug.js"></script>
-<script type="text/javascript" src="http://g.tbcdn.cn/kg/editor-plugins/1.1.2/mods.js"></script>  <!-- 引入插件模块依赖表避免模块串行加载，优化性能-->
+<script src="http://g.assets.daily.taobao.net/kissy/edge/2014.10.13/seed-debug.js"></script>
+<script type="text/javascript" src="../build/mods.js"></script>  <!-- 引入插件模块依赖表避免模块串行加载，优化性能-->
 <script>
 
     (function () {
-        var S = KISSY;
-        window.EDITOR_VERSION = '1.1.2';
+        window.EDITOR_VERSION = '1.1.3';
 
         var isDebug = location.search.indexOf('debug') !== -1;
         window.EDITOR_CFG = {
             fromTextarea: '#ks-editor-textarea'
         };
-        KISSY.config({
+        require.config({
             packages: [
                 {
                     name: 'kg/editor-plugins/' + EDITOR_VERSION,

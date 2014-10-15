@@ -1,4 +1,4 @@
-KISSY.add('kg/editor-plugins/1.1.2/flash',["editor","./flash-common/base-class","./flash-common/utils","./fake-objects","./button"],function(S ,require, exports, module) {
+define('kg/editor-plugins/1.1.3/flash',["editor","./flash-common/base-class","./flash-common/utils","./fake-objects","./button"],function(require, exports, module) {
 /**
  * @ignore
  * Add flash plugin.

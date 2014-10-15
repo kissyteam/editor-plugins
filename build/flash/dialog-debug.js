@@ -1,4 +1,4 @@
-KISSY.add('kg/editor-plugins/1.1.2/flash/dialog',["util","editor","../flash-common/utils","../dialog","../menubutton"],function(S ,require, exports, module) {
+define('kg/editor-plugins/1.1.3/flash/dialog',["util","editor","../flash-common/utils","../dialog","../menubutton"],function(require, exports, module) {
 /**
  * @ignore
  * flash dialog

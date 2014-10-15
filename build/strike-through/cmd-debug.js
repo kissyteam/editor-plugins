@@ -1,4 +1,4 @@
-KISSY.add('kg/editor-plugins/1.1.2/strike-through/cmd',["editor","../font/cmd"],function(S ,require, exports, module) {
+define('kg/editor-plugins/1.1.3/strike-through/cmd',["editor","../font/cmd"],function(require, exports, module) {
 /**
  * @ignore
  * strike-through command

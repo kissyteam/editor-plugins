@@ -1,4 +1,4 @@
-KISSY.add('kg/editor-plugins/1.1.2/maximize/cmd',["editor","event/dom","util","ua","node","dom"],function(S ,require, exports, module) {
+define('kg/editor-plugins/1.1.3/maximize/cmd',["editor","event-dom","util","ua","node","dom"],function(require, exports, module) {
 /**
  * @ignore
  * Add maximizeWindow/restoreWindow to Editor.
@@ -6,7 +6,7 @@ KISSY.add('kg/editor-plugins/1.1.2/maximize/cmd',["editor","event/dom","util","u
  */
 
 var Editor = require('editor');
-var Event = require('event/dom');
+var DomEvent = require('event-dom');
 var util = require('util');
 var UA = require('ua'),
     ie = UA.ie,
@@ -41,7 +41,7 @@ util.augment(MaximizeCmd, {
         }
 
         if (self._resize) {
-            Event.remove(window, 'resize', self._resize);
+            DomEvent.remove(window, 'resize', self._resize);
             self._resize.stop();
             self._resize = 0;
         } else {
@@ -276,7 +276,7 @@ util.augment(MaximizeCmd, {
             }, 100);
         }
 
-        Event.on(window, 'resize', self._resize);
+        DomEvent.on(window, 'resize', self._resize);
 
         setTimeout(function () {
             self._restoreEditorStatus();
@@ -296,7 +296,7 @@ util.augment(MaximizeCmd, {
     destroy: function () {
         var self = this;
         if (self._resize) {
-            Event.remove(window, 'resize', self._resize);
+            DomEvent.remove(window, 'resize', self._resize);
             self._resize.stop();
             self._resize = 0;
         }

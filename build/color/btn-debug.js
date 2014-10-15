@@ -1,4 +1,4 @@
-KISSY.add('kg/editor-plugins/1.1.2/color/btn',["editor","../button","../overlay","../dialog-loader","node","util"],function(S ,require, exports, module) {
+define('kg/editor-plugins/1.1.3/color/btn',["editor","../button","../overlay","../dialog-loader","node","util"],function(require, exports, module) {
 /**
  * @ignore
  * color button.

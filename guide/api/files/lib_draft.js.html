@@ -244,7 +244,7 @@
 
 var Editor = require(&#x27;editor&#x27;);
 var Json = require(&#x27;json&#x27;);
-var Event = require(&#x27;event/dom&#x27;);
+var DomEvent = require(&#x27;event-dom&#x27;);
 /*global localStorage:true*/
 var localStorage = require(&#x27;./local-storage&#x27;);
 var Overlay = require(&#x27;overlay&#x27;);
@@ -398,9 +398,9 @@ util.augment(Draft, {
                     self.save(true);
                 }
 
-                Event.on(form, &#x27;submit&#x27;, saveF);
+                DomEvent.on(form, &#x27;submit&#x27;, saveF);
                 addRes.call(self, function () {
-                    Event.remove(form, &#x27;submit&#x27;, saveF);
+                    DomEvent.remove(form, &#x27;submit&#x27;, saveF);
                 });
 
             })();

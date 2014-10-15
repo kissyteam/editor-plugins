@@ -243,7 +243,7 @@
  */
 
 var Editor = require(&#x27;editor&#x27;);
-var Event = require(&#x27;event/dom&#x27;);
+var DomEvent = require(&#x27;event-dom&#x27;);
 var util = require(&#x27;util&#x27;);
 var UA = require(&#x27;ua&#x27;),
     ie = UA.ie,
@@ -278,7 +278,7 @@ util.augment(MaximizeCmd, {
         }
 
         if (self._resize) {
-            Event.remove(window, &#x27;resize&#x27;, self._resize);
+            DomEvent.remove(window, &#x27;resize&#x27;, self._resize);
             self._resize.stop();
             self._resize = 0;
         } else {
@@ -513,7 +513,7 @@ util.augment(MaximizeCmd, {
             }, 100);
         }
 
-        Event.on(window, &#x27;resize&#x27;, self._resize);
+        DomEvent.on(window, &#x27;resize&#x27;, self._resize);
 
         setTimeout(function () {
             self._restoreEditorStatus();
@@ -533,7 +533,7 @@ util.augment(MaximizeCmd, {
     destroy: function () {
         var self = this;
         if (self._resize) {
-            Event.remove(window, &#x27;resize&#x27;, self._resize);
+            DomEvent.remove(window, &#x27;resize&#x27;, self._resize);
             self._resize.stop();
             self._resize = 0;
         }

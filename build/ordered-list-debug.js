@@ -1,4 +1,4 @@
-KISSY.add('kg/editor-plugins/1.1.2/ordered-list',["./list-utils/btn","./ordered-list/cmd"],function(S ,require, exports, module) {
+define('kg/editor-plugins/1.1.3/ordered-list',["./list-utils/btn","./ordered-list/cmd"],function(require, exports, module) {
 /**
  * @ignore
  * Add ul/ol button.

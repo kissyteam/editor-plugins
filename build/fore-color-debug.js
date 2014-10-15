@@ -1,4 +1,4 @@
-KISSY.add('kg/editor-plugins/1.1.2/fore-color',["./color/btn","./fore-color/cmd"],function(S ,require, exports, module) {
+define('kg/editor-plugins/1.1.3/fore-color',["./color/btn","./fore-color/cmd"],function(require, exports, module) {
 /**
  * @ignore
  * foreColor button.

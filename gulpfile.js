@@ -20,6 +20,7 @@ gulp.task('kmc', function(cb){
     gulp.src('./lib/**/*.js')
         .pipe(gulpKmd())
         .pipe(kmc.convert({
+             seajs : 'true',
              fixModuleName:true,
              minify : true,
              ext : {
@@ -75,7 +76,7 @@ gulp.task('server', function () {
         var filePath = path.resolve(process.cwd(), 'lib', req.path.substring(1));
         var code = fs.readFileSync(filePath, 'utf-8');
         res.set('content-type', 'application/javascript;charset=utf-8');
-        res.end('KISSY.add(function(S,require,exports,module){' + code + '});');
+        res.end('define(function(require,exports,module){' + code + '});');
     });
     app.use(serveStatic(process.cwd()));
     app.listen(8001);

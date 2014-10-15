@@ -1,4 +1,4 @@
-KISSY.add('kg/editor-plugins/1.1.2/font/cmd',["editor"],function(S ,require, exports, module) {
+define('kg/editor-plugins/1.1.3/font/cmd',["editor"],function(require, exports, module) {
 /**
  * @ignore
  * font command.

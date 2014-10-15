@@ -1,4 +1,4 @@
-KISSY.add('kg/editor-plugins/1.1.2/flash-bridge',["logger-manager","util","editor","swf","event/custom"],function(S ,require, exports, module) {
+define('kg/editor-plugins/1.1.3/flash-bridge',["logger-manager","util","editor","swf","event-custom"],function(require, exports, module) {
 /**
  * @ignore
  * simplified flash bridge for yui swf
@@ -11,7 +11,7 @@ var util = require('util');
 var Editor = require('editor');
 var SWF = require('swf');
 /*global CustomEvent:true*/
-var CustomEvent = require('event/custom');
+var CustomEvent = require('event-custom');
 var instances = {};
 
 function FlashBridge(cfg) {

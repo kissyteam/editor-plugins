@@ -244,7 +244,7 @@
 
 var util = require(&#x27;util&#x27;);
 var Editor = require(&#x27;editor&#x27;);
-var Event = require(&#x27;event/dom&#x27;);
+var DomEvent = require(&#x27;event-dom&#x27;);
 var $ = require(&#x27;node&#x27;),
     Utils = Editor.Utils,
     Dom = require(&#x27;dom&#x27;);
@@ -275,16 +275,16 @@ util.augment(dragUpload, {
 
         editor.docReady(function () {
             var document = editor.get(&#x27;document&#x27;)[0];
-            Event.on(document, &#x27;dragenter&#x27;, function () {
+            DomEvent.on(document, &#x27;dragenter&#x27;, function () {
                 //firefox 会插入伪数据
                 if (!startMonitor) {
-                    Event.on(document, &#x27;DOMNodeInserted&#x27;, nodeInsert);
+                    DomEvent.on(document, &#x27;DOMNodeInserted&#x27;, nodeInsert);
                     startMonitor = true;
                 }
             });
 
-            Event.on(document, &#x27;drop&#x27;, function (ev) {
-                Event.remove(document, &#x27;DOMNodeInserted&#x27;, nodeInsert);
+            DomEvent.on(document, &#x27;drop&#x27;, function (ev) {
+                DomEvent.remove(document, &#x27;DOMNodeInserted&#x27;, nodeInsert);
                 startMonitor = false;
                 ev.halt();
                 ev = ev.originalEvent;

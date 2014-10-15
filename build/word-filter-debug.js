@@ -1,4 +1,4 @@
-KISSY.add('kg/editor-plugins/1.1.2/word-filter',["html-parser","util","node","ua"],function(S ,require, exports, module) {
+define('kg/editor-plugins/1.1.3/word-filter',["html-parser","util","node","ua"],function(require, exports, module) {
 /**
  * @ignore
  * clean html pasted from word. modified from ckeditor.

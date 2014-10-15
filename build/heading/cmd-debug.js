@@ -1,4 +1,4 @@
-KISSY.add('kg/editor-plugins/1.1.2/heading/cmd',["editor"],function(S ,require, exports, module) {
+define('kg/editor-plugins/1.1.3/heading/cmd',["editor"],function(require, exports, module) {
 /**
  * @ignore
  * Adds a heading tag around a selection or insertion point line.

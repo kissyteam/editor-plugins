@@ -1,4 +1,4 @@
-KISSY.add('kg/editor-plugins/1.1.2/xiami-music',["editor","./flash-common/base-class","./flash-common/utils","./fake-objects","./button","util"],function(S ,require, exports, module) {
+define('kg/editor-plugins/1.1.3/xiami-music',["editor","./flash-common/base-class","./flash-common/utils","./fake-objects","./button","util"],function(require, exports, module) {
 /**
  * @ignore
  * xiami-music button

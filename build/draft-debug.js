@@ -1,4 +1,4 @@
-KISSY.add('kg/editor-plugins/1.1.2/draft',["editor","json","event/dom","./local-storage","overlay","./menubutton","util","node"],function(S ,require, exports, module) {
+define('kg/editor-plugins/1.1.3/draft',["editor","json","event-dom","./local-storage","overlay","./menubutton","util","node"],function(require, exports, module) {
 /**
  * @ignore
  * draft for kissy editor
@@ -7,7 +7,7 @@ KISSY.add('kg/editor-plugins/1.1.2/draft',["editor","json","event/dom","./local-
 
 var Editor = require('editor');
 var Json = require('json');
-var Event = require('event/dom');
+var DomEvent = require('event-dom');
 /*global localStorage:true*/
 var localStorage = require('./local-storage');
 var Overlay = require('overlay');
@@ -161,9 +161,9 @@ util.augment(Draft, {
                     self.save(true);
                 }
 
-                Event.on(form, 'submit', saveF);
+                DomEvent.on(form, 'submit', saveF);
                 addRes.call(self, function () {
-                    Event.remove(form, 'submit', saveF);
+                    DomEvent.remove(form, 'submit', saveF);
                 });
 
             })();

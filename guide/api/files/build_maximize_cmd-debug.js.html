@@ -236,7 +236,7 @@
 
 <div class="file">
     <pre class="code prettyprint linenums">
-KISSY.add(&#x27;kg/editor-plugins/1.1.0/maximize/cmd&#x27;,[&quot;editor&quot;,&quot;event/dom&quot;,&quot;util&quot;,&quot;ua&quot;,&quot;node&quot;,&quot;dom&quot;],function(S ,require, exports, module) {
+define(&#x27;kg/editor-plugins/1.1.3/maximize/cmd&#x27;,[&quot;editor&quot;,&quot;event-dom&quot;,&quot;util&quot;,&quot;ua&quot;,&quot;node&quot;,&quot;dom&quot;],function(require, exports, module) {
 /**
  * @ignore
  * Add maximizeWindow/restoreWindow to Editor.
@@ -244,7 +244,7 @@ KISSY.add(&#x27;kg/editor-plugins/1.1.0/maximize/cmd&#x27;,[&quot;editor&quot;,&
  */
 
 var Editor = require(&#x27;editor&#x27;);
-var Event = require(&#x27;event/dom&#x27;);
+var DomEvent = require(&#x27;event-dom&#x27;);
 var util = require(&#x27;util&#x27;);
 var UA = require(&#x27;ua&#x27;),
     ie = UA.ie,
@@ -279,7 +279,7 @@ util.augment(MaximizeCmd, {
         }
 
         if (self._resize) {
-            Event.remove(window, &#x27;resize&#x27;, self._resize);
+            DomEvent.remove(window, &#x27;resize&#x27;, self._resize);
             self._resize.stop();
             self._resize = 0;
         } else {
@@ -514,7 +514,7 @@ util.augment(MaximizeCmd, {
             }, 100);
         }
 
-        Event.on(window, &#x27;resize&#x27;, self._resize);
+        DomEvent.on(window, &#x27;resize&#x27;, self._resize);
 
         setTimeout(function () {
             self._restoreEditorStatus();
@@ -534,7 +534,7 @@ util.augment(MaximizeCmd, {
     destroy: function () {
         var self = this;
         if (self._resize) {
-            Event.remove(window, &#x27;resize&#x27;, self._resize);
+            DomEvent.remove(window, &#x27;resize&#x27;, self._resize);
             self._resize.stop();
             self._resize = 0;
         }

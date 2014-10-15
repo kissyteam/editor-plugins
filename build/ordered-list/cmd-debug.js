@@ -1,4 +1,4 @@
-KISSY.add('kg/editor-plugins/1.1.2/ordered-list/cmd',["editor","../list-utils/cmd"],function(S ,require, exports, module) {
+define('kg/editor-plugins/1.1.3/ordered-list/cmd',["editor","../list-utils/cmd"],function(require, exports, module) {
 /**
  * @ignore
  * orderedList command

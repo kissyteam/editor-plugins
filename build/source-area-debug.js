@@ -1,4 +1,4 @@
-KISSY.add('kg/editor-plugins/1.1.2/source-area',["editor","./button"],function(S ,require, exports, module) {
+define('kg/editor-plugins/1.1.3/source-area',["editor","./button"],function(require, exports, module) {
 /**
  * @ignore
  * source editor for kissy editor

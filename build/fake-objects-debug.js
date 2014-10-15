@@ -1,4 +1,4 @@
-KISSY.add('kg/editor-plugins/1.1.2/fake-objects',["editor","html-parser","util","node","dom"],function(S ,require, exports, module) {
+define('kg/editor-plugins/1.1.3/fake-objects',["editor","html-parser","util","node","dom"],function(require, exports, module) {
 /**
  * @ignore
  * fakeObjects for music ,video,flash

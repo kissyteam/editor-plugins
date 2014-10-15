@@ -1,4 +1,4 @@
-KISSY.add('kg/editor-plugins/1.1.2/contextmenu',["editor","menu","./focus-fix","event/dom","node"],function(S ,require, exports, module) {
+define('kg/editor-plugins/1.1.3/contextmenu',["editor","menu","./focus-fix","event-dom","node"],function(require, exports, module) {
 /**
  * @ignore
  * contextmenu for kissy editor
@@ -8,7 +8,7 @@ KISSY.add('kg/editor-plugins/1.1.2/contextmenu',["editor","menu","./focus-fix","
 var Editor = require('editor');
 var Menu = require('menu');
 var focusFix = require('./focus-fix');
-var Event = require('event/dom');
+var DomEvent = require('event-dom');
 var $ = require('node');
 
 Editor.prototype.addContextMenu = function (id, filter, cfg) {
@@ -33,7 +33,7 @@ Editor.prototype.addContextMenu = function (id, filter, cfg) {
 
     menu.on('afterRenderUI', function () {
         menu.get('el').on('keydown', function (e) {
-            if (e.keyCode === Event.KeyCode.ESC) {
+            if (e.keyCode === DomEvent.KeyCode.ESC) {
                 menu.hide();
             }
         });
