@@ -2,6 +2,7 @@ var gulp = require('gulp'),
     rename = require('gulp-rename'),
     gulpKmd = require('gulp-kmd')
     kmc = require('gulp-kmc'),
+    minify = require('gulp-minify'),
     gulpJoycss =require('gulp-joycss'),
     packageJson = require('./package.json');
 
@@ -20,19 +21,17 @@ gulp.task('kmc', function(cb){
     gulp.src('./lib/**/*.js')
         .pipe(gulpKmd())
         .pipe(kmc.convert({
-             seajs : 'true',
-             fixModuleName:true,
-             minify : true,
-             ext : {
-                src : '-debug.js',
-                min : '.js'
-             }
+            deps : 'mods.js'
         }))
-        // .pipe(rename(function(path){
-        //     if(path.basename === 'mods' || path.basename === 'mods-debug'){
-        //         path.dirname = '../';
-        //     }
-        // }))
+        .pipe(kmc.combo())
+        .pipe(minify())
+        .pipe(rename(function(path){
+            if(path.basename.indexOf('-min') > -1){
+                path.basename = path.basename.replace('-min', '');
+            }else{
+                path.basename = path.basename + '-debug';
+            }
+        }))
         .pipe(gulp.dest('./build'));
 });
 

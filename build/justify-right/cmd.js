@@ -1,1 +1,1 @@
-define('kg/editor-plugins/1.1.3/justify-right/cmd',["../justify-cmd"],function(require, exports, module) {var i=require("../justify-cmd");module.exports={init:function(t){i.addCommand(t,"justifyRight","right")}};});
+define("kg/editor-plugins/1.1.3/justify-right/cmd",["../justify-cmd"],function(i,t,d){var n=i("../justify-cmd");d.exports={init:function(i){n.addCommand(i,"justifyRight","right")}}});

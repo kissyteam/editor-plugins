@@ -1,1 +1,1 @@
-define('kg/editor-plugins/1.1.3/justify-center/cmd',["../justify-cmd"],function(require, exports, module) {var e=require("../justify-cmd");module.exports={init:function(n){e.addCommand(n,"justifyCenter","center")}};});
+define("kg/editor-plugins/1.1.3/justify-center/cmd",["../justify-cmd"],function(t,i,n){var e=t("../justify-cmd");n.exports={init:function(t){e.addCommand(t,"justifyCenter","center")}}});

@@ -1,1 +1,1 @@
-define('kg/editor-plugins/1.1.3/separator',["node"],function(require, exports, module) {function o(){}var e=require("node");o.prototype={pluginRenderUI:function(o){e('<span class="'+o.get("prefixCls")+'editor-toolbar-separator">&nbsp;</span>').appendTo(o.get("toolBarEl"))}},module.exports=o;});
+define("kg/editor-plugins/1.1.3/separator",["node"],function(o,e,n){function t(){}var p=o("node");t.prototype={pluginRenderUI:function(o){p('<span class="'+o.get("prefixCls")+'editor-toolbar-separator">&nbsp;</span>').appendTo(o.get("toolBarEl"))}},n.exports=t});
