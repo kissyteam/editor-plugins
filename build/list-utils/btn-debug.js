@@ -1,4 +1,4 @@
-define('kg/editor-plugins/1.1.3/list-utils/btn',["editor","../button","../menubutton"],function(require, exports, module) {
+define('kg/editor-plugins/1.1.4/list-utils/btn',["editor","../button","../menubutton"],function(require, exports, module) {
 /**
  * @ignore
  * Common btn for list.

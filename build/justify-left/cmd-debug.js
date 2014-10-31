@@ -1,4 +1,4 @@
-define('kg/editor-plugins/1.1.3/justify-left/cmd',["../justify-cmd"],function(require, exports, module) {
+define('kg/editor-plugins/1.1.4/justify-left/cmd',["../justify-cmd"],function(require, exports, module) {
 /**
  * @ignore
  * Add justifyCenter command identifier for Editor.

@@ -1,4 +1,4 @@
-define('kg/editor-plugins/1.1.3/undo/btn',["../button","editor"],function(require, exports, module) {
+define('kg/editor-plugins/1.1.4/undo/btn',["../button","editor"],function(require, exports, module) {
 /**
  * @ignore
  * undo button

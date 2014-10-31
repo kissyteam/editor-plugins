@@ -1,4 +1,4 @@
-define('kg/editor-plugins/1.1.3/font-family/cmd',["../font/cmd"],function(require, exports, module) {
+define('kg/editor-plugins/1.1.4/font-family/cmd',["../font/cmd"],function(require, exports, module) {
 /**
  * @ignore
  * fontFamily command.

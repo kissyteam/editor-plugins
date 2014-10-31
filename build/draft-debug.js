@@ -1,4 +1,4 @@
-define('kg/editor-plugins/1.1.3/draft',["editor","json","event-dom","./local-storage","overlay","./menubutton","util","node"],function(require, exports, module) {
+define('kg/editor-plugins/1.1.4/draft',["editor","json","event-dom","./local-storage","overlay","./menubutton","util","node"],function(require, exports, module) {
 /**
  * @ignore
  * draft for kissy editor

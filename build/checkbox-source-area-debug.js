@@ -1,4 +1,4 @@
-define('kg/editor-plugins/1.1.3/checkbox-source-area',["editor","util","node"],function(require, exports, module) {
+define('kg/editor-plugins/1.1.4/checkbox-source-area',["editor","util","node"],function(require, exports, module) {
 /**
  * @ignore
  * checkbox source editor for kissy editor

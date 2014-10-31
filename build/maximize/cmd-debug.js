@@ -1,4 +1,4 @@
-define('kg/editor-plugins/1.1.3/maximize/cmd',["editor","event-dom","util","ua","node","dom"],function(require, exports, module) {
+define('kg/editor-plugins/1.1.4/maximize/cmd',["editor","event-dom","util","ua","node","dom"],function(require, exports, module) {
 /**
  * @ignore
  * Add maximizeWindow/restoreWindow to Editor.

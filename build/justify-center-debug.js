@@ -1,4 +1,4 @@
-define('kg/editor-plugins/1.1.3/justify-center',["editor","./justify-center/cmd","./button","node"],function(require, exports, module) {
+define('kg/editor-plugins/1.1.4/justify-center',["editor","./justify-center/cmd","./button","node"],function(require, exports, module) {
 /**
  * @ignore
  * justifyCenter button.

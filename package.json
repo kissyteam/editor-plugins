@@ -1,6 +1,6 @@
 {
   "name": "KISSY-Editor-Plugins",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "description": "KISSY Editor Plugins",
   "homepage": "http://gitlab.alibaba-inc.com/kg/editor-plugins",
   "engines": {
@@ -14,7 +14,7 @@
     "express": "^4.8.4",
     "gulp": "^3.8.7",
     "gulp-joycss": "1.0.3",
-    "gulp-kmc": "0.0.29",
+    "gulp-kmc": "^1.0.14",
     "gulp-kmd": "^1.0.0",
     "gulp-minify": "0.0.5",
     "gulp-rename": "^1.2.0",

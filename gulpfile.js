@@ -22,7 +22,7 @@ gulp.task('kmc', function(cb){
         .pipe(gulpKmd())
         .pipe(kmc.convert({
             deps : 'mods.js',
-            seajs:true
+            define : true
         }))
         .pipe(kmc.combo())
         .pipe(minify())

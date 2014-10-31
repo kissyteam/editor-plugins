@@ -1,4 +1,4 @@
-define('kg/editor-plugins/1.1.3/flash/dialog',["util","editor","../flash-common/utils","../dialog","../menubutton"],function(require, exports, module) {
+define('kg/editor-plugins/1.1.4/flash/dialog',["util","editor","../flash-common/utils","../dialog","../menubutton"],function(require, exports, module) {
 /**
  * @ignore
  * flash dialog
