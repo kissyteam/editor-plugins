@@ -69,10 +69,6 @@ gulp.task('server', function () {
         view: 'details'
     }));
     app.use('/lib/', function (req, res, next) {
-        if (req.path.indexOf('-tpl.js') !== -1) {
-            next();
-            return;
-        }
         var filePath = path.resolve(process.cwd(), 'lib', req.path.substring(1));
         var code = fs.readFileSync(filePath, 'utf-8');
         res.set('content-type', 'application/javascript;charset=utf-8');

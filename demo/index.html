@@ -7,8 +7,8 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-touch-fullscreen" content="yes">
     <title>KISSY Editor Test</title>
-    <link href="http://g.assets.daily.taobao.net/kissy/edge/2014.10.13/css/dpl/base-debug.css" rel="stylesheet"/>
-    <link href="http://g.tbcdn.cn/kg/editor-plugins/1.1.3/assets/editor.css" rel="stylesheet"/>
+    <link href="http://g.alicdn.com/kissy/k/5.0.1/css/base.css" rel="stylesheet"/>
+    <link href="http://g.alicdn.com/kg/editor-plugins/1.1.3/assets/editor.css" rel="stylesheet"/>
 <!--    <link rel="stylesheet" type="text/css" href="../build/assets/editor-debug.css">  -->
 
 </head>
@@ -27,7 +27,7 @@
     (function () {
         window.EDITOR_VERSION = '1.1.4';
 
-        var isDebug = location.search.indexOf('debug') !== -1;
+        var isDebug = location.search.indexOf('debug') > -1;
         window.EDITOR_CFG = {
             fromTextarea: '#ks-editor-textarea'
         };
@@ -35,9 +35,7 @@
             packages: [
                 {
                     name: 'kg/editor-plugins/' + EDITOR_VERSION,
-                    filter:'debug',
-                    path: isDebug ? '../build' : 'http://g.tbcdn.cn/kg/editor-plugins/' + EDITOR_VERSION,
-                    ignorePackageNameInUri: true
+                    path: isDebug ? '../lib' : 'http://g.alicdn.com/kg/editor-plugins/' + EDITOR_VERSION
                 }
             ]
         })
