@@ -13,9 +13,10 @@
   "devDependencies": {
     "express": "^4.8.4",
     "gulp": "^3.8.7",
+    "gulp-joycss": "1.0.3",
     "gulp-kmc": "0.0.29",
     "gulp-kmd": "^1.0.0",
-    "gulp-joycss": "1.0.3",
+    "gulp-minify": "0.0.5",
     "gulp-rename": "^1.2.0",
     "serve-index": "^1.1.6",
     "serve-static": "^1.5.3"

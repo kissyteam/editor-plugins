@@ -6,8 +6,631 @@
         "url": "http://gallery.kissyui.com/editor-plugins/doc/guide/index.html"
     },
     "files": {
-        "guide/src-api/back-color.js": {
-            "name": "guide/src-api/back-color.js",
+        "build\\back-color\\cmd-debug.js": {
+            "name": "build\\back-color\\cmd-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\bold\\cmd-debug.js": {
+            "name": "build\\bold\\cmd-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\code\\dialog-debug.js": {
+            "name": "build\\code\\dialog-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\color\\btn-debug.js": {
+            "name": "build\\color\\btn-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\color\\cmd-debug.js": {
+            "name": "build\\color\\cmd-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\color\\dialog-debug.js": {
+            "name": "build\\color\\dialog-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\flash\\dialog-debug.js": {
+            "name": "build\\flash\\dialog-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\flash-common\\base-class-debug.js": {
+            "name": "build\\flash-common\\base-class-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\flash-common\\utils-debug.js": {
+            "name": "build\\flash-common\\utils-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\font\\cmd-debug.js": {
+            "name": "build\\font\\cmd-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\font\\ui-debug.js": {
+            "name": "build\\font\\ui-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\font-family\\cmd-debug.js": {
+            "name": "build\\font-family\\cmd-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\font-size\\cmd-debug.js": {
+            "name": "build\\font-size\\cmd-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\fore-color\\cmd-debug.js": {
+            "name": "build\\fore-color\\cmd-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\heading\\cmd-debug.js": {
+            "name": "build\\heading\\cmd-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\image\\dialog-debug.js": {
+            "name": "build\\image\\dialog-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\indent\\cmd-debug.js": {
+            "name": "build\\indent\\cmd-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\italic\\cmd-debug.js": {
+            "name": "build\\italic\\cmd-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\justify-center\\cmd-debug.js": {
+            "name": "build\\justify-center\\cmd-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\justify-left\\cmd-debug.js": {
+            "name": "build\\justify-left\\cmd-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\justify-right\\cmd-debug.js": {
+            "name": "build\\justify-right\\cmd-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\link\\dialog-debug.js": {
+            "name": "build\\link\\dialog-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\link\\utils-debug.js": {
+            "name": "build\\link\\utils-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\list-utils\\btn-debug.js": {
+            "name": "build\\list-utils\\btn-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\list-utils\\cmd-debug.js": {
+            "name": "build\\list-utils\\cmd-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\maximize\\cmd-debug.js": {
+            "name": "build\\maximize\\cmd-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\ordered-list\\cmd-debug.js": {
+            "name": "build\\ordered-list\\cmd-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\outdent\\cmd-debug.js": {
+            "name": "build\\outdent\\cmd-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\remove-format\\cmd-debug.js": {
+            "name": "build\\remove-format\\cmd-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\strike-through\\cmd-debug.js": {
+            "name": "build\\strike-through\\cmd-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\table\\dialog-debug.js": {
+            "name": "build\\table\\dialog-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\underline\\cmd-debug.js": {
+            "name": "build\\underline\\cmd-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\undo\\btn-debug.js": {
+            "name": "build\\undo\\btn-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\undo\\cmd-debug.js": {
+            "name": "build\\undo\\cmd-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\unordered-list\\cmd-debug.js": {
+            "name": "build\\unordered-list\\cmd-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\video\\dialog-debug.js": {
+            "name": "build\\video\\dialog-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\xiami-music\\dialog-debug.js": {
+            "name": "build\\xiami-music\\dialog-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\back-color-debug.js": {
+            "name": "build\\back-color-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\bold-debug.js": {
+            "name": "build\\bold-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\bubble-debug.js": {
+            "name": "build\\bubble-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\button-debug.js": {
+            "name": "build\\button-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\checkbox-source-area-debug.js": {
+            "name": "build\\checkbox-source-area-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\code-debug.js": {
+            "name": "build\\code-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\contextmenu-debug.js": {
+            "name": "build\\contextmenu-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\dent-cmd-debug.js": {
+            "name": "build\\dent-cmd-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\dialog-debug.js": {
+            "name": "build\\dialog-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\dialog-loader-debug.js": {
+            "name": "build\\dialog-loader-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\draft-debug.js": {
+            "name": "build\\draft-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\drag-upload-debug.js": {
+            "name": "build\\drag-upload-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\element-path-debug.js": {
+            "name": "build\\element-path-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\fake-objects-debug.js": {
+            "name": "build\\fake-objects-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\flash-bridge-debug.js": {
+            "name": "build\\flash-bridge-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\flash-debug.js": {
+            "name": "build\\flash-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\focus-fix-debug.js": {
+            "name": "build\\focus-fix-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\font-family-debug.js": {
+            "name": "build\\font-family-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\font-size-debug.js": {
+            "name": "build\\font-size-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\fore-color-debug.js": {
+            "name": "build\\fore-color-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\heading-debug.js": {
+            "name": "build\\heading-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\image-debug.js": {
+            "name": "build\\image-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\indent-debug.js": {
+            "name": "build\\indent-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\italic-debug.js": {
+            "name": "build\\italic-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\justify-center-debug.js": {
+            "name": "build\\justify-center-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\justify-cmd-debug.js": {
+            "name": "build\\justify-cmd-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\justify-left-debug.js": {
+            "name": "build\\justify-left-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\justify-right-debug.js": {
+            "name": "build\\justify-right-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\link-debug.js": {
+            "name": "build\\link-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\list-utils-debug.js": {
+            "name": "build\\list-utils-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\local-storage-debug.js": {
+            "name": "build\\local-storage-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\maximize-debug.js": {
+            "name": "build\\maximize-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\menubutton-debug.js": {
+            "name": "build\\menubutton-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\ordered-list-debug.js": {
+            "name": "build\\ordered-list-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\outdent-debug.js": {
+            "name": "build\\outdent-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\overlay-debug.js": {
+            "name": "build\\overlay-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\page-break-debug.js": {
+            "name": "build\\page-break-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\preview-debug.js": {
+            "name": "build\\preview-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\progressbar-debug.js": {
+            "name": "build\\progressbar-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\remove-format-debug.js": {
+            "name": "build\\remove-format-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\resize-debug.js": {
+            "name": "build\\resize-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\separator-debug.js": {
+            "name": "build\\separator-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\smiley-debug.js": {
+            "name": "build\\smiley-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\source-area-debug.js": {
+            "name": "build\\source-area-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\strike-through-debug.js": {
+            "name": "build\\strike-through-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\table-debug.js": {
+            "name": "build\\table-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\underline-debug.js": {
+            "name": "build\\underline-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\undo-debug.js": {
+            "name": "build\\undo-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\unordered-list-debug.js": {
+            "name": "build\\unordered-list-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\video-debug.js": {
+            "name": "build\\video-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\word-filter-debug.js": {
+            "name": "build\\word-filter-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\xiami-music-debug.js": {
+            "name": "build\\xiami-music-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "guide\\src-api\\back-color.js": {
+            "name": "guide\\src-api\\back-color.js",
             "modules": {
                 "back-color": 1
             },
@@ -17,8 +640,8 @@
             "fors": {},
             "namespaces": {}
         },
-        "guide/src-api/bold.js": {
-            "name": "guide/src-api/bold.js",
+        "guide\\src-api\\bold.js": {
+            "name": "guide\\src-api\\bold.js",
             "modules": {
                 "bold": 1
             },
@@ -28,8 +651,8 @@
             "fors": {},
             "namespaces": {}
         },
-        "guide/src-api/button.js": {
-            "name": "guide/src-api/button.js",
+        "guide\\src-api\\button.js": {
+            "name": "guide\\src-api\\button.js",
             "modules": {
                 "button": 1
             },
@@ -39,8 +662,8 @@
             "fors": {},
             "namespaces": {}
         },
-        "guide/src-api/checkbox-source-area.js": {
-            "name": "guide/src-api/checkbox-source-area.js",
+        "guide\\src-api\\checkbox-source-area.js": {
+            "name": "guide\\src-api\\checkbox-source-area.js",
             "modules": {
                 "checkbox-source-area": 1
             },
@@ -50,8 +673,8 @@
             "fors": {},
             "namespaces": {}
         },
-        "guide/src-api/code.js": {
-            "name": "guide/src-api/code.js",
+        "guide\\src-api\\code.js": {
+            "name": "guide\\src-api\\code.js",
             "modules": {
                 "code": 1
             },
@@ -61,8 +684,8 @@
             "fors": {},
             "namespaces": {}
         },
-        "guide/src-api/draft.js": {
-            "name": "guide/src-api/draft.js",
+        "guide\\src-api\\draft.js": {
+            "name": "guide\\src-api\\draft.js",
             "modules": {
                 "draft": 1
             },
@@ -72,8 +695,8 @@
             "fors": {},
             "namespaces": {}
         },
-        "guide/src-api/drag-upload.js": {
-            "name": "guide/src-api/drag-upload.js",
+        "guide\\src-api\\drag-upload.js": {
+            "name": "guide\\src-api\\drag-upload.js",
             "modules": {
                 "drag-upload": 1
             },
@@ -83,8 +706,8 @@
             "fors": {},
             "namespaces": {}
         },
-        "guide/src-api/element-path.js": {
-            "name": "guide/src-api/element-path.js",
+        "guide\\src-api\\element-path.js": {
+            "name": "guide\\src-api\\element-path.js",
             "modules": {
                 "element-path": 1
             },
@@ -94,8 +717,8 @@
             "fors": {},
             "namespaces": {}
         },
-        "guide/src-api/flash.js": {
-            "name": "guide/src-api/flash.js",
+        "guide\\src-api\\flash.js": {
+            "name": "guide\\src-api\\flash.js",
             "modules": {
                 "flash": 1
             },
@@ -105,8 +728,8 @@
             "fors": {},
             "namespaces": {}
         },
-        "guide/src-api/font-color.js": {
-            "name": "guide/src-api/font-color.js",
+        "guide\\src-api\\font-color.js": {
+            "name": "guide\\src-api\\font-color.js",
             "modules": {
                 "font-color": 1
             },
@@ -116,8 +739,8 @@
             "fors": {},
             "namespaces": {}
         },
-        "guide/src-api/font-family.js": {
-            "name": "guide/src-api/font-family.js",
+        "guide\\src-api\\font-family.js": {
+            "name": "guide\\src-api\\font-family.js",
             "modules": {
                 "font-family": 1
             },
@@ -127,8 +750,8 @@
             "fors": {},
             "namespaces": {}
         },
-        "guide/src-api/font-size.js": {
-            "name": "guide/src-api/font-size.js",
+        "guide\\src-api\\font-size.js": {
+            "name": "guide\\src-api\\font-size.js",
             "modules": {
                 "font-size": 1
             },
@@ -138,8 +761,8 @@
             "fors": {},
             "namespaces": {}
         },
-        "guide/src-api/heading.js": {
-            "name": "guide/src-api/heading.js",
+        "guide\\src-api\\heading.js": {
+            "name": "guide\\src-api\\heading.js",
             "modules": {
                 "heading": 1
             },
@@ -149,8 +772,8 @@
             "fors": {},
             "namespaces": {}
         },
-        "guide/src-api/image.js": {
-            "name": "guide/src-api/image.js",
+        "guide\\src-api\\image.js": {
+            "name": "guide\\src-api\\image.js",
             "modules": {
                 "image": 1
             },
@@ -160,8 +783,8 @@
             "fors": {},
             "namespaces": {}
         },
-        "guide/src-api/indent.js": {
-            "name": "guide/src-api/indent.js",
+        "guide\\src-api\\indent.js": {
+            "name": "guide\\src-api\\indent.js",
             "modules": {
                 "eindent": 1
             },
@@ -171,8 +794,8 @@
             "fors": {},
             "namespaces": {}
         },
-        "guide/src-api/italic.js": {
-            "name": "guide/src-api/italic.js",
+        "guide\\src-api\\italic.js": {
+            "name": "guide\\src-api\\italic.js",
             "modules": {
                 "italic": 1
             },
@@ -182,8 +805,8 @@
             "fors": {},
             "namespaces": {}
         },
-        "guide/src-api/justify-center.js": {
-            "name": "guide/src-api/justify-center.js",
+        "guide\\src-api\\justify-center.js": {
+            "name": "guide\\src-api\\justify-center.js",
             "modules": {
                 "justify-center": 1
             },
@@ -193,8 +816,8 @@
             "fors": {},
             "namespaces": {}
         },
-        "guide/src-api/justify-left.js": {
-            "name": "guide/src-api/justify-left.js",
+        "guide\\src-api\\justify-left.js": {
+            "name": "guide\\src-api\\justify-left.js",
             "modules": {
                 "justify-left": 1
             },
@@ -204,8 +827,8 @@
             "fors": {},
             "namespaces": {}
         },
-        "guide/src-api/justify-right.js": {
-            "name": "guide/src-api/justify-right.js",
+        "guide\\src-api\\justify-right.js": {
+            "name": "guide\\src-api\\justify-right.js",
             "modules": {
                 "justify-right": 1
             },
@@ -215,8 +838,8 @@
             "fors": {},
             "namespaces": {}
         },
-        "guide/src-api/link.js": {
-            "name": "guide/src-api/link.js",
+        "guide\\src-api\\link.js": {
+            "name": "guide\\src-api\\link.js",
             "modules": {
                 "link": 1
             },
@@ -226,8 +849,8 @@
             "fors": {},
             "namespaces": {}
         },
-        "guide/src-api/maximize.js": {
-            "name": "guide/src-api/maximize.js",
+        "guide\\src-api\\maximize.js": {
+            "name": "guide\\src-api\\maximize.js",
             "modules": {
                 "maximize": 1
             },
@@ -237,8 +860,8 @@
             "fors": {},
             "namespaces": {}
         },
-        "guide/src-api/multiple-upload.js": {
-            "name": "guide/src-api/multiple-upload.js",
+        "guide\\src-api\\multiple-upload.js": {
+            "name": "guide\\src-api\\multiple-upload.js",
             "modules": {
                 "multiple-upload": 1
             },
@@ -248,8 +871,8 @@
             "fors": {},
             "namespaces": {}
         },
-        "guide/src-api/ordered-list.js": {
-            "name": "guide/src-api/ordered-list.js",
+        "guide\\src-api\\ordered-list.js": {
+            "name": "guide\\src-api\\ordered-list.js",
             "modules": {
                 "ordered-list": 1
             },
@@ -259,8 +882,8 @@
             "fors": {},
             "namespaces": {}
         },
-        "guide/src-api/outdent.js": {
-            "name": "guide/src-api/outdent.js",
+        "guide\\src-api\\outdent.js": {
+            "name": "guide\\src-api\\outdent.js",
             "modules": {
                 "outdent": 1
             },
@@ -270,8 +893,8 @@
             "fors": {},
             "namespaces": {}
         },
-        "guide/src-api/page-break.js": {
-            "name": "guide/src-api/page-break.js",
+        "guide\\src-api\\page-break.js": {
+            "name": "guide\\src-api\\page-break.js",
             "modules": {
                 "page-break": 1
             },
@@ -281,8 +904,8 @@
             "fors": {},
             "namespaces": {}
         },
-        "guide/src-api/preview.js": {
-            "name": "guide/src-api/preview.js",
+        "guide\\src-api\\preview.js": {
+            "name": "guide\\src-api\\preview.js",
             "modules": {
                 "preview": 1
             },
@@ -292,8 +915,8 @@
             "fors": {},
             "namespaces": {}
         },
-        "guide/src-api/remove-format.js": {
-            "name": "guide/src-api/remove-format.js",
+        "guide\\src-api\\remove-format.js": {
+            "name": "guide\\src-api\\remove-format.js",
             "modules": {
                 "remove-format": 1
             },
@@ -303,8 +926,8 @@
             "fors": {},
             "namespaces": {}
         },
-        "guide/src-api/resize.js": {
-            "name": "guide/src-api/resize.js",
+        "guide\\src-api\\resize.js": {
+            "name": "guide\\src-api\\resize.js",
             "modules": {
                 "resize": 1
             },
@@ -314,8 +937,8 @@
             "fors": {},
             "namespaces": {}
         },
-        "guide/src-api/separator.js": {
-            "name": "guide/src-api/separator.js",
+        "guide\\src-api\\separator.js": {
+            "name": "guide\\src-api\\separator.js",
             "modules": {
                 "separator": 1
             },
@@ -325,8 +948,8 @@
             "fors": {},
             "namespaces": {}
         },
-        "guide/src-api/smiley.js": {
-            "name": "guide/src-api/smiley.js",
+        "guide\\src-api\\smiley.js": {
+            "name": "guide\\src-api\\smiley.js",
             "modules": {
                 "smiley": 1
             },
@@ -336,8 +959,8 @@
             "fors": {},
             "namespaces": {}
         },
-        "guide/src-api/source-area.js": {
-            "name": "guide/src-api/source-area.js",
+        "guide\\src-api\\source-area.js": {
+            "name": "guide\\src-api\\source-area.js",
             "modules": {
                 "source-area": 1
             },
@@ -347,8 +970,8 @@
             "fors": {},
             "namespaces": {}
         },
-        "guide/src-api/strike-through.js": {
-            "name": "guide/src-api/strike-through.js",
+        "guide\\src-api\\strike-through.js": {
+            "name": "guide\\src-api\\strike-through.js",
             "modules": {
                 "strike-through": 1
             },
@@ -358,8 +981,8 @@
             "fors": {},
             "namespaces": {}
         },
-        "guide/src-api/table.js": {
-            "name": "guide/src-api/table.js",
+        "guide\\src-api\\table.js": {
+            "name": "guide\\src-api\\table.js",
             "modules": {
                 "table": 1
             },
@@ -369,8 +992,8 @@
             "fors": {},
             "namespaces": {}
         },
-        "guide/src-api/underline.js": {
-            "name": "guide/src-api/underline.js",
+        "guide\\src-api\\underline.js": {
+            "name": "guide\\src-api\\underline.js",
             "modules": {
                 "underline": 1
             },
@@ -380,8 +1003,8 @@
             "fors": {},
             "namespaces": {}
         },
-        "guide/src-api/undo.js": {
-            "name": "guide/src-api/undo.js",
+        "guide\\src-api\\undo.js": {
+            "name": "guide\\src-api\\undo.js",
             "modules": {
                 "undo": 1
             },
@@ -391,8 +1014,8 @@
             "fors": {},
             "namespaces": {}
         },
-        "guide/src-api/unordered-list.js": {
-            "name": "guide/src-api/unordered-list.js",
+        "guide\\src-api\\unordered-list.js": {
+            "name": "guide\\src-api\\unordered-list.js",
             "modules": {
                 "unordered-list": 1
             },
@@ -402,8 +1025,8 @@
             "fors": {},
             "namespaces": {}
         },
-        "guide/src-api/video.js": {
-            "name": "guide/src-api/video.js",
+        "guide\\src-api\\video.js": {
+            "name": "guide\\src-api\\video.js",
             "modules": {
                 "video": 1
             },
@@ -413,8 +1036,8 @@
             "fors": {},
             "namespaces": {}
         },
-        "guide/src-api/xiami-music.js": {
-            "name": "guide/src-api/xiami-music.js",
+        "guide\\src-api\\xiami-music.js": {
+            "name": "guide\\src-api\\xiami-music.js",
             "modules": {
                 "xiami-music": 1
             },
@@ -424,624 +1047,624 @@
             "fors": {},
             "namespaces": {}
         },
-        "lib/back-color/cmd.js": {
-            "name": "lib/back-color/cmd.js",
+        "lib\\back-color\\cmd.js": {
+            "name": "lib\\back-color\\cmd.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/bold/cmd.js": {
-            "name": "lib/bold/cmd.js",
+        "lib\\bold\\cmd.js": {
+            "name": "lib\\bold\\cmd.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/code/dialog.js": {
-            "name": "lib/code/dialog.js",
+        "lib\\code\\dialog.js": {
+            "name": "lib\\code\\dialog.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/color/btn.js": {
-            "name": "lib/color/btn.js",
+        "lib\\color\\btn.js": {
+            "name": "lib\\color\\btn.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/color/cmd.js": {
-            "name": "lib/color/cmd.js",
+        "lib\\color\\cmd.js": {
+            "name": "lib\\color\\cmd.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/color/dialog.js": {
-            "name": "lib/color/dialog.js",
+        "lib\\color\\dialog.js": {
+            "name": "lib\\color\\dialog.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/flash/dialog.js": {
-            "name": "lib/flash/dialog.js",
+        "lib\\flash\\dialog.js": {
+            "name": "lib\\flash\\dialog.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/flash-common/base-class.js": {
-            "name": "lib/flash-common/base-class.js",
+        "lib\\flash-common\\base-class.js": {
+            "name": "lib\\flash-common\\base-class.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/flash-common/utils.js": {
-            "name": "lib/flash-common/utils.js",
+        "lib\\flash-common\\utils.js": {
+            "name": "lib\\flash-common\\utils.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/font/cmd.js": {
-            "name": "lib/font/cmd.js",
+        "lib\\font\\cmd.js": {
+            "name": "lib\\font\\cmd.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/font/ui.js": {
-            "name": "lib/font/ui.js",
+        "lib\\font\\ui.js": {
+            "name": "lib\\font\\ui.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/font-family/cmd.js": {
-            "name": "lib/font-family/cmd.js",
+        "lib\\font-family\\cmd.js": {
+            "name": "lib\\font-family\\cmd.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/font-size/cmd.js": {
-            "name": "lib/font-size/cmd.js",
+        "lib\\font-size\\cmd.js": {
+            "name": "lib\\font-size\\cmd.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/fore-color/cmd.js": {
-            "name": "lib/fore-color/cmd.js",
+        "lib\\fore-color\\cmd.js": {
+            "name": "lib\\fore-color\\cmd.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/heading/cmd.js": {
-            "name": "lib/heading/cmd.js",
+        "lib\\heading\\cmd.js": {
+            "name": "lib\\heading\\cmd.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/image/dialog.js": {
-            "name": "lib/image/dialog.js",
+        "lib\\image\\dialog.js": {
+            "name": "lib\\image\\dialog.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/indent/cmd.js": {
-            "name": "lib/indent/cmd.js",
+        "lib\\indent\\cmd.js": {
+            "name": "lib\\indent\\cmd.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/italic/cmd.js": {
-            "name": "lib/italic/cmd.js",
+        "lib\\italic\\cmd.js": {
+            "name": "lib\\italic\\cmd.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/justify-center/cmd.js": {
-            "name": "lib/justify-center/cmd.js",
+        "lib\\justify-center\\cmd.js": {
+            "name": "lib\\justify-center\\cmd.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/justify-left/cmd.js": {
-            "name": "lib/justify-left/cmd.js",
+        "lib\\justify-left\\cmd.js": {
+            "name": "lib\\justify-left\\cmd.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/justify-right/cmd.js": {
-            "name": "lib/justify-right/cmd.js",
+        "lib\\justify-right\\cmd.js": {
+            "name": "lib\\justify-right\\cmd.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/link/dialog.js": {
-            "name": "lib/link/dialog.js",
+        "lib\\link\\dialog.js": {
+            "name": "lib\\link\\dialog.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/link/utils.js": {
-            "name": "lib/link/utils.js",
+        "lib\\link\\utils.js": {
+            "name": "lib\\link\\utils.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/list-utils/btn.js": {
-            "name": "lib/list-utils/btn.js",
+        "lib\\list-utils\\btn.js": {
+            "name": "lib\\list-utils\\btn.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/list-utils/cmd.js": {
-            "name": "lib/list-utils/cmd.js",
+        "lib\\list-utils\\cmd.js": {
+            "name": "lib\\list-utils\\cmd.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/maximize/cmd.js": {
-            "name": "lib/maximize/cmd.js",
+        "lib\\maximize\\cmd.js": {
+            "name": "lib\\maximize\\cmd.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/ordered-list/cmd.js": {
-            "name": "lib/ordered-list/cmd.js",
+        "lib\\ordered-list\\cmd.js": {
+            "name": "lib\\ordered-list\\cmd.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/outdent/cmd.js": {
-            "name": "lib/outdent/cmd.js",
+        "lib\\outdent\\cmd.js": {
+            "name": "lib\\outdent\\cmd.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/remove-format/cmd.js": {
-            "name": "lib/remove-format/cmd.js",
+        "lib\\remove-format\\cmd.js": {
+            "name": "lib\\remove-format\\cmd.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/strike-through/cmd.js": {
-            "name": "lib/strike-through/cmd.js",
+        "lib\\strike-through\\cmd.js": {
+            "name": "lib\\strike-through\\cmd.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/table/dialog.js": {
-            "name": "lib/table/dialog.js",
+        "lib\\table\\dialog.js": {
+            "name": "lib\\table\\dialog.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/underline/cmd.js": {
-            "name": "lib/underline/cmd.js",
+        "lib\\underline\\cmd.js": {
+            "name": "lib\\underline\\cmd.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/undo/btn.js": {
-            "name": "lib/undo/btn.js",
+        "lib\\undo\\btn.js": {
+            "name": "lib\\undo\\btn.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/undo/cmd.js": {
-            "name": "lib/undo/cmd.js",
+        "lib\\undo\\cmd.js": {
+            "name": "lib\\undo\\cmd.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/unordered-list/cmd.js": {
-            "name": "lib/unordered-list/cmd.js",
+        "lib\\unordered-list\\cmd.js": {
+            "name": "lib\\unordered-list\\cmd.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/video/dialog.js": {
-            "name": "lib/video/dialog.js",
+        "lib\\video\\dialog.js": {
+            "name": "lib\\video\\dialog.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/xiami-music/dialog.js": {
-            "name": "lib/xiami-music/dialog.js",
+        "lib\\xiami-music\\dialog.js": {
+            "name": "lib\\xiami-music\\dialog.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/back-color.js": {
-            "name": "lib/back-color.js",
+        "lib\\back-color.js": {
+            "name": "lib\\back-color.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/bold.js": {
-            "name": "lib/bold.js",
+        "lib\\bold.js": {
+            "name": "lib\\bold.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/bubble.js": {
-            "name": "lib/bubble.js",
+        "lib\\bubble.js": {
+            "name": "lib\\bubble.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/button.js": {
-            "name": "lib/button.js",
+        "lib\\button.js": {
+            "name": "lib\\button.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/checkbox-source-area.js": {
-            "name": "lib/checkbox-source-area.js",
+        "lib\\checkbox-source-area.js": {
+            "name": "lib\\checkbox-source-area.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/code.js": {
-            "name": "lib/code.js",
+        "lib\\code.js": {
+            "name": "lib\\code.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/contextmenu.js": {
-            "name": "lib/contextmenu.js",
+        "lib\\contextmenu.js": {
+            "name": "lib\\contextmenu.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/dent-cmd.js": {
-            "name": "lib/dent-cmd.js",
+        "lib\\dent-cmd.js": {
+            "name": "lib\\dent-cmd.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/dialog-loader.js": {
-            "name": "lib/dialog-loader.js",
+        "lib\\dialog-loader.js": {
+            "name": "lib\\dialog-loader.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/dialog.js": {
-            "name": "lib/dialog.js",
+        "lib\\dialog.js": {
+            "name": "lib\\dialog.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/draft.js": {
-            "name": "lib/draft.js",
+        "lib\\draft.js": {
+            "name": "lib\\draft.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/drag-upload.js": {
-            "name": "lib/drag-upload.js",
+        "lib\\drag-upload.js": {
+            "name": "lib\\drag-upload.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/element-path.js": {
-            "name": "lib/element-path.js",
+        "lib\\element-path.js": {
+            "name": "lib\\element-path.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/fake-objects.js": {
-            "name": "lib/fake-objects.js",
+        "lib\\fake-objects.js": {
+            "name": "lib\\fake-objects.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/flash-bridge.js": {
-            "name": "lib/flash-bridge.js",
+        "lib\\flash-bridge.js": {
+            "name": "lib\\flash-bridge.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/flash.js": {
-            "name": "lib/flash.js",
+        "lib\\flash.js": {
+            "name": "lib\\flash.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/focus-fix.js": {
-            "name": "lib/focus-fix.js",
+        "lib\\focus-fix.js": {
+            "name": "lib\\focus-fix.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/font-family.js": {
-            "name": "lib/font-family.js",
+        "lib\\font-family.js": {
+            "name": "lib\\font-family.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/font-size.js": {
-            "name": "lib/font-size.js",
+        "lib\\font-size.js": {
+            "name": "lib\\font-size.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/fore-color.js": {
-            "name": "lib/fore-color.js",
+        "lib\\fore-color.js": {
+            "name": "lib\\fore-color.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/heading.js": {
-            "name": "lib/heading.js",
+        "lib\\heading.js": {
+            "name": "lib\\heading.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/image.js": {
-            "name": "lib/image.js",
+        "lib\\image.js": {
+            "name": "lib\\image.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/indent.js": {
-            "name": "lib/indent.js",
+        "lib\\indent.js": {
+            "name": "lib\\indent.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/italic.js": {
-            "name": "lib/italic.js",
+        "lib\\italic.js": {
+            "name": "lib\\italic.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/justify-center.js": {
-            "name": "lib/justify-center.js",
+        "lib\\justify-center.js": {
+            "name": "lib\\justify-center.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/justify-cmd.js": {
-            "name": "lib/justify-cmd.js",
+        "lib\\justify-cmd.js": {
+            "name": "lib\\justify-cmd.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/justify-left.js": {
-            "name": "lib/justify-left.js",
+        "lib\\justify-left.js": {
+            "name": "lib\\justify-left.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/justify-right.js": {
-            "name": "lib/justify-right.js",
+        "lib\\justify-right.js": {
+            "name": "lib\\justify-right.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/link.js": {
-            "name": "lib/link.js",
+        "lib\\link.js": {
+            "name": "lib\\link.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/list-utils.js": {
-            "name": "lib/list-utils.js",
+        "lib\\list-utils.js": {
+            "name": "lib\\list-utils.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/local-storage.js": {
-            "name": "lib/local-storage.js",
+        "lib\\local-storage.js": {
+            "name": "lib\\local-storage.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/maximize.js": {
-            "name": "lib/maximize.js",
+        "lib\\maximize.js": {
+            "name": "lib\\maximize.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/menubutton.js": {
-            "name": "lib/menubutton.js",
+        "lib\\menubutton.js": {
+            "name": "lib\\menubutton.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/ordered-list.js": {
-            "name": "lib/ordered-list.js",
+        "lib\\ordered-list.js": {
+            "name": "lib\\ordered-list.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/outdent.js": {
-            "name": "lib/outdent.js",
+        "lib\\outdent.js": {
+            "name": "lib\\outdent.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/overlay.js": {
-            "name": "lib/overlay.js",
+        "lib\\overlay.js": {
+            "name": "lib\\overlay.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/page-break.js": {
-            "name": "lib/page-break.js",
+        "lib\\page-break.js": {
+            "name": "lib\\page-break.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/preview.js": {
-            "name": "lib/preview.js",
+        "lib\\preview.js": {
+            "name": "lib\\preview.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/progressbar.js": {
-            "name": "lib/progressbar.js",
+        "lib\\progressbar.js": {
+            "name": "lib\\progressbar.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/remove-format.js": {
-            "name": "lib/remove-format.js",
+        "lib\\remove-format.js": {
+            "name": "lib\\remove-format.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/resize.js": {
-            "name": "lib/resize.js",
+        "lib\\resize.js": {
+            "name": "lib\\resize.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/separator.js": {
-            "name": "lib/separator.js",
+        "lib\\separator.js": {
+            "name": "lib\\separator.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/smiley.js": {
-            "name": "lib/smiley.js",
+        "lib\\smiley.js": {
+            "name": "lib\\smiley.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/source-area.js": {
-            "name": "lib/source-area.js",
+        "lib\\source-area.js": {
+            "name": "lib\\source-area.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/strike-through.js": {
-            "name": "lib/strike-through.js",
+        "lib\\strike-through.js": {
+            "name": "lib\\strike-through.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/table.js": {
-            "name": "lib/table.js",
+        "lib\\table.js": {
+            "name": "lib\\table.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/underline.js": {
-            "name": "lib/underline.js",
+        "lib\\underline.js": {
+            "name": "lib\\underline.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/undo.js": {
-            "name": "lib/undo.js",
+        "lib\\undo.js": {
+            "name": "lib\\undo.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/unordered-list.js": {
-            "name": "lib/unordered-list.js",
+        "lib\\unordered-list.js": {
+            "name": "lib\\unordered-list.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/video.js": {
-            "name": "lib/video.js",
+        "lib\\video.js": {
+            "name": "lib\\video.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/word-filter.js": {
-            "name": "lib/word-filter.js",
+        "lib\\word-filter.js": {
+            "name": "lib\\word-filter.js",
             "modules": {},
             "classes": {},
             "fors": {},
             "namespaces": {}
         },
-        "lib/xiami-music.js": {
-            "name": "lib/xiami-music.js",
+        "lib\\xiami-music.js": {
+            "name": "lib\\xiami-music.js",
             "modules": {},
             "classes": {},
             "fors": {},
@@ -1058,7 +1681,7 @@
             "fors": {},
             "namespaces": {},
             "tag": "module",
-            "file": "guide/src-api/back-color.js",
+            "file": "guide\\src-api\\back-color.js",
             "line": 5
         },
         "bold": {
@@ -1070,7 +1693,7 @@
             "fors": {},
             "namespaces": {},
             "tag": "module",
-            "file": "guide/src-api/bold.js",
+            "file": "guide\\src-api\\bold.js",
             "line": 5
         },
         "button": {
@@ -1082,7 +1705,7 @@
             "fors": {},
             "namespaces": {},
             "tag": "module",
-            "file": "guide/src-api/button.js",
+            "file": "guide\\src-api\\button.js",
             "line": 5
         },
         "checkbox-source-area": {
@@ -1094,7 +1717,7 @@
             "fors": {},
             "namespaces": {},
             "tag": "module",
-            "file": "guide/src-api/checkbox-source-area.js",
+            "file": "guide\\src-api\\checkbox-source-area.js",
             "line": 5
         },
         "code": {
@@ -1106,7 +1729,7 @@
             "fors": {},
             "namespaces": {},
             "tag": "module",
-            "file": "guide/src-api/code.js",
+            "file": "guide\\src-api\\code.js",
             "line": 5
         },
         "draft": {
@@ -1118,7 +1741,7 @@
             "fors": {},
             "namespaces": {},
             "tag": "module",
-            "file": "guide/src-api/draft.js",
+            "file": "guide\\src-api\\draft.js",
             "line": 5
         },
         "drag-upload": {
@@ -1130,7 +1753,7 @@
             "fors": {},
             "namespaces": {},
             "tag": "module",
-            "file": "guide/src-api/drag-upload.js",
+            "file": "guide\\src-api\\drag-upload.js",
             "line": 5
         },
         "element-path": {
@@ -1142,7 +1765,7 @@
             "fors": {},
             "namespaces": {},
             "tag": "module",
-            "file": "guide/src-api/element-path.js",
+            "file": "guide\\src-api\\element-path.js",
             "line": 5
         },
         "flash": {
@@ -1154,7 +1777,7 @@
             "fors": {},
             "namespaces": {},
             "tag": "module",
-            "file": "guide/src-api/flash.js",
+            "file": "guide\\src-api\\flash.js",
             "line": 5
         },
         "font-color": {
@@ -1166,7 +1789,7 @@
             "fors": {},
             "namespaces": {},
             "tag": "module",
-            "file": "guide/src-api/font-color.js",
+            "file": "guide\\src-api\\font-color.js",
             "line": 5
         },
         "font-family": {
@@ -1178,7 +1801,7 @@
             "fors": {},
             "namespaces": {},
             "tag": "module",
-            "file": "guide/src-api/font-family.js",
+            "file": "guide\\src-api\\font-family.js",
             "line": 5
         },
         "font-size": {
@@ -1190,7 +1813,7 @@
             "fors": {},
             "namespaces": {},
             "tag": "module",
-            "file": "guide/src-api/font-size.js",
+            "file": "guide\\src-api\\font-size.js",
             "line": 5
         },
         "heading": {
@@ -1202,7 +1825,7 @@
             "fors": {},
             "namespaces": {},
             "tag": "module",
-            "file": "guide/src-api/heading.js",
+            "file": "guide\\src-api\\heading.js",
             "line": 5
         },
         "image": {
@@ -1214,7 +1837,7 @@
             "fors": {},
             "namespaces": {},
             "tag": "module",
-            "file": "guide/src-api/image.js",
+            "file": "guide\\src-api\\image.js",
             "line": 5
         },
         "eindent": {
@@ -1226,7 +1849,7 @@
             "fors": {},
             "namespaces": {},
             "tag": "module",
-            "file": "guide/src-api/indent.js",
+            "file": "guide\\src-api\\indent.js",
             "line": 5
         },
         "italic": {
@@ -1238,7 +1861,7 @@
             "fors": {},
             "namespaces": {},
             "tag": "module",
-            "file": "guide/src-api/italic.js",
+            "file": "guide\\src-api\\italic.js",
             "line": 5
         },
         "justify-center": {
@@ -1250,7 +1873,7 @@
             "fors": {},
             "namespaces": {},
             "tag": "module",
-            "file": "guide/src-api/justify-center.js",
+            "file": "guide\\src-api\\justify-center.js",
             "line": 5
         },
         "justify-left": {
@@ -1262,7 +1885,7 @@
             "fors": {},
             "namespaces": {},
             "tag": "module",
-            "file": "guide/src-api/justify-left.js",
+            "file": "guide\\src-api\\justify-left.js",
             "line": 5
         },
         "justify-right": {
@@ -1274,7 +1897,7 @@
             "fors": {},
             "namespaces": {},
             "tag": "module",
-            "file": "guide/src-api/justify-right.js",
+            "file": "guide\\src-api\\justify-right.js",
             "line": 5
         },
         "link": {
@@ -1286,7 +1909,7 @@
             "fors": {},
             "namespaces": {},
             "tag": "module",
-            "file": "guide/src-api/link.js",
+            "file": "guide\\src-api\\link.js",
             "line": 5
         },
         "maximize": {
@@ -1298,7 +1921,7 @@
             "fors": {},
             "namespaces": {},
             "tag": "module",
-            "file": "guide/src-api/maximize.js",
+            "file": "guide\\src-api\\maximize.js",
             "line": 5
         },
         "multiple-upload": {
@@ -1310,7 +1933,7 @@
             "fors": {},
             "namespaces": {},
             "tag": "module",
-            "file": "guide/src-api/multiple-upload.js",
+            "file": "guide\\src-api\\multiple-upload.js",
             "line": 5
         },
         "ordered-list": {
@@ -1322,7 +1945,7 @@
             "fors": {},
             "namespaces": {},
             "tag": "module",
-            "file": "guide/src-api/ordered-list.js",
+            "file": "guide\\src-api\\ordered-list.js",
             "line": 5
         },
         "outdent": {
@@ -1334,7 +1957,7 @@
             "fors": {},
             "namespaces": {},
             "tag": "module",
-            "file": "guide/src-api/outdent.js",
+            "file": "guide\\src-api\\outdent.js",
             "line": 5
         },
         "page-break": {
@@ -1346,7 +1969,7 @@
             "fors": {},
             "namespaces": {},
             "tag": "module",
-            "file": "guide/src-api/page-break.js",
+            "file": "guide\\src-api\\page-break.js",
             "line": 5
         },
         "preview": {
@@ -1358,7 +1981,7 @@
             "fors": {},
             "namespaces": {},
             "tag": "module",
-            "file": "guide/src-api/preview.js",
+            "file": "guide\\src-api\\preview.js",
             "line": 5
         },
         "remove-format": {
@@ -1370,7 +1993,7 @@
             "fors": {},
             "namespaces": {},
             "tag": "module",
-            "file": "guide/src-api/remove-format.js",
+            "file": "guide\\src-api\\remove-format.js",
             "line": 5
         },
         "resize": {
@@ -1382,7 +2005,7 @@
             "fors": {},
             "namespaces": {},
             "tag": "module",
-            "file": "guide/src-api/resize.js",
+            "file": "guide\\src-api\\resize.js",
             "line": 5
         },
         "separator": {
@@ -1394,7 +2017,7 @@
             "fors": {},
             "namespaces": {},
             "tag": "module",
-            "file": "guide/src-api/separator.js",
+            "file": "guide\\src-api\\separator.js",
             "line": 5
         },
         "smiley": {
@@ -1406,7 +2029,7 @@
             "fors": {},
             "namespaces": {},
             "tag": "module",
-            "file": "guide/src-api/smiley.js",
+            "file": "guide\\src-api\\smiley.js",
             "line": 5
         },
         "source-area": {
@@ -1418,7 +2041,7 @@
             "fors": {},
             "namespaces": {},
             "tag": "module",
-            "file": "guide/src-api/source-area.js",
+            "file": "guide\\src-api\\source-area.js",
             "line": 5
         },
         "strike-through": {
@@ -1430,7 +2053,7 @@
             "fors": {},
             "namespaces": {},
             "tag": "module",
-            "file": "guide/src-api/strike-through.js",
+            "file": "guide\\src-api\\strike-through.js",
             "line": 5
         },
         "table": {
@@ -1442,7 +2065,7 @@
             "fors": {},
             "namespaces": {},
             "tag": "module",
-            "file": "guide/src-api/table.js",
+            "file": "guide\\src-api\\table.js",
             "line": 5
         },
         "underline": {
@@ -1454,7 +2077,7 @@
             "fors": {},
             "namespaces": {},
             "tag": "module",
-            "file": "guide/src-api/underline.js",
+            "file": "guide\\src-api\\underline.js",
             "line": 5
         },
         "undo": {
@@ -1466,7 +2089,7 @@
             "fors": {},
             "namespaces": {},
             "tag": "module",
-            "file": "guide/src-api/undo.js",
+            "file": "guide\\src-api\\undo.js",
             "line": 5
         },
         "unordered-list": {
@@ -1478,7 +2101,7 @@
             "fors": {},
             "namespaces": {},
             "tag": "module",
-            "file": "guide/src-api/unordered-list.js",
+            "file": "guide\\src-api\\unordered-list.js",
             "line": 5
         },
         "video": {
@@ -1490,7 +2113,7 @@
             "fors": {},
             "namespaces": {},
             "tag": "module",
-            "file": "guide/src-api/video.js",
+            "file": "guide\\src-api\\video.js",
             "line": 5
         },
         "xiami-music": {
@@ -1502,7 +2125,7 @@
             "fors": {},
             "namespaces": {},
             "tag": "module",
-            "file": "guide/src-api/xiami-music.js",
+            "file": "guide\\src-api\\xiami-music.js",
             "line": 5
         }
     },
@@ -1517,7 +2140,7 @@
             "extension_for": [],
             "module": "back-color",
             "namespace": "",
-            "file": "guide/src-api/back-color.js",
+            "file": "guide\\src-api\\back-color.js",
             "line": 5,
             "description": "编辑器的背景色插件\n\n### 提供的Commands\n- backColor\n\t- 参数 color {String}  颜色的 16 进制字符串。例如 ‘#ffffff’\n\n调用命令方式：\n```\neditor.execCommand(\"backColor\",'#ffffffff'); // 设置选区背景为白色\n```",
             "is_constructor": 1,
@@ -1535,7 +2158,7 @@
             "extension_for": [],
             "module": "bold",
             "namespace": "",
-            "file": "guide/src-api/bold.js",
+            "file": "guide\\src-api\\bold.js",
             "line": 5,
             "description": "编辑器的字体加粗插件\n\n### 提供的Commands\n- bold\n\n```\n//调用命令方式\n\neditor.execCommand(\"bold\"); // 设置选区文字加粗\n\neditor.execCommand(\"bold\"); // 取消选区文字加粗\n\neditor.queryCommandValue(\"bold\") //=>false\n```"
         },
@@ -1549,7 +2172,7 @@
             "extension_for": [],
             "module": "button",
             "namespace": "",
-            "file": "guide/src-api/button.js",
+            "file": "guide\\src-api\\button.js",
             "line": 5,
             "description": "编辑器的按钮插件，加载后为 Editor 拓展 addButton 方法(为编辑器工具栏增加一个按钮. 一般用于插件编写.)。而这个插件模块提供的接口就是 button 模块的接口",
             "is_constructor": 1,
@@ -1567,7 +2190,7 @@
             "extension_for": [],
             "module": "checkbox-source-area",
             "namespace": "",
-            "file": "guide/src-api/checkbox-source-area.js",
+            "file": "guide\\src-api\\checkbox-source-area.js",
             "line": 5,
             "description": "编辑器的框选切换源码插件\n```\nKISSY.use('editor',function(S,Editor){\n    S.use('kg/editor-plugins/当前版本号/checkbox-source-area',function(S,checkBoxSourceArea){\n        // use\n    });\n});\n```"
         },
@@ -1581,7 +2204,7 @@
             "extension_for": [],
             "module": "code",
             "namespace": "",
-            "file": "guide/src-api/code.js",
+            "file": "guide\\src-api\\code.js",
             "line": 5,
             "description": "编辑器的代码插件"
         },
@@ -1595,7 +2218,7 @@
             "extension_for": [],
             "module": "draft",
             "namespace": "",
-            "file": "guide/src-api/draft.js",
+            "file": "guide\\src-api\\draft.js",
             "line": 5,
             "description": "编辑器的草稿箱插件\n```\nKISSY.use('editor',function(S,Editor){\n    S.use('kg/editor-plugins/当前本版号/draft',function(S,Draft){\n        // use\n    });\n});\n```",
             "is_constructor": 1,
@@ -1620,7 +2243,7 @@
             "extension_for": [],
             "module": "drag-upload",
             "namespace": "",
-            "file": "guide/src-api/drag-upload.js",
+            "file": "guide\\src-api\\drag-upload.js",
             "line": 5,
             "description": "编辑器的拖放上传插件",
             "is_constructor": 1,
@@ -1642,7 +2265,7 @@
             "extension_for": [],
             "module": "element-path",
             "namespace": "",
-            "file": "guide/src-api/element-path.js",
+            "file": "guide\\src-api\\element-path.js",
             "line": 5,
             "description": "编辑器的节点路径插件\n### 推荐仅用于调试开发，不要给用户使用."
         },
@@ -1656,7 +2279,7 @@
             "extension_for": [],
             "module": "flash",
             "namespace": "",
-            "file": "guide/src-api/flash.js",
+            "file": "guide\\src-api\\flash.js",
             "line": 5,
             "description": "编辑器的拖放上传插件",
             "is_constructor": 1,
@@ -1681,7 +2304,7 @@
             "extension_for": [],
             "module": "font-color",
             "namespace": "",
-            "file": "guide/src-api/font-color.js",
+            "file": "guide\\src-api\\font-color.js",
             "line": 5,
             "description": "编辑器的字体颜色插件\n\n### 提供的Commands\n- foreColor 对选区设置字体颜色\n\t- 参数 color (String) – 颜色的 16 进制字符串。例如 ‘#ffffff’\n实例：\n```\neditor.execCommand(\"foreColor\",'#ffffffff'); // 设置选区字体颜色为白色\n```"
         },
@@ -1695,7 +2318,7 @@
             "extension_for": [],
             "module": "font-family",
             "namespace": "",
-            "file": "guide/src-api/font-family.js",
+            "file": "guide\\src-api\\font-family.js",
             "line": 5,
             "description": "编辑器的字体选择插件\n\n### 提供的Commands\n- fontFamily 对选区文字设置或取消指定的字体.\n支持 queryCommandValue，返回当前元素是否被设置了对应字体\n\t- 参数 fontFamily (String) – 指定字体值.\n实例：\n```\neditor.execCommand(\"fontFamily\",\"SimSun\"); //=> 设置选区文字为宋体.\neditor.execCommand(\"fontFamily\",\"SimSun\"); //=> 取消设置选区文字为宋体.\neditor.queryCommandValue(\"fontFamily\"); //=> 返回 \"SimSun\";\n```",
             "is_constructor": 1,
@@ -1717,7 +2340,7 @@
             "extension_for": [],
             "module": "font-size",
             "namespace": "",
-            "file": "guide/src-api/font-size.js",
+            "file": "guide\\src-api\\font-size.js",
             "line": 5,
             "description": "编辑器的字体大小插件\n\n### 提供的Commands\n- fontSize 对选区文字设置或取消指定的字体大小\n支持 queryCommandValue，返回当前元素是否被设置了对应大小\n\t- 参数 fontSize (String) – 指定字体大小值.\n实例：\n```\neditor.execCommand(\"fontSize\",\"10px\"); //=> 设置选区文字大小为10px.\neditor.execCommand(\"fontSize\",\"10px\"); //=> 取消设置选区文字大小为10px.\neditor.queryCommandValue(\"fontSize\"); //=> 返回 10px\n```",
             "is_constructor": 1,
@@ -1739,7 +2362,7 @@
             "extension_for": [],
             "module": "heading",
             "namespace": "",
-            "file": "guide/src-api/heading.js",
+            "file": "guide\\src-api\\heading.js",
             "line": 5,
             "description": "编辑器的标题插件\n\n### 提供的Commands\n- heading 对选区设置或取消标题的插件\n支持 queryCommandValue，返回选区设置标题\n\t- 参数 tag (String) – 标题的标签名称。例如 ‘h1’,’p’\n实例：\n```\neditor.execCommand(\"heading\",'h1');\n```"
         },
@@ -1753,7 +2376,7 @@
             "extension_for": [],
             "module": "image",
             "namespace": "",
-            "file": "guide/src-api/image.js",
+            "file": "guide\\src-api\\image.js",
             "line": 5,
             "description": "编辑器的插入图片插件",
             "is_constructor": 1,
@@ -1778,7 +2401,7 @@
             "extension_for": [],
             "module": "eindent",
             "namespace": "",
-            "file": "guide/src-api/indent.js",
+            "file": "guide\\src-api\\indent.js",
             "line": 5,
             "description": "编辑器的缩进插件\n\n### Commands\n- indent 对选区缩进"
         },
@@ -1792,7 +2415,7 @@
             "extension_for": [],
             "module": "italic",
             "namespace": "",
-            "file": "guide/src-api/italic.js",
+            "file": "guide\\src-api\\italic.js",
             "line": 5,
             "description": "编辑器的斜体插件\n\n### Commands\n- italic 对选区文字设置斜体或取消斜体,支持 queryCommandValue，返回当前路径是否是斜体覆盖"
         },
@@ -1806,7 +2429,7 @@
             "extension_for": [],
             "module": "justify-center",
             "namespace": "",
-            "file": "guide/src-api/justify-center.js",
+            "file": "guide\\src-api\\justify-center.js",
             "line": 5,
             "description": "编辑器的居中对齐插件\n\n### Commands\n- justifyCenter 对选区文字居中或取消.支持 queryCommandValue，返回选区是否居中"
         },
@@ -1820,7 +2443,7 @@
             "extension_for": [],
             "module": "justify-left",
             "namespace": "",
-            "file": "guide/src-api/justify-left.js",
+            "file": "guide\\src-api\\justify-left.js",
             "line": 5,
             "description": "编辑器的居左对齐插件\n\n### Commands\n- justifyLeft 对选区文字居左或取消.支持 queryCommandValue，返回选区是否居左"
         },
@@ -1834,7 +2457,7 @@
             "extension_for": [],
             "module": "justify-right",
             "namespace": "",
-            "file": "guide/src-api/justify-right.js",
+            "file": "guide\\src-api\\justify-right.js",
             "line": 5,
             "description": "编辑器的居右对齐插件\n\n### Commands\n- justifyRight 对选区文字居右或取消.支持 queryCommandValue，返回选区是否居右"
         },
@@ -1848,7 +2471,7 @@
             "extension_for": [],
             "module": "link",
             "namespace": "",
-            "file": "guide/src-api/link.js",
+            "file": "guide\\src-api\\link.js",
             "line": 5,
             "description": "编辑器的链接插件",
             "is_constructor": 1,
@@ -1870,7 +2493,7 @@
             "extension_for": [],
             "module": "maximize",
             "namespace": "",
-            "file": "guide/src-api/maximize.js",
+            "file": "guide\\src-api\\maximize.js",
             "line": 5,
             "description": "编辑器的全屏插件\n\n### Commands\n- maximizeWindow 窗口最大化\n- restoreWindow 窗口最恢复",
             "is_constructor": 1
@@ -1885,7 +2508,7 @@
             "extension_for": [],
             "module": "multiple-upload",
             "namespace": "",
-            "file": "guide/src-api/multiple-upload.js",
+            "file": "guide\\src-api\\multiple-upload.js",
             "line": 5,
             "description": "编辑器的批量上传插件\n\n### Note\n- 该插件使用 flash 技术, 必须在根域名下提供 crossdomain.xml , 例如 http://www.taobao.com/crossdomain.xml , 内容如下\n```\n<cross-domain-policy>\n    <allow-access-from domain=\"*.taobao.com\"/>\n    <allow-access-from domain=\"*.taobao.net\"/>\n    <allow-access-from domain=\"*.taobaocdn.com\"/>\n    <allow-access-from domain=\"*.tbcdn.cn\"/>\n    <allow-access-from domain=\"*.allyes.com\"/>\n</cross-domain-policy>\n```\n- serverUrl 必须使用绝对地址, 否则如果编辑器组件和应用页面不在同一个hostname时, firefox下请求会发到编辑器组件所在的hostname.\n- 多图上传在非 ie 下并不会携带 cookie，如确实需要可通过 serverParams 传递：\n```\nserverParams: {\n    cookie: function () {\n        return document.cookie;\n    }\n}\n```",
             "is_constructor": 1,
@@ -1907,7 +2530,7 @@
             "extension_for": [],
             "module": "ordered-list",
             "namespace": "",
-            "file": "guide/src-api/ordered-list.js",
+            "file": "guide\\src-api\\ordered-list.js",
             "line": 5,
             "description": "编辑器的有序列表插件\n\n### Commands\n- insertOrderedList 对选区设置或取消为有序列表.支持 queryCommandValue，返回选区是否是有序列表"
         },
@@ -1921,7 +2544,7 @@
             "extension_for": [],
             "module": "outdent",
             "namespace": "",
-            "file": "guide/src-api/outdent.js",
+            "file": "guide\\src-api\\outdent.js",
             "line": 5,
             "description": "编辑器的缩出插件\n\n### Commands\n- outdent 对选区缩出 支持 queryCommandValue，返回当前路径是否可以缩出"
         },
@@ -1935,7 +2558,7 @@
             "extension_for": [],
             "module": "page-break",
             "namespace": "",
-            "file": "guide/src-api/page-break.js",
+            "file": "guide\\src-api\\page-break.js",
             "line": 5,
             "description": "编辑器的分页符插件"
         },
@@ -1949,7 +2572,7 @@
             "extension_for": [],
             "module": "preview",
             "namespace": "",
-            "file": "guide/src-api/preview.js",
+            "file": "guide\\src-api\\preview.js",
             "line": 5,
             "description": "编辑器的预览插件"
         },
@@ -1963,7 +2586,7 @@
             "extension_for": [],
             "module": "remove-format",
             "namespace": "",
-            "file": "guide/src-api/remove-format.js",
+            "file": "guide\\src-api\\remove-format.js",
             "line": 5,
             "description": "编辑器的清除格式插件\n\n### Commands\n- removeFormat 对选区清除格式."
         },
@@ -1977,7 +2600,7 @@
             "extension_for": [],
             "module": "resize",
             "namespace": "",
-            "file": "guide/src-api/resize.js",
+            "file": "guide\\src-api\\resize.js",
             "line": 5,
             "description": "编辑器的调整大小插件",
             "is_constructor": 1,
@@ -2002,7 +2625,7 @@
             "extension_for": [],
             "module": "separator",
             "namespace": "",
-            "file": "guide/src-api/separator.js",
+            "file": "guide\\src-api\\separator.js",
             "line": 5,
             "description": "编辑器的分隔符插件"
         },
@@ -2016,7 +2639,7 @@
             "extension_for": [],
             "module": "smiley",
             "namespace": "",
-            "file": "guide/src-api/smiley.js",
+            "file": "guide\\src-api\\smiley.js",
             "line": 5,
             "description": "编辑器的表情插件"
         },
@@ -2030,7 +2653,7 @@
             "extension_for": [],
             "module": "source-area",
             "namespace": "",
-            "file": "guide/src-api/source-area.js",
+            "file": "guide\\src-api\\source-area.js",
             "line": 5,
             "description": "编辑器的源码按钮插件"
         },
@@ -2044,7 +2667,7 @@
             "extension_for": [],
             "module": "strike-through",
             "namespace": "",
-            "file": "guide/src-api/strike-through.js",
+            "file": "guide\\src-api\\strike-through.js",
             "line": 5,
             "description": "编辑器的字体删除线插件\n\n### Commands\n- strikeThrough 对选区文字删除线或取消.支持 queryCommandValue，返回当前路径是否被删除线覆盖"
         },
@@ -2058,7 +2681,7 @@
             "extension_for": [],
             "module": "table",
             "namespace": "",
-            "file": "guide/src-api/table.js",
+            "file": "guide\\src-api\\table.js",
             "line": 5,
             "description": "编辑器的表格插件"
         },
@@ -2072,7 +2695,7 @@
             "extension_for": [],
             "module": "underline",
             "namespace": "",
-            "file": "guide/src-api/underline.js",
+            "file": "guide\\src-api\\underline.js",
             "line": 5,
             "description": "编辑器的字体下划线插件\n\n### Commands\n- underline 对选区文字下划线或取消.支持 queryCommandValue，返回当前路径是否被下划线覆盖"
         },
@@ -2086,7 +2709,7 @@
             "extension_for": [],
             "module": "undo",
             "namespace": "",
-            "file": "guide/src-api/undo.js",
+            "file": "guide\\src-api\\undo.js",
             "line": 5,
             "description": "编辑器的编辑历史管理插件\n\n### Commands\n- save 将当前内容存入历史\n- undo 回退到上一个编辑历史\n- redo 前进到下一个编辑历史"
         },
@@ -2100,7 +2723,7 @@
             "extension_for": [],
             "module": "unordered-list",
             "namespace": "",
-            "file": "guide/src-api/unordered-list.js",
+            "file": "guide\\src-api\\unordered-list.js",
             "line": 5,
             "description": "编辑器的无序列表插件\n\n### Commands\n- insertUnorderedList 对选区设置为无序列表或取消.支持 queryCommandValue，返回当前路径是否是无序列表"
         },
@@ -2114,7 +2737,7 @@
             "extension_for": [],
             "module": "video",
             "namespace": "",
-            "file": "guide/src-api/video.js",
+            "file": "guide\\src-api\\video.js",
             "line": 5,
             "description": "编辑器的插入图片插件",
             "is_constructor": 1,
@@ -2136,14 +2759,661 @@
             "extension_for": [],
             "module": "xiami-music",
             "namespace": "",
-            "file": "guide/src-api/xiami-music.js",
+            "file": "guide\\src-api\\xiami-music.js",
             "line": 5,
             "description": "编辑器的虾米音乐插件"
         }
     },
     "classitems": [
         {
-            "file": "guide/src-api/draft.js",
+            "file": "build\\back-color\\cmd-debug.js",
+            "line": 2,
+            "ignore": "backColor command.",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\bold\\cmd-debug.js",
+            "line": 2,
+            "ignore": "bold command.",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\code\\dialog-debug.js",
+            "line": 2,
+            "ignore": "insert program code dialog",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\color\\btn-debug.js",
+            "line": 2,
+            "ignore": "color button.",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\color\\cmd-debug.js",
+            "line": 2,
+            "ignore": "color command.",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\color\\dialog-debug.js",
+            "line": 2,
+            "ignore": "color picker",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\flash\\dialog-debug.js",
+            "line": 2,
+            "ignore": "flash dialog",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\flash-common\\base-class-debug.js",
+            "line": 2,
+            "ignore": "BaseClass for Flash Based plugin.",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\flash-common\\utils-debug.js",
+            "line": 2,
+            "ignore": "flash utilities",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\font\\cmd-debug.js",
+            "line": 2,
+            "ignore": "font command.",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\font\\ui-debug.js",
+            "line": 2,
+            "ignore": "font formatting for kissy editor",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\font-family\\cmd-debug.js",
+            "line": 2,
+            "ignore": "fontFamily command.",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\font-size\\cmd-debug.js",
+            "line": 2,
+            "ignore": "fontSize command.",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\fore-color\\cmd-debug.js",
+            "line": 2,
+            "ignore": "foreColor command.",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\heading\\cmd-debug.js",
+            "line": 2,
+            "ignore": "Adds a heading tag around a selection or insertion point line.\nRequires the tag-name string to be passed in as a value argument (i.e. \"H1\", \"H6\")",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\image\\dialog-debug.js",
+            "line": 2,
+            "ignore": "image dialog (support upload and remote)",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\indent\\cmd-debug.js",
+            "line": 2,
+            "ignore": "Add indent and outdent command identifier for KISSY Editor.",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\italic\\cmd-debug.js",
+            "line": 2,
+            "ignore": "italic command.",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\justify-center\\cmd-debug.js",
+            "line": 2,
+            "ignore": "Add justifyCenter command identifier for Editor.",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\justify-left\\cmd-debug.js",
+            "line": 2,
+            "ignore": "Add justifyCenter command identifier for Editor.",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\justify-right\\cmd-debug.js",
+            "line": 2,
+            "ignore": "Add justifyCenter command identifier for Editor.",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\link\\dialog-debug.js",
+            "line": 2,
+            "ignore": "link dialog",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\link\\utils-debug.js",
+            "line": 2,
+            "ignore": "link utils",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\list-utils\\btn-debug.js",
+            "line": 2,
+            "ignore": "Common btn for list.",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\list-utils\\cmd-debug.js",
+            "line": 2,
+            "ignore": "Add ul and ol command identifier for KISSY Editor.",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\maximize\\cmd-debug.js",
+            "line": 2,
+            "ignore": "Add maximizeWindow/restoreWindow to Editor.",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\ordered-list\\cmd-debug.js",
+            "line": 2,
+            "ignore": "orderedList command",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\outdent\\cmd-debug.js",
+            "line": 2,
+            "ignore": "Add indent and outdent command identifier for KISSY Editor.",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\remove-format\\cmd-debug.js",
+            "line": 2,
+            "ignore": "Add remove-format command for KISSY Editor.",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\strike-through\\cmd-debug.js",
+            "line": 2,
+            "ignore": "strike-through command",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\table\\dialog-debug.js",
+            "line": 2,
+            "ignore": "table dialog",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\underline\\cmd-debug.js",
+            "line": 2,
+            "ignore": "underline command",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\undo\\btn-debug.js",
+            "line": 2,
+            "ignore": "undo button",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\undo\\cmd-debug.js",
+            "line": 2,
+            "ignore": "undo,redo manager for kissy editor",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\undo\\cmd-debug.js",
+            "line": 50,
+            "description": "编辑器状态历史保存",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\undo\\cmd-debug.js",
+            "line": 123,
+            "description": "save to history",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\undo\\cmd-debug.js",
+            "line": 167,
+            "description": "restore from history",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\unordered-list\\cmd-debug.js",
+            "line": 2,
+            "ignore": "ol command",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\video\\dialog-debug.js",
+            "line": 2,
+            "ignore": "video dialog",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\xiami-music\\dialog-debug.js",
+            "line": 2,
+            "ignore": "xiami-music dialog",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\back-color-debug.js",
+            "line": 2,
+            "ignore": "backColor button.",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\bold-debug.js",
+            "line": 2,
+            "ignore": "bold command.",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\bubble-debug.js",
+            "line": 2,
+            "ignore": "bubble or tip view for kissy editor",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\button-debug.js",
+            "line": 2,
+            "ignore": "Encapsulate KISSY toggle button for kissy editor",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\checkbox-source-area-debug.js",
+            "line": 2,
+            "ignore": "checkbox source editor for kissy editor",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\code-debug.js",
+            "line": 2,
+            "ignore": "insert program code",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\contextmenu-debug.js",
+            "line": 2,
+            "ignore": "contextmenu for kissy editor",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\dent-cmd-debug.js",
+            "line": 2,
+            "ignore": "Add indent and outdent command identifier for KISSY Editor.",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\dialog-debug.js",
+            "line": 2,
+            "ignore": "custom dialog for kissy editor",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\dialog-loader-debug.js",
+            "line": 2,
+            "ignore": "load editor's dialog dynamically",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\draft-debug.js",
+            "line": 2,
+            "ignore": "draft for kissy editor",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\drag-upload-debug.js",
+            "line": 2,
+            "ignore": "drag file support for html5 file&dd",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\drag-upload-debug.js",
+            "line": 175,
+            "ignore": "refer:\n- http://www.html5rocks.com/tutorials/file/filesystem/\n- http://yiminghe.iteye.com/blog/848613",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\element-path-debug.js",
+            "line": 2,
+            "ignore": "ElementPath for debug.",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\fake-objects-debug.js",
+            "line": 2,
+            "ignore": "fakeObjects for music ,video,flash",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\flash-bridge-debug.js",
+            "line": 2,
+            "ignore": "simplified flash bridge for yui swf",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\flash-debug.js",
+            "line": 2,
+            "ignore": "Add flash plugin.",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\focus-fix-debug.js",
+            "line": 2,
+            "ignore": "save and restore focus when overlay shows or hides",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\font-family-debug.js",
+            "line": 2,
+            "ignore": "font formatting for kissy editor",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\font-size-debug.js",
+            "line": 2,
+            "ignore": "font formatting for kissy editor",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\fore-color-debug.js",
+            "line": 2,
+            "ignore": "foreColor button.",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\heading-debug.js",
+            "line": 2,
+            "ignore": "Heading plugin for KISSY.",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\image-debug.js",
+            "line": 2,
+            "ignore": "insert image for kissy editor",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\indent-debug.js",
+            "line": 2,
+            "ignore": "Add indent button.",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\italic-debug.js",
+            "line": 2,
+            "ignore": "italic button.",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\justify-center-debug.js",
+            "line": 2,
+            "ignore": "justifyCenter button.",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\justify-cmd-debug.js",
+            "line": 2,
+            "ignore": "Add justify command identifier for Editor.",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\justify-left-debug.js",
+            "line": 2,
+            "ignore": "justifyLeft button.",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\justify-right-debug.js",
+            "line": 2,
+            "ignore": "justifyRight button.",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\link-debug.js",
+            "line": 2,
+            "ignore": "link editor support for kissy editor ,innovation from google doc and ckeditor",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\list-utils-debug.js",
+            "line": 2,
+            "ignore": "list Utils",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\local-storage-debug.js",
+            "line": 2,
+            "ignore": "localStorage support for ie<8",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\maximize-debug.js",
+            "line": 2,
+            "ignore": "Maximize plugin",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\menubutton-debug.js",
+            "line": 2,
+            "ignore": "select component for kissy editor.",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\ordered-list-debug.js",
+            "line": 2,
+            "ignore": "Add ul/ol button.",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\outdent-debug.js",
+            "line": 2,
+            "ignore": "Add indent button.",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\overlay-debug.js",
+            "line": 2,
+            "ignore": "custom overlay  for kissy editor",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\page-break-debug.js",
+            "line": 2,
+            "ignore": "pagebreak functionality",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\preview-debug.js",
+            "line": 2,
+            "ignore": "preview for kissy editor",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\progressbar-debug.js",
+            "line": 2,
+            "ignore": "progressbar ui",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\remove-format-debug.js",
+            "line": 2,
+            "ignore": "removeFormat for selection.",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\resize-debug.js",
+            "line": 2,
+            "ignore": "resize functionality",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\separator-debug.js",
+            "line": 2,
+            "ignore": "separator for button",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\smiley-debug.js",
+            "line": 2,
+            "ignore": "smiley button",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\source-area-debug.js",
+            "line": 2,
+            "ignore": "source editor for kissy editor",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\strike-through-debug.js",
+            "line": 2,
+            "ignore": "strikeThrough button",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\table-debug.js",
+            "line": 2,
+            "ignore": "Add table plugin for KISSY.",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\underline-debug.js",
+            "line": 2,
+            "ignore": "underline button",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\undo-debug.js",
+            "line": 2,
+            "ignore": "undo button",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\unordered-list-debug.js",
+            "line": 2,
+            "ignore": "Add ul/ol button.",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\video-debug.js",
+            "line": 2,
+            "ignore": "video button.",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\word-filter-debug.js",
+            "line": 2,
+            "ignore": "clean html pasted from word. modified from ckeditor.",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\xiami-music-debug.js",
+            "line": 2,
+            "ignore": "xiami-music button",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "guide\\src-api\\draft.js",
             "line": 30,
             "description": "可选。本地存储时的内容的键名。用于区分多编辑器。",
             "itemtype": "attribute",
@@ -2153,7 +3423,7 @@
             "module": "draft"
         },
         {
-            "file": "guide/src-api/draft.js",
+            "file": "guide\\src-api\\draft.js",
             "line": 35,
             "description": "可选。本地存储的用户提示信息.",
             "itemtype": "attribute",
@@ -2163,7 +3433,7 @@
             "module": "draft"
         },
         {
-            "file": "guide/src-api/draft.js",
+            "file": "guide\\src-api\\draft.js",
             "line": 40,
             "description": "单位秒，可选，默认 5。定时保存的间隔。",
             "itemtype": "attribute",
@@ -2174,7 +3444,7 @@
             "module": "draft"
         },
         {
-            "file": "guide/src-api/draft.js",
+            "file": "guide\\src-api\\draft.js",
             "line": 46,
             "description": "单位秒，可选，默认 10。草稿箱最多草稿条数.",
             "itemtype": "attribute",
@@ -2185,7 +3455,7 @@
             "module": "draft"
         },
         {
-            "file": "guide/src-api/drag-upload.js",
+            "file": "guide\\src-api\\drag-upload.js",
             "line": 12,
             "description": "可选，默认 “Filedata”。上传文件域的名字.",
             "itemtype": "attribute",
@@ -2196,7 +3466,7 @@
             "module": "drag-upload"
         },
         {
-            "file": "guide/src-api/drag-upload.js",
+            "file": "guide\\src-api\\drag-upload.js",
             "line": 18,
             "description": "可选，单位 kb，默认无限制。上传文件大小限制.",
             "itemtype": "attribute",
@@ -2206,7 +3476,7 @@
             "module": "drag-upload"
         },
         {
-            "file": "guide/src-api/drag-upload.js",
+            "file": "guide\\src-api\\drag-upload.js",
             "line": 23,
             "description": "可选。附带传给 server 的参数 json 对象。",
             "itemtype": "attribute",
@@ -2216,7 +3486,7 @@
             "module": "drag-upload"
         },
         {
-            "file": "guide/src-api/drag-upload.js",
+            "file": "guide\\src-api\\drag-upload.js",
             "line": 28,
             "description": "比选。上传服务器地址。",
             "itemtype": "attribute",
@@ -2226,7 +3496,7 @@
             "module": "drag-upload"
         },
         {
-            "file": "guide/src-api/drag-upload.js",
+            "file": "guide\\src-api\\drag-upload.js",
             "line": 33,
             "description": "可选，默认 “png,jpg,jpeg,gif”。允许上传的文件后缀名列表，逗号分割.",
             "itemtype": "attribute",
@@ -2236,7 +3506,7 @@
             "module": "drag-upload"
         },
         {
-            "file": "guide/src-api/flash.js",
+            "file": "guide\\src-api\\flash.js",
             "line": 20,
             "description": "可选。插入 Flash 的默认宽度.",
             "itemtype": "attribute",
@@ -2247,7 +3517,7 @@
             "module": "flash"
         },
         {
-            "file": "guide/src-api/flash.js",
+            "file": "guide\\src-api\\flash.js",
             "line": 26,
             "description": "可选。插入 Flash 的默认高度.",
             "itemtype": "attribute",
@@ -2258,7 +3528,7 @@
             "module": "flash"
         },
         {
-            "file": "guide/src-api/font-family.js",
+            "file": "guide\\src-api\\font-family.js",
             "line": 23,
             "description": "可选。字体下拉菜单的名称和值集合。默认：\n```\n[\n    //ie 不认识中文？？？\n    {\n        content:\"宋体\",\n        value:\"SimSun\"\n    },\n    {\n        content:\"黑体\",\n        value:\"SimHei\"\n    },\n    {\n        content:\"隶书\",\n        value:\"LiSu\"\n    },\n    {\n        content:\"楷体\",\n        value:\"KaiTi_GB2312\"\n    },\n    {\n        content:\"微软雅黑\",\n        value:\"Microsoft YaHei\"\n    },\n    {\n        content:\"Georgia\",\n        value:\"Georgia\"\n    },\n    {\n        content:\"Times New Roman\",\n        value:\"Times New Roman\"\n    },\n    {\n        content:\"Impact\",\n        value:\"Impact\"\n    },\n    {\n        content:\"Courier New\",\n        value:\"Courier New\"\n    },\n    {\n        content:\"Arial\",\n        value:\"Arial\"\n    },\n    {\n        content:\"Verdana\",\n        value:\"Verdana\"\n    },\n    {\n        content:\"Tahoma\",\n        value:\"Tahoma\"\n    }\n]\n```",
             "itemtype": "attribute",
@@ -2268,7 +3538,7 @@
             "module": "font-family"
         },
         {
-            "file": "guide/src-api/font-family.js",
+            "file": "guide\\src-api\\font-family.js",
             "line": 81,
             "description": "可选。下拉菜单的宽度，默认 “130px”.",
             "itemtype": "attribute",
@@ -2279,7 +3549,7 @@
             "module": "font-family"
         },
         {
-            "file": "guide/src-api/font-size.js",
+            "file": "guide\\src-api\\font-size.js",
             "line": 23,
             "description": "可选。字体大小下拉菜单的名称和值集合，默认包括 “8px”,”10px” 等。例如：\n```\n[\n    //ie 不认识中文？？？\n    {\n        content:\"较大\",\n        value:\"20px\"\n    },\n    {\n        content:\"较小\",\n        value:\"10px\"\n    }\n]\n```",
             "itemtype": "attribute",
@@ -2290,7 +3560,7 @@
             "module": "font-size"
         },
         {
-            "file": "guide/src-api/font-size.js",
+            "file": "guide\\src-api\\font-size.js",
             "line": 42,
             "description": "可选。下拉菜单的宽度，默认 “55px”.",
             "itemtype": "attribute",
@@ -2302,7 +3572,7 @@
             "module": "font-size"
         },
         {
-            "file": "guide/src-api/image.js",
+            "file": "guide\\src-api\\image.js",
             "line": 54,
             "description": "图片配置，如果设为 false ，则图片弹层中网络图片 tab 消失",
             "itemtype": "attribute",
@@ -2311,7 +3581,7 @@
             "module": "image"
         },
         {
-            "file": "guide/src-api/image.js",
+            "file": "guide\\src-api\\image.js",
             "line": 59,
             "description": "图片间距，默认为 10",
             "itemtype": "attribute",
@@ -2321,7 +3591,7 @@
             "module": "image"
         },
         {
-            "file": "guide/src-api/image.js",
+            "file": "guide\\src-api\\image.js",
             "line": 65,
             "description": "图片配置，上传图片配置, 不需要上传功能可不配置, 包括以下子配置\n- serverUrl {String} - 接受文件数据的服务器端程序地址, 格式为 multipart/form-data , 返回格式为：\n正确：{“imgUrl”:”http://xx.com/yy.jpg“}\n错误：{“error”:”i am error!”}\n- serverParams {Object} - 键值对. 传给服务器的格外参数, 如果 value 是函数则传递函数执行结果.\n- suffix {String} - 允许图片的后缀名.\n- fileInput {String} - 传给服务器的文件域名.\n- sizeLimit {Number} - 限制上传的文件大小, 单位 KB, ie 下只能作为提示.\n- extraHtml {String} - 放入图片上传区域的其他 html.",
             "itemtype": "attribute",
@@ -2331,7 +3601,7 @@
             "module": "image"
         },
         {
-            "file": "guide/src-api/link.js",
+            "file": "guide\\src-api\\link.js",
             "line": 12,
             "description": "默认为 \"\", 表示在当前窗口打开新链接, 也可以指定 “_blank” , 则可以在新窗口打开链接",
             "itemtype": "attribute",
@@ -2341,7 +3611,7 @@
             "module": "link"
         },
         {
-            "file": "guide/src-api/maximize.js",
+            "file": "guide\\src-api\\maximize.js",
             "line": 15,
             "description": "最大化窗口后触发",
             "itemtype": "event",
@@ -2350,7 +3620,7 @@
             "module": "maximize"
         },
         {
-            "file": "guide/src-api/maximize.js",
+            "file": "guide\\src-api\\maximize.js",
             "line": 20,
             "description": "恢复窗口后触发",
             "itemtype": "event",
@@ -2359,7 +3629,7 @@
             "module": "maximize"
         },
         {
-            "file": "guide/src-api/maximize.js",
+            "file": "guide\\src-api\\maximize.js",
             "line": 25,
             "description": "恢复窗口前触发，返回 false 可阻止最大化",
             "itemtype": "event",
@@ -2368,7 +3638,7 @@
             "module": "maximize"
         },
         {
-            "file": "guide/src-api/maximize.js",
+            "file": "guide\\src-api\\maximize.js",
             "line": 30,
             "description": "最大化窗口前触发，返回 false 可阻止最大化",
             "itemtype": "event",
@@ -2377,7 +3647,7 @@
             "module": "maximize"
         },
         {
-            "file": "guide/src-api/multiple-upload.js",
+            "file": "guide\\src-api\\multiple-upload.js",
             "line": 33,
             "description": "接受文件数据的服务器端程序地址, 格式为 multipart/form-data , 返回格式为：\n- 正确：{“imgUrl”:”http://xx.com/yy.jpg“}\n- 错误：{“error”:”i am error!”}",
             "itemtype": "attribute",
@@ -2387,7 +3657,7 @@
             "module": "multiple-upload"
         },
         {
-            "file": "guide/src-api/multiple-upload.js",
+            "file": "guide\\src-api\\multiple-upload.js",
             "line": 40,
             "description": "键值对. 传给服务器的格外参数, 如果 value 是函数则传递函数执行结果.",
             "itemtype": "attribute",
@@ -2397,7 +3667,7 @@
             "module": "multiple-upload"
         },
         {
-            "file": "guide/src-api/multiple-upload.js",
+            "file": "guide\\src-api\\multiple-upload.js",
             "line": 45,
             "description": "缩略图的后缀。例如原图:http://xx.com/yy.jpg，则加入后缀名时变为：http://xx.com/yy_80x80.jpg",
             "itemtype": "attribute",
@@ -2407,7 +3677,7 @@
             "module": "multiple-upload"
         },
         {
-            "file": "guide/src-api/multiple-upload.js",
+            "file": "guide\\src-api\\multiple-upload.js",
             "line": 50,
             "description": "缩略图的宽度.",
             "itemtype": "attribute",
@@ -2417,7 +3687,7 @@
             "module": "multiple-upload"
         },
         {
-            "file": "guide/src-api/multiple-upload.js",
+            "file": "guide\\src-api\\multiple-upload.js",
             "line": 55,
             "description": "传给服务器的文件域名.",
             "itemtype": "attribute",
@@ -2427,7 +3697,7 @@
             "module": "multiple-upload"
         },
         {
-            "file": "guide/src-api/multiple-upload.js",
+            "file": "guide\\src-api\\multiple-upload.js",
             "line": 60,
             "description": "限制上传的文件大小, 单位 KB.",
             "itemtype": "attribute",
@@ -2437,7 +3707,7 @@
             "module": "multiple-upload"
         },
         {
-            "file": "guide/src-api/multiple-upload.js",
+            "file": "guide\\src-api\\multiple-upload.js",
             "line": 65,
             "description": "可同时显示的图片列表个数.",
             "itemtype": "attribute",
@@ -2447,7 +3717,7 @@
             "module": "multiple-upload"
         },
         {
-            "file": "guide/src-api/multiple-upload.js",
+            "file": "guide\\src-api\\multiple-upload.js",
             "line": 70,
             "description": "放入图片上传区域的其他 html.",
             "itemtype": "attribute",
@@ -2457,7 +3727,7 @@
             "module": "multiple-upload"
         },
         {
-            "file": "guide/src-api/resize.js",
+            "file": "guide\\src-api\\resize.js",
             "line": 23,
             "description": "右下角调整大小的配置",
             "itemtype": "attribute",
@@ -2467,7 +3737,7 @@
             "module": "resize"
         },
         {
-            "file": "guide/src-api/resize.js",
+            "file": "guide\\src-api\\resize.js",
             "line": 28,
             "description": "调整开始时触发",
             "itemtype": "event",
@@ -2476,7 +3746,7 @@
             "module": "resize"
         },
         {
-            "file": "guide/src-api/resize.js",
+            "file": "guide\\src-api\\resize.js",
             "line": 33,
             "description": "调整过程中周期触发",
             "itemtype": "event",
@@ -2485,7 +3755,7 @@
             "module": "resize"
         },
         {
-            "file": "guide/src-api/undo.js",
+            "file": "guide\\src-api\\undo.js",
             "line": 15,
             "description": "历史撤销前触发.返回 false 取消操作",
             "itemtype": "event",
@@ -2494,7 +3764,7 @@
             "module": "undo"
         },
         {
-            "file": "guide/src-api/undo.js",
+            "file": "guide\\src-api\\undo.js",
             "line": 20,
             "description": "历史重做前触发.返回 false 取消操作",
             "itemtype": "event",
@@ -2503,7 +3773,7 @@
             "module": "undo"
         },
         {
-            "file": "guide/src-api/undo.js",
+            "file": "guide\\src-api\\undo.js",
             "line": 25,
             "description": "记录历史前触发.返回 false 取消操作",
             "itemtype": "event",
@@ -2512,7 +3782,7 @@
             "module": "undo"
         },
         {
-            "file": "guide/src-api/undo.js",
+            "file": "guide\\src-api\\undo.js",
             "line": 30,
             "description": "历史撤销后触发.",
             "itemtype": "event",
@@ -2521,7 +3791,7 @@
             "module": "undo"
         },
         {
-            "file": "guide/src-api/undo.js",
+            "file": "guide\\src-api\\undo.js",
             "line": 35,
             "description": "历史重做后触发.",
             "itemtype": "event",
@@ -2530,7 +3800,7 @@
             "module": "undo"
         },
         {
-            "file": "guide/src-api/undo.js",
+            "file": "guide\\src-api\\undo.js",
             "line": 40,
             "description": "记录历史后触发.",
             "itemtype": "event",
@@ -2539,7 +3809,7 @@
             "module": "undo"
         },
         {
-            "file": "guide/src-api/video.js",
+            "file": "guide\\src-api\\video.js",
             "line": 12,
             "description": "动态地址转化规则，其中每个 Object 包括\n- reg {RegExp} - 判断匹配与否的正则\n- url {RegExp} - 转化服务器的地址\n- paramName {String} - 待转化 url 的参数名称",
             "itemtype": "attribute",
@@ -2549,7 +3819,7 @@
             "module": "video"
         },
         {
-            "file": "guide/src-api/video.js",
+            "file": "guide\\src-api\\video.js",
             "line": 20,
             "description": "输入框提示信息",
             "itemtype": "attribute",
@@ -2559,7 +3829,7 @@
             "module": "video"
         },
         {
-            "file": "guide/src-api/video.js",
+            "file": "guide\\src-api\\video.js",
             "line": 25,
             "description": "静态转换规则, 从用户输入转换为flash地址，其中每个 Object 包括\n- reg {RegExp} - 判断匹配与否的正则\n- width {Number} - 转化后 flash 的默认宽度\n- height {Number} - 转化后 flash 的默认高度\n- detect(url) {function} - 转化函数，参数为用户输入的 url",
             "itemtype": "attribute",
@@ -2569,7 +3839,7 @@
             "module": "video"
         },
         {
-            "file": "lib/back-color/cmd.js",
+            "file": "lib\\back-color\\cmd.js",
             "line": 1,
             "ignore": "backColor command.",
             "author": "yiminghe@gmail.com",
@@ -2577,7 +3847,7 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/bold/cmd.js",
+            "file": "lib\\bold\\cmd.js",
             "line": 1,
             "ignore": "bold command.",
             "author": "yiminghe@gmail.com",
@@ -2585,7 +3855,7 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/code/dialog.js",
+            "file": "lib\\code\\dialog.js",
             "line": 1,
             "ignore": "insert program code dialog",
             "author": "yiminghe@gmail.com",
@@ -2593,7 +3863,7 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/color/btn.js",
+            "file": "lib\\color\\btn.js",
             "line": 1,
             "ignore": "color button.",
             "author": "yiminghe@gmail.com",
@@ -2601,7 +3871,7 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/color/cmd.js",
+            "file": "lib\\color\\cmd.js",
             "line": 1,
             "ignore": "color command.",
             "author": "yiminghe@gmail.com",
@@ -2609,7 +3879,7 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/color/dialog.js",
+            "file": "lib\\color\\dialog.js",
             "line": 1,
             "ignore": "color picker",
             "author": "yiminghe@gmail.com",
@@ -2617,7 +3887,7 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/flash/dialog.js",
+            "file": "lib\\flash\\dialog.js",
             "line": 1,
             "ignore": "flash dialog",
             "author": "yiminghe@gmail.com",
@@ -2625,7 +3895,7 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/flash-common/base-class.js",
+            "file": "lib\\flash-common\\base-class.js",
             "line": 1,
             "ignore": "BaseClass for Flash Based plugin.",
             "author": "yiminghe@gmail.com",
@@ -2633,7 +3903,7 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/flash-common/utils.js",
+            "file": "lib\\flash-common\\utils.js",
             "line": 1,
             "ignore": "flash utilities",
             "author": "yiminghe@gmail.com",
@@ -2641,7 +3911,7 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/font/cmd.js",
+            "file": "lib\\font\\cmd.js",
             "line": 1,
             "ignore": "font command.",
             "author": "yiminghe@gmail.com",
@@ -2649,7 +3919,7 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/font/ui.js",
+            "file": "lib\\font\\ui.js",
             "line": 1,
             "ignore": "font formatting for kissy editor",
             "author": "yiminghe@gmail.com",
@@ -2657,7 +3927,7 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/font-family/cmd.js",
+            "file": "lib\\font-family\\cmd.js",
             "line": 1,
             "ignore": "fontFamily command.",
             "author": "yiminghe@gmail.com",
@@ -2665,7 +3935,7 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/font-size/cmd.js",
+            "file": "lib\\font-size\\cmd.js",
             "line": 1,
             "ignore": "fontSize command.",
             "author": "yiminghe@gmail.com",
@@ -2673,7 +3943,7 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/fore-color/cmd.js",
+            "file": "lib\\fore-color\\cmd.js",
             "line": 1,
             "ignore": "foreColor command.",
             "author": "yiminghe@gmail.com",
@@ -2681,7 +3951,7 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/heading/cmd.js",
+            "file": "lib\\heading\\cmd.js",
             "line": 1,
             "ignore": "Adds a heading tag around a selection or insertion point line.\nRequires the tag-name string to be passed in as a value argument (i.e. \"H1\", \"H6\")",
             "author": "yiminghe@gmail.com",
@@ -2689,7 +3959,7 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/image/dialog.js",
+            "file": "lib\\image\\dialog.js",
             "line": 1,
             "ignore": "image dialog (support upload and remote)",
             "author": "yiminghe@gmail.com",
@@ -2697,7 +3967,7 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/indent/cmd.js",
+            "file": "lib\\indent\\cmd.js",
             "line": 1,
             "ignore": "Add indent and outdent command identifier for KISSY Editor.",
             "author": "yiminghe@gmail.com",
@@ -2705,7 +3975,7 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/italic/cmd.js",
+            "file": "lib\\italic\\cmd.js",
             "line": 1,
             "ignore": "italic command.",
             "author": "yiminghe@gmail.com",
@@ -2713,7 +3983,7 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/justify-center/cmd.js",
+            "file": "lib\\justify-center\\cmd.js",
             "line": 1,
             "ignore": "Add justifyCenter command identifier for Editor.",
             "author": "yiminghe@gmail.com",
@@ -2721,7 +3991,7 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/justify-left/cmd.js",
+            "file": "lib\\justify-left\\cmd.js",
             "line": 1,
             "ignore": "Add justifyCenter command identifier for Editor.",
             "author": "yiminghe@gmail.com",
@@ -2729,7 +3999,7 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/justify-right/cmd.js",
+            "file": "lib\\justify-right\\cmd.js",
             "line": 1,
             "ignore": "Add justifyCenter command identifier for Editor.",
             "author": "yiminghe@gmail.com",
@@ -2737,7 +4007,7 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/link/dialog.js",
+            "file": "lib\\link\\dialog.js",
             "line": 1,
             "ignore": "link dialog",
             "author": "yiminghe@gmail.com",
@@ -2745,7 +4015,7 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/link/utils.js",
+            "file": "lib\\link\\utils.js",
             "line": 1,
             "ignore": "link utils",
             "author": "yiminghe@gmail.com",
@@ -2753,7 +4023,7 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/list-utils/btn.js",
+            "file": "lib\\list-utils\\btn.js",
             "line": 1,
             "ignore": "Common btn for list.",
             "author": "yiminghe@gmail.com",
@@ -2761,7 +4031,7 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/list-utils/cmd.js",
+            "file": "lib\\list-utils\\cmd.js",
             "line": 1,
             "ignore": "Add ul and ol command identifier for KISSY Editor.",
             "author": "yiminghe@gmail.com",
@@ -2769,7 +4039,7 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/maximize/cmd.js",
+            "file": "lib\\maximize\\cmd.js",
             "line": 1,
             "ignore": "Add maximizeWindow/restoreWindow to Editor.",
             "author": "yiminghe@gmail.com",
@@ -2777,7 +4047,7 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/ordered-list/cmd.js",
+            "file": "lib\\ordered-list\\cmd.js",
             "line": 1,
             "ignore": "orderedList command",
             "author": "yiminghe@gmail.com",
@@ -2785,7 +4055,7 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/outdent/cmd.js",
+            "file": "lib\\outdent\\cmd.js",
             "line": 1,
             "ignore": "Add indent and outdent command identifier for KISSY Editor.",
             "author": "yiminghe@gmail.com",
@@ -2793,7 +4063,7 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/remove-format/cmd.js",
+            "file": "lib\\remove-format\\cmd.js",
             "line": 1,
             "ignore": "Add remove-format command for KISSY Editor.",
             "author": "yiminghe@gmail.com",
@@ -2801,7 +4071,7 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/strike-through/cmd.js",
+            "file": "lib\\strike-through\\cmd.js",
             "line": 1,
             "ignore": "strike-through command",
             "author": "yiminghe@gmail.com",
@@ -2809,7 +4079,7 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/table/dialog.js",
+            "file": "lib\\table\\dialog.js",
             "line": 1,
             "ignore": "table dialog",
             "author": "yiminghe@gmail.com",
@@ -2817,7 +4087,7 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/underline/cmd.js",
+            "file": "lib\\underline\\cmd.js",
             "line": 1,
             "ignore": "underline command",
             "author": "yiminghe@gmail.com",
@@ -2825,7 +4095,7 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/undo/btn.js",
+            "file": "lib\\undo\\btn.js",
             "line": 1,
             "ignore": "undo button",
             "author": "yiminghe@gmail.com",
@@ -2833,7 +4103,7 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/undo/cmd.js",
+            "file": "lib\\undo\\cmd.js",
             "line": 1,
             "ignore": "undo,redo manager for kissy editor",
             "author": "yiminghe@gmail.com",
@@ -2841,28 +4111,28 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/undo/cmd.js",
+            "file": "lib\\undo\\cmd.js",
             "line": 49,
             "description": "编辑器状态历史保存",
             "class": "",
             "module": "xiami-music"
         },
         {
-            "file": "lib/undo/cmd.js",
+            "file": "lib\\undo\\cmd.js",
             "line": 122,
             "description": "save to history",
             "class": "",
             "module": "xiami-music"
         },
         {
-            "file": "lib/undo/cmd.js",
+            "file": "lib\\undo\\cmd.js",
             "line": 166,
             "description": "restore from history",
             "class": "",
             "module": "xiami-music"
         },
         {
-            "file": "lib/unordered-list/cmd.js",
+            "file": "lib\\unordered-list\\cmd.js",
             "line": 1,
             "ignore": "ol command",
             "author": "yiminghe@gmail.com",
@@ -2870,7 +4140,7 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/video/dialog.js",
+            "file": "lib\\video\\dialog.js",
             "line": 1,
             "ignore": "video dialog",
             "author": "yiminghe@gmail.com",
@@ -2878,7 +4148,7 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/xiami-music/dialog.js",
+            "file": "lib\\xiami-music\\dialog.js",
             "line": 1,
             "ignore": "xiami-music dialog",
             "author": "yiminghe@gmail.com",
@@ -2886,7 +4156,7 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/back-color.js",
+            "file": "lib\\back-color.js",
             "line": 1,
             "ignore": "backColor button.",
             "author": "yiminghe@gmail.com",
@@ -2894,7 +4164,7 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/bold.js",
+            "file": "lib\\bold.js",
             "line": 1,
             "ignore": "bold command.",
             "author": "yiminghe@gmail.com",
@@ -2902,7 +4172,7 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/bubble.js",
+            "file": "lib\\bubble.js",
             "line": 1,
             "ignore": "bubble or tip view for kissy editor",
             "author": "yiminghe@gmail.com",
@@ -2910,7 +4180,7 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/button.js",
+            "file": "lib\\button.js",
             "line": 1,
             "ignore": "Encapsulate KISSY toggle button for kissy editor",
             "author": "yiminghe@gmail.com",
@@ -2918,7 +4188,7 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/checkbox-source-area.js",
+            "file": "lib\\checkbox-source-area.js",
             "line": 1,
             "ignore": "checkbox source editor for kissy editor",
             "author": "yiminghe@gmail.com",
@@ -2926,7 +4196,7 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/code.js",
+            "file": "lib\\code.js",
             "line": 1,
             "ignore": "insert program code",
             "author": "yiminghe@gmail.com",
@@ -2934,7 +4204,7 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/contextmenu.js",
+            "file": "lib\\contextmenu.js",
             "line": 1,
             "ignore": "contextmenu for kissy editor",
             "author": "yiminghe@gmail.com",
@@ -2942,7 +4212,7 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/dent-cmd.js",
+            "file": "lib\\dent-cmd.js",
             "line": 1,
             "ignore": "Add indent and outdent command identifier for KISSY Editor.",
             "author": "yiminghe@gmail.com",
@@ -2950,7 +4220,7 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/dialog-loader.js",
+            "file": "lib\\dialog-loader.js",
             "line": 1,
             "ignore": "load editor's dialog dynamically",
             "author": "yiminghe@gmail.com",
@@ -2958,7 +4228,7 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/dialog.js",
+            "file": "lib\\dialog.js",
             "line": 1,
             "ignore": "custom dialog for kissy editor",
             "author": "yiminghe@gmail.com",
@@ -2966,7 +4236,7 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/draft.js",
+            "file": "lib\\draft.js",
             "line": 1,
             "ignore": "draft for kissy editor",
             "author": "yiminghe@gmail.com",
@@ -2974,7 +4244,7 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/drag-upload.js",
+            "file": "lib\\drag-upload.js",
             "line": 1,
             "ignore": "drag file support for html5 file&dd",
             "author": "yiminghe@gmail.com",
@@ -2982,14 +4252,14 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/drag-upload.js",
+            "file": "lib\\drag-upload.js",
             "line": 174,
             "ignore": "refer:\n- http://www.html5rocks.com/tutorials/file/filesystem/\n- http://yiminghe.iteye.com/blog/848613",
             "class": "",
             "module": "xiami-music"
         },
         {
-            "file": "lib/element-path.js",
+            "file": "lib\\element-path.js",
             "line": 1,
             "ignore": "ElementPath for debug.",
             "author": "yiminghe@gmail.com",
@@ -2997,7 +4267,7 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/fake-objects.js",
+            "file": "lib\\fake-objects.js",
             "line": 1,
             "ignore": "fakeObjects for music ,video,flash",
             "author": "yiminghe@gmail.com",
@@ -3005,7 +4275,7 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/flash-bridge.js",
+            "file": "lib\\flash-bridge.js",
             "line": 1,
             "ignore": "simplified flash bridge for yui swf",
             "author": "yiminghe@gmail.com",
@@ -3013,7 +4283,7 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/flash.js",
+            "file": "lib\\flash.js",
             "line": 1,
             "ignore": "Add flash plugin.",
             "author": "yiminghe@gmail.com",
@@ -3021,7 +4291,7 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/focus-fix.js",
+            "file": "lib\\focus-fix.js",
             "line": 1,
             "ignore": "save and restore focus when overlay shows or hides",
             "author": "yiminghe@gmail.com",
@@ -3029,7 +4299,7 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/font-family.js",
+            "file": "lib\\font-family.js",
             "line": 1,
             "ignore": "font formatting for kissy editor",
             "author": "yiminghe@gmail.com",
@@ -3037,7 +4307,7 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/font-size.js",
+            "file": "lib\\font-size.js",
             "line": 1,
             "ignore": "font formatting for kissy editor",
             "author": "yiminghe@gmail.com",
@@ -3045,7 +4315,7 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/fore-color.js",
+            "file": "lib\\fore-color.js",
             "line": 1,
             "ignore": "foreColor button.",
             "author": "yiminghe@gmail.com",
@@ -3053,7 +4323,7 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/heading.js",
+            "file": "lib\\heading.js",
             "line": 1,
             "ignore": "Heading plugin for KISSY.",
             "author": "yiminghe@gmail.com",
@@ -3061,7 +4331,7 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/image.js",
+            "file": "lib\\image.js",
             "line": 1,
             "ignore": "insert image for kissy editor",
             "author": "yiminghe@gmail.com",
@@ -3069,7 +4339,7 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/indent.js",
+            "file": "lib\\indent.js",
             "line": 1,
             "ignore": "Add indent button.",
             "author": "yiminghe@gmail.com",
@@ -3077,7 +4347,7 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/italic.js",
+            "file": "lib\\italic.js",
             "line": 1,
             "ignore": "italic button.",
             "author": "yiminghe@gmail.com",
@@ -3085,7 +4355,7 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/justify-center.js",
+            "file": "lib\\justify-center.js",
             "line": 1,
             "ignore": "justifyCenter button.",
             "author": "yiminghe@gmail.com",
@@ -3093,7 +4363,7 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/justify-cmd.js",
+            "file": "lib\\justify-cmd.js",
             "line": 1,
             "ignore": "Add justify command identifier for Editor.",
             "author": "yiminghe@gmail.com",
@@ -3101,7 +4371,7 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/justify-left.js",
+            "file": "lib\\justify-left.js",
             "line": 1,
             "ignore": "justifyLeft button.",
             "author": "yiminghe@gmail.com",
@@ -3109,7 +4379,7 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/justify-right.js",
+            "file": "lib\\justify-right.js",
             "line": 1,
             "ignore": "justifyRight button.",
             "author": "yiminghe@gmail.com",
@@ -3117,7 +4387,7 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/link.js",
+            "file": "lib\\link.js",
             "line": 1,
             "ignore": "link editor support for kissy editor ,innovation from google doc and ckeditor",
             "author": "yiminghe@gmail.com",
@@ -3125,7 +4395,7 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/list-utils.js",
+            "file": "lib\\list-utils.js",
             "line": 1,
             "ignore": "list Utils",
             "author": "yiminghe@gmail.com",
@@ -3133,7 +4403,7 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/local-storage.js",
+            "file": "lib\\local-storage.js",
             "line": 1,
             "ignore": "localStorage support for ie<8",
             "author": "yiminghe@gmail.com",
@@ -3141,7 +4411,7 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/maximize.js",
+            "file": "lib\\maximize.js",
             "line": 1,
             "ignore": "Maximize plugin",
             "author": "yiminghe@gmail.com",
@@ -3149,7 +4419,7 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/menubutton.js",
+            "file": "lib\\menubutton.js",
             "line": 1,
             "ignore": "select component for kissy editor.",
             "author": "yiminghe@gmail.com",
@@ -3157,7 +4427,7 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/ordered-list.js",
+            "file": "lib\\ordered-list.js",
             "line": 1,
             "ignore": "Add ul/ol button.",
             "author": "yiminghe@gmail.com",
@@ -3165,7 +4435,7 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/outdent.js",
+            "file": "lib\\outdent.js",
             "line": 1,
             "ignore": "Add indent button.",
             "author": "yiminghe@gmail.com",
@@ -3173,7 +4443,7 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/overlay.js",
+            "file": "lib\\overlay.js",
             "line": 1,
             "ignore": "custom overlay  for kissy editor",
             "author": "yiminghe@gmail.com",
@@ -3181,7 +4451,7 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/page-break.js",
+            "file": "lib\\page-break.js",
             "line": 1,
             "ignore": "pagebreak functionality",
             "author": "yiminghe@gmail.com",
@@ -3189,7 +4459,7 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/preview.js",
+            "file": "lib\\preview.js",
             "line": 1,
             "ignore": "preview for kissy editor",
             "author": "yiminghe@gmail.com",
@@ -3197,7 +4467,7 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/progressbar.js",
+            "file": "lib\\progressbar.js",
             "line": 1,
             "ignore": "progressbar ui",
             "author": "yiminghe@gmail.com",
@@ -3205,7 +4475,7 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/remove-format.js",
+            "file": "lib\\remove-format.js",
             "line": 1,
             "ignore": "removeFormat for selection.",
             "author": "yiminghe@gmail.com",
@@ -3213,7 +4483,7 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/resize.js",
+            "file": "lib\\resize.js",
             "line": 1,
             "ignore": "resize functionality",
             "author": "yiminghe@gmail.com",
@@ -3221,7 +4491,7 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/separator.js",
+            "file": "lib\\separator.js",
             "line": 1,
             "ignore": "separator for button",
             "author": "yiminghe@gmail.com",
@@ -3229,7 +4499,7 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/smiley.js",
+            "file": "lib\\smiley.js",
             "line": 1,
             "ignore": "smiley button",
             "author": "yiminghe@gmail.com",
@@ -3237,7 +4507,7 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/source-area.js",
+            "file": "lib\\source-area.js",
             "line": 1,
             "ignore": "source editor for kissy editor",
             "author": "yiminghe@gmail.com",
@@ -3245,7 +4515,7 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/strike-through.js",
+            "file": "lib\\strike-through.js",
             "line": 1,
             "ignore": "strikeThrough button",
             "author": "yiminghe@gmail.com",
@@ -3253,7 +4523,7 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/table.js",
+            "file": "lib\\table.js",
             "line": 1,
             "ignore": "Add table plugin for KISSY.",
             "author": "yiminghe@gmail.com",
@@ -3261,7 +4531,7 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/underline.js",
+            "file": "lib\\underline.js",
             "line": 1,
             "ignore": "underline button",
             "author": "yiminghe@gmail.com",
@@ -3269,7 +4539,7 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/undo.js",
+            "file": "lib\\undo.js",
             "line": 1,
             "ignore": "undo button",
             "author": "yiminghe@gmail.com",
@@ -3277,7 +4547,7 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/unordered-list.js",
+            "file": "lib\\unordered-list.js",
             "line": 1,
             "ignore": "Add ul/ol button.",
             "author": "yiminghe@gmail.com",
@@ -3285,7 +4555,7 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/video.js",
+            "file": "lib\\video.js",
             "line": 1,
             "ignore": "video button.",
             "author": "yiminghe@gmail.com",
@@ -3293,7 +4563,7 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/word-filter.js",
+            "file": "lib\\word-filter.js",
             "line": 1,
             "ignore": "clean html pasted from word. modified from ckeditor.",
             "author": "yiminghe@gmail.com",
@@ -3301,7 +4571,7 @@
             "module": "xiami-music"
         },
         {
-            "file": "lib/xiami-music.js",
+            "file": "lib\\xiami-music.js",
             "line": 1,
             "ignore": "xiami-music button",
             "author": "yiminghe@gmail.com",
@@ -3312,735 +4582,1467 @@
     "warnings": [
         {
             "message": "unknown tag: ignore",
-            "line": " lib/back-color/cmd.js:1"
+            "line": " build\\back-color\\cmd-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/bold/cmd.js:1"
+            "line": " build\\bold\\cmd-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/code/dialog.js:1"
+            "line": " build\\code\\dialog-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/color/btn.js:1"
+            "line": " build\\color\\btn-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/color/cmd.js:1"
+            "line": " build\\color\\cmd-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/color/dialog.js:1"
+            "line": " build\\color\\dialog-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/flash/dialog.js:1"
+            "line": " build\\flash\\dialog-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/flash-common/base-class.js:1"
+            "line": " build\\flash-common\\base-class-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/flash-common/utils.js:1"
+            "line": " build\\flash-common\\utils-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/font/cmd.js:1"
+            "line": " build\\font\\cmd-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/font/ui.js:1"
+            "line": " build\\font\\ui-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/font-family/cmd.js:1"
+            "line": " build\\font-family\\cmd-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/font-size/cmd.js:1"
+            "line": " build\\font-size\\cmd-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/fore-color/cmd.js:1"
+            "line": " build\\fore-color\\cmd-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/heading/cmd.js:1"
+            "line": " build\\heading\\cmd-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/image/dialog.js:1"
+            "line": " build\\image\\dialog-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/indent/cmd.js:1"
+            "line": " build\\indent\\cmd-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/italic/cmd.js:1"
+            "line": " build\\italic\\cmd-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/justify-center/cmd.js:1"
+            "line": " build\\justify-center\\cmd-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/justify-left/cmd.js:1"
+            "line": " build\\justify-left\\cmd-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/justify-right/cmd.js:1"
+            "line": " build\\justify-right\\cmd-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/link/dialog.js:1"
+            "line": " build\\link\\dialog-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/link/utils.js:1"
+            "line": " build\\link\\utils-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/list-utils/btn.js:1"
+            "line": " build\\list-utils\\btn-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/list-utils/cmd.js:1"
+            "line": " build\\list-utils\\cmd-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/maximize/cmd.js:1"
+            "line": " build\\maximize\\cmd-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/ordered-list/cmd.js:1"
+            "line": " build\\ordered-list\\cmd-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/outdent/cmd.js:1"
+            "line": " build\\outdent\\cmd-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/remove-format/cmd.js:1"
+            "line": " build\\remove-format\\cmd-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/strike-through/cmd.js:1"
+            "line": " build\\strike-through\\cmd-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/table/dialog.js:1"
+            "line": " build\\table\\dialog-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/underline/cmd.js:1"
+            "line": " build\\underline\\cmd-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/undo/btn.js:1"
+            "line": " build\\undo\\btn-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/undo/cmd.js:1"
+            "line": " build\\undo\\cmd-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/unordered-list/cmd.js:1"
+            "line": " build\\unordered-list\\cmd-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/video/dialog.js:1"
+            "line": " build\\video\\dialog-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/xiami-music/dialog.js:1"
+            "line": " build\\xiami-music\\dialog-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/back-color.js:1"
+            "line": " build\\back-color-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/bold.js:1"
+            "line": " build\\bold-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/bubble.js:1"
+            "line": " build\\bubble-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/button.js:1"
+            "line": " build\\button-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/checkbox-source-area.js:1"
+            "line": " build\\checkbox-source-area-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/code.js:1"
+            "line": " build\\code-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/contextmenu.js:1"
+            "line": " build\\contextmenu-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/dent-cmd.js:1"
+            "line": " build\\dent-cmd-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/dialog-loader.js:1"
+            "line": " build\\dialog-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/dialog.js:1"
+            "line": " build\\dialog-loader-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/draft.js:1"
+            "line": " build\\draft-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/drag-upload.js:1"
+            "line": " build\\drag-upload-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/drag-upload.js:174"
+            "line": " build\\drag-upload-debug.js:175"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/element-path.js:1"
+            "line": " build\\element-path-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/fake-objects.js:1"
+            "line": " build\\fake-objects-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/flash-bridge.js:1"
+            "line": " build\\flash-bridge-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/flash.js:1"
+            "line": " build\\flash-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/focus-fix.js:1"
+            "line": " build\\focus-fix-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/font-family.js:1"
+            "line": " build\\font-family-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/font-size.js:1"
+            "line": " build\\font-size-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/fore-color.js:1"
+            "line": " build\\fore-color-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/heading.js:1"
+            "line": " build\\heading-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/image.js:1"
+            "line": " build\\image-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/indent.js:1"
+            "line": " build\\indent-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/italic.js:1"
+            "line": " build\\italic-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/justify-center.js:1"
+            "line": " build\\justify-center-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/justify-cmd.js:1"
+            "line": " build\\justify-cmd-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/justify-left.js:1"
+            "line": " build\\justify-left-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/justify-right.js:1"
+            "line": " build\\justify-right-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/link.js:1"
+            "line": " build\\link-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/list-utils.js:1"
+            "line": " build\\list-utils-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/local-storage.js:1"
+            "line": " build\\local-storage-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/maximize.js:1"
+            "line": " build\\maximize-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/menubutton.js:1"
+            "line": " build\\menubutton-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/ordered-list.js:1"
+            "line": " build\\ordered-list-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/outdent.js:1"
+            "line": " build\\outdent-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/overlay.js:1"
+            "line": " build\\overlay-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/page-break.js:1"
+            "line": " build\\page-break-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/preview.js:1"
+            "line": " build\\preview-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/progressbar.js:1"
+            "line": " build\\progressbar-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/remove-format.js:1"
+            "line": " build\\remove-format-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/resize.js:1"
+            "line": " build\\resize-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/separator.js:1"
+            "line": " build\\separator-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/smiley.js:1"
+            "line": " build\\smiley-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/source-area.js:1"
+            "line": " build\\source-area-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/strike-through.js:1"
+            "line": " build\\strike-through-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/table.js:1"
+            "line": " build\\table-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/underline.js:1"
+            "line": " build\\underline-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/undo.js:1"
+            "line": " build\\undo-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/unordered-list.js:1"
+            "line": " build\\unordered-list-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/video.js:1"
+            "line": " build\\video-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/word-filter.js:1"
+            "line": " build\\word-filter-debug.js:2"
         },
         {
             "message": "unknown tag: ignore",
-            "line": " lib/xiami-music.js:1"
+            "line": " build\\xiami-music-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\back-color\\cmd.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\bold\\cmd.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\code\\dialog.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\color\\btn.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\color\\cmd.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\color\\dialog.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\flash\\dialog.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\flash-common\\base-class.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\flash-common\\utils.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\font\\cmd.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\font\\ui.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\font-family\\cmd.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\font-size\\cmd.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\fore-color\\cmd.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\heading\\cmd.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\image\\dialog.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\indent\\cmd.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\italic\\cmd.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\justify-center\\cmd.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\justify-left\\cmd.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\justify-right\\cmd.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\link\\dialog.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\link\\utils.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\list-utils\\btn.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\list-utils\\cmd.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\maximize\\cmd.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\ordered-list\\cmd.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\outdent\\cmd.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\remove-format\\cmd.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\strike-through\\cmd.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\table\\dialog.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\underline\\cmd.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\undo\\btn.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\undo\\cmd.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\unordered-list\\cmd.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\video\\dialog.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\xiami-music\\dialog.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\back-color.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\bold.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\bubble.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\button.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\checkbox-source-area.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\code.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\contextmenu.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\dent-cmd.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\dialog-loader.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\dialog.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\draft.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\drag-upload.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\drag-upload.js:174"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\element-path.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\fake-objects.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\flash-bridge.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\flash.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\focus-fix.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\font-family.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\font-size.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\fore-color.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\heading.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\image.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\indent.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\italic.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\justify-center.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\justify-cmd.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\justify-left.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\justify-right.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\link.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\list-utils.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\local-storage.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\maximize.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\menubutton.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\ordered-list.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\outdent.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\overlay.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\page-break.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\preview.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\progressbar.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\remove-format.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\resize.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\separator.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\smiley.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\source-area.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\strike-through.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\table.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\underline.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\undo.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\unordered-list.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\video.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\word-filter.js:1"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " lib\\xiami-music.js:1"
         },
         {
             "message": "Missing item type",
-            "line": " lib/back-color/cmd.js:1"
+            "line": " build\\back-color\\cmd-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/bold/cmd.js:1"
+            "line": " build\\bold\\cmd-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/code/dialog.js:1"
+            "line": " build\\code\\dialog-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/color/btn.js:1"
+            "line": " build\\color\\btn-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/color/cmd.js:1"
+            "line": " build\\color\\cmd-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/color/dialog.js:1"
+            "line": " build\\color\\dialog-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/flash/dialog.js:1"
+            "line": " build\\flash\\dialog-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/flash-common/base-class.js:1"
+            "line": " build\\flash-common\\base-class-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/flash-common/utils.js:1"
+            "line": " build\\flash-common\\utils-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/font/cmd.js:1"
+            "line": " build\\font\\cmd-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/font/ui.js:1"
+            "line": " build\\font\\ui-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/font-family/cmd.js:1"
+            "line": " build\\font-family\\cmd-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/font-size/cmd.js:1"
+            "line": " build\\font-size\\cmd-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/fore-color/cmd.js:1"
+            "line": " build\\fore-color\\cmd-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/heading/cmd.js:1"
+            "line": " build\\heading\\cmd-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/image/dialog.js:1"
+            "line": " build\\image\\dialog-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/indent/cmd.js:1"
+            "line": " build\\indent\\cmd-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/italic/cmd.js:1"
+            "line": " build\\italic\\cmd-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/justify-center/cmd.js:1"
+            "line": " build\\justify-center\\cmd-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/justify-left/cmd.js:1"
+            "line": " build\\justify-left\\cmd-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/justify-right/cmd.js:1"
+            "line": " build\\justify-right\\cmd-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/link/dialog.js:1"
+            "line": " build\\link\\dialog-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/link/utils.js:1"
+            "line": " build\\link\\utils-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/list-utils/btn.js:1"
+            "line": " build\\list-utils\\btn-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/list-utils/cmd.js:1"
+            "line": " build\\list-utils\\cmd-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/maximize/cmd.js:1"
+            "line": " build\\maximize\\cmd-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/ordered-list/cmd.js:1"
+            "line": " build\\ordered-list\\cmd-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/outdent/cmd.js:1"
+            "line": " build\\outdent\\cmd-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/remove-format/cmd.js:1"
+            "line": " build\\remove-format\\cmd-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/strike-through/cmd.js:1"
+            "line": " build\\strike-through\\cmd-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/table/dialog.js:1"
+            "line": " build\\table\\dialog-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/underline/cmd.js:1"
+            "line": " build\\underline\\cmd-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/undo/btn.js:1"
+            "line": " build\\undo\\btn-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/undo/cmd.js:1"
+            "line": " build\\undo\\cmd-debug.js:2"
         },
         {
             "message": "Missing item type\n编辑器状态历史保存",
-            "line": " lib/undo/cmd.js:49"
+            "line": " build\\undo\\cmd-debug.js:50"
         },
         {
             "message": "Missing item type\nsave to history",
-            "line": " lib/undo/cmd.js:122"
+            "line": " build\\undo\\cmd-debug.js:123"
         },
         {
             "message": "Missing item type\nrestore from history",
-            "line": " lib/undo/cmd.js:166"
+            "line": " build\\undo\\cmd-debug.js:167"
         },
         {
             "message": "Missing item type",
-            "line": " lib/unordered-list/cmd.js:1"
+            "line": " build\\unordered-list\\cmd-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/video/dialog.js:1"
+            "line": " build\\video\\dialog-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/xiami-music/dialog.js:1"
+            "line": " build\\xiami-music\\dialog-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/back-color.js:1"
+            "line": " build\\back-color-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/bold.js:1"
+            "line": " build\\bold-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/bubble.js:1"
+            "line": " build\\bubble-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/button.js:1"
+            "line": " build\\button-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/checkbox-source-area.js:1"
+            "line": " build\\checkbox-source-area-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/code.js:1"
+            "line": " build\\code-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/contextmenu.js:1"
+            "line": " build\\contextmenu-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/dent-cmd.js:1"
+            "line": " build\\dent-cmd-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/dialog-loader.js:1"
+            "line": " build\\dialog-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/dialog.js:1"
+            "line": " build\\dialog-loader-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/draft.js:1"
+            "line": " build\\draft-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/drag-upload.js:1"
+            "line": " build\\drag-upload-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/drag-upload.js:174"
+            "line": " build\\drag-upload-debug.js:175"
         },
         {
             "message": "Missing item type",
-            "line": " lib/element-path.js:1"
+            "line": " build\\element-path-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/fake-objects.js:1"
+            "line": " build\\fake-objects-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/flash-bridge.js:1"
+            "line": " build\\flash-bridge-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/flash.js:1"
+            "line": " build\\flash-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/focus-fix.js:1"
+            "line": " build\\focus-fix-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/font-family.js:1"
+            "line": " build\\font-family-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/font-size.js:1"
+            "line": " build\\font-size-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/fore-color.js:1"
+            "line": " build\\fore-color-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/heading.js:1"
+            "line": " build\\heading-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/image.js:1"
+            "line": " build\\image-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/indent.js:1"
+            "line": " build\\indent-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/italic.js:1"
+            "line": " build\\italic-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/justify-center.js:1"
+            "line": " build\\justify-center-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/justify-cmd.js:1"
+            "line": " build\\justify-cmd-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/justify-left.js:1"
+            "line": " build\\justify-left-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/justify-right.js:1"
+            "line": " build\\justify-right-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/link.js:1"
+            "line": " build\\link-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/list-utils.js:1"
+            "line": " build\\list-utils-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/local-storage.js:1"
+            "line": " build\\local-storage-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/maximize.js:1"
+            "line": " build\\maximize-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/menubutton.js:1"
+            "line": " build\\menubutton-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/ordered-list.js:1"
+            "line": " build\\ordered-list-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/outdent.js:1"
+            "line": " build\\outdent-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/overlay.js:1"
+            "line": " build\\overlay-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/page-break.js:1"
+            "line": " build\\page-break-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/preview.js:1"
+            "line": " build\\preview-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/progressbar.js:1"
+            "line": " build\\progressbar-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/remove-format.js:1"
+            "line": " build\\remove-format-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/resize.js:1"
+            "line": " build\\resize-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/separator.js:1"
+            "line": " build\\separator-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/smiley.js:1"
+            "line": " build\\smiley-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/source-area.js:1"
+            "line": " build\\source-area-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/strike-through.js:1"
+            "line": " build\\strike-through-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/table.js:1"
+            "line": " build\\table-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/underline.js:1"
+            "line": " build\\underline-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/undo.js:1"
+            "line": " build\\undo-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/unordered-list.js:1"
+            "line": " build\\unordered-list-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/video.js:1"
+            "line": " build\\video-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/word-filter.js:1"
+            "line": " build\\word-filter-debug.js:2"
         },
         {
             "message": "Missing item type",
-            "line": " lib/xiami-music.js:1"
+            "line": " build\\xiami-music-debug.js:2"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\back-color\\cmd.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\bold\\cmd.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\code\\dialog.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\color\\btn.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\color\\cmd.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\color\\dialog.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\flash\\dialog.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\flash-common\\base-class.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\flash-common\\utils.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\font\\cmd.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\font\\ui.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\font-family\\cmd.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\font-size\\cmd.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\fore-color\\cmd.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\heading\\cmd.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\image\\dialog.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\indent\\cmd.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\italic\\cmd.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\justify-center\\cmd.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\justify-left\\cmd.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\justify-right\\cmd.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\link\\dialog.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\link\\utils.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\list-utils\\btn.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\list-utils\\cmd.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\maximize\\cmd.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\ordered-list\\cmd.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\outdent\\cmd.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\remove-format\\cmd.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\strike-through\\cmd.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\table\\dialog.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\underline\\cmd.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\undo\\btn.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\undo\\cmd.js:1"
+        },
+        {
+            "message": "Missing item type\n编辑器状态历史保存",
+            "line": " lib\\undo\\cmd.js:49"
+        },
+        {
+            "message": "Missing item type\nsave to history",
+            "line": " lib\\undo\\cmd.js:122"
+        },
+        {
+            "message": "Missing item type\nrestore from history",
+            "line": " lib\\undo\\cmd.js:166"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\unordered-list\\cmd.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\video\\dialog.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\xiami-music\\dialog.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\back-color.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\bold.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\bubble.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\button.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\checkbox-source-area.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\code.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\contextmenu.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\dent-cmd.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\dialog-loader.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\dialog.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\draft.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\drag-upload.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\drag-upload.js:174"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\element-path.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\fake-objects.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\flash-bridge.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\flash.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\focus-fix.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\font-family.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\font-size.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\fore-color.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\heading.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\image.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\indent.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\italic.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\justify-center.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\justify-cmd.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\justify-left.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\justify-right.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\link.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\list-utils.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\local-storage.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\maximize.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\menubutton.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\ordered-list.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\outdent.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\overlay.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\page-break.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\preview.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\progressbar.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\remove-format.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\resize.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\separator.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\smiley.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\source-area.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\strike-through.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\table.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\underline.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\undo.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\unordered-list.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\video.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\word-filter.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " lib\\xiami-music.js:1"
         }
     ]
 }

@@ -21,7 +21,8 @@ gulp.task('kmc', function(cb){
     gulp.src('./lib/**/*.js')
         .pipe(gulpKmd())
         .pipe(kmc.convert({
-            deps : 'mods.js'
+            deps : 'mods.js',
+            seajs:true
         }))
         .pipe(kmc.combo())
         .pipe(minify())
