@@ -1,4 +1,4 @@
-define('kg/editor-plugins/1.1.5/image',["./button","editor","./bubble","./contextmenu","./dialog-loader","util","ua","node"],function(require, exports, module) {
+define('kg/editor-plugins/1.1.6/image',["./button","editor","./bubble","./contextmenu","./dialog-loader","util","ua","node"],function(require, exports, module) {
 /**
  * @ignore
  * insert image for kissy editor

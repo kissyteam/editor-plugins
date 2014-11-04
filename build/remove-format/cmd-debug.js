@@ -1,4 +1,4 @@
-define('kg/editor-plugins/1.1.5/remove-format/cmd',["editor","dom"],function(require, exports, module) {
+define('kg/editor-plugins/1.1.6/remove-format/cmd',["editor","dom"],function(require, exports, module) {
 /**
  * @ignore
  * Add remove-format command for KISSY Editor.

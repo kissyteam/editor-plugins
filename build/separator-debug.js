@@ -1,4 +1,4 @@
-define('kg/editor-plugins/1.1.5/separator',["node"],function(require, exports, module) {
+define('kg/editor-plugins/1.1.6/separator',["node"],function(require, exports, module) {
 /**
  * @ignore
  * separator for button

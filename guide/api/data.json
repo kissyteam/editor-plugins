@@ -6,6 +6,615 @@
         "url": "http://gallery.kissyui.com/editor-plugins/doc/guide/index.html"
     },
     "files": {
+        "build\\back-color\\cmd-debug.js": {
+            "name": "build\\back-color\\cmd-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\bold\\cmd-debug.js": {
+            "name": "build\\bold\\cmd-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\code\\dialog-debug.js": {
+            "name": "build\\code\\dialog-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\color\\btn-debug.js": {
+            "name": "build\\color\\btn-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\color\\cmd-debug.js": {
+            "name": "build\\color\\cmd-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\color\\dialog-debug.js": {
+            "name": "build\\color\\dialog-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\flash\\dialog-debug.js": {
+            "name": "build\\flash\\dialog-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\flash-common\\base-class-debug.js": {
+            "name": "build\\flash-common\\base-class-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\flash-common\\utils-debug.js": {
+            "name": "build\\flash-common\\utils-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\font\\cmd-debug.js": {
+            "name": "build\\font\\cmd-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\font\\ui-debug.js": {
+            "name": "build\\font\\ui-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\font-family\\cmd-debug.js": {
+            "name": "build\\font-family\\cmd-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\font-size\\cmd-debug.js": {
+            "name": "build\\font-size\\cmd-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\fore-color\\cmd-debug.js": {
+            "name": "build\\fore-color\\cmd-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\heading\\cmd-debug.js": {
+            "name": "build\\heading\\cmd-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\image\\dialog-debug.js": {
+            "name": "build\\image\\dialog-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\indent\\cmd-debug.js": {
+            "name": "build\\indent\\cmd-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\italic\\cmd-debug.js": {
+            "name": "build\\italic\\cmd-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\justify-center\\cmd-debug.js": {
+            "name": "build\\justify-center\\cmd-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\justify-left\\cmd-debug.js": {
+            "name": "build\\justify-left\\cmd-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\justify-right\\cmd-debug.js": {
+            "name": "build\\justify-right\\cmd-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\link\\dialog-debug.js": {
+            "name": "build\\link\\dialog-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\link\\utils-debug.js": {
+            "name": "build\\link\\utils-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\list-utils\\btn-debug.js": {
+            "name": "build\\list-utils\\btn-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\list-utils\\cmd-debug.js": {
+            "name": "build\\list-utils\\cmd-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\maximize\\cmd-debug.js": {
+            "name": "build\\maximize\\cmd-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\ordered-list\\cmd-debug.js": {
+            "name": "build\\ordered-list\\cmd-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\outdent\\cmd-debug.js": {
+            "name": "build\\outdent\\cmd-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\remove-format\\cmd-debug.js": {
+            "name": "build\\remove-format\\cmd-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\strike-through\\cmd-debug.js": {
+            "name": "build\\strike-through\\cmd-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\table\\dialog-debug.js": {
+            "name": "build\\table\\dialog-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\underline\\cmd-debug.js": {
+            "name": "build\\underline\\cmd-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\undo\\btn-debug.js": {
+            "name": "build\\undo\\btn-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\undo\\cmd-debug.js": {
+            "name": "build\\undo\\cmd-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\unordered-list\\cmd-debug.js": {
+            "name": "build\\unordered-list\\cmd-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\video\\dialog-debug.js": {
+            "name": "build\\video\\dialog-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\xiami-music\\dialog-debug.js": {
+            "name": "build\\xiami-music\\dialog-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\back-color-debug.js": {
+            "name": "build\\back-color-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\bold-debug.js": {
+            "name": "build\\bold-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\bubble-debug.js": {
+            "name": "build\\bubble-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\button-debug.js": {
+            "name": "build\\button-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\code-debug.js": {
+            "name": "build\\code-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\contextmenu-debug.js": {
+            "name": "build\\contextmenu-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\dent-cmd-debug.js": {
+            "name": "build\\dent-cmd-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\dialog-debug.js": {
+            "name": "build\\dialog-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\dialog-loader-debug.js": {
+            "name": "build\\dialog-loader-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\drag-upload-debug.js": {
+            "name": "build\\drag-upload-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\element-path-debug.js": {
+            "name": "build\\element-path-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\fake-objects-debug.js": {
+            "name": "build\\fake-objects-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\flash-bridge-debug.js": {
+            "name": "build\\flash-bridge-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\flash-debug.js": {
+            "name": "build\\flash-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\focus-fix-debug.js": {
+            "name": "build\\focus-fix-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\font-family-debug.js": {
+            "name": "build\\font-family-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\font-size-debug.js": {
+            "name": "build\\font-size-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\fore-color-debug.js": {
+            "name": "build\\fore-color-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\heading-debug.js": {
+            "name": "build\\heading-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\image-debug.js": {
+            "name": "build\\image-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\indent-debug.js": {
+            "name": "build\\indent-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\italic-debug.js": {
+            "name": "build\\italic-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\justify-center-debug.js": {
+            "name": "build\\justify-center-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\justify-cmd-debug.js": {
+            "name": "build\\justify-cmd-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\justify-left-debug.js": {
+            "name": "build\\justify-left-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\justify-right-debug.js": {
+            "name": "build\\justify-right-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\link-debug.js": {
+            "name": "build\\link-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\list-utils-debug.js": {
+            "name": "build\\list-utils-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\local-storage-debug.js": {
+            "name": "build\\local-storage-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\maximize-debug.js": {
+            "name": "build\\maximize-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\menubutton-debug.js": {
+            "name": "build\\menubutton-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\ordered-list-debug.js": {
+            "name": "build\\ordered-list-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\outdent-debug.js": {
+            "name": "build\\outdent-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\overlay-debug.js": {
+            "name": "build\\overlay-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\page-break-debug.js": {
+            "name": "build\\page-break-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\preview-debug.js": {
+            "name": "build\\preview-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\progressbar-debug.js": {
+            "name": "build\\progressbar-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\remove-format-debug.js": {
+            "name": "build\\remove-format-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\resize-debug.js": {
+            "name": "build\\resize-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\separator-debug.js": {
+            "name": "build\\separator-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\smiley-debug.js": {
+            "name": "build\\smiley-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\source-area-debug.js": {
+            "name": "build\\source-area-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\strike-through-debug.js": {
+            "name": "build\\strike-through-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\table-debug.js": {
+            "name": "build\\table-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\underline-debug.js": {
+            "name": "build\\underline-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\undo-debug.js": {
+            "name": "build\\undo-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\unordered-list-debug.js": {
+            "name": "build\\unordered-list-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\video-debug.js": {
+            "name": "build\\video-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\word-filter-debug.js": {
+            "name": "build\\word-filter-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "build\\xiami-music-debug.js": {
+            "name": "build\\xiami-music-debug.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
         "guide\\src-api\\back-color.js": {
             "name": "guide\\src-api\\back-color.js",
             "modules": {
@@ -2129,6 +2738,639 @@
     },
     "classitems": [
         {
+            "file": "build\\back-color\\cmd-debug.js",
+            "line": 2,
+            "ignore": "backColor command.",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\bold\\cmd-debug.js",
+            "line": 2,
+            "ignore": "bold command.",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\code\\dialog-debug.js",
+            "line": 2,
+            "ignore": "insert program code dialog",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\color\\btn-debug.js",
+            "line": 2,
+            "ignore": "color button.",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\color\\cmd-debug.js",
+            "line": 2,
+            "ignore": "color command.",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\color\\dialog-debug.js",
+            "line": 2,
+            "ignore": "color picker",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\flash\\dialog-debug.js",
+            "line": 2,
+            "ignore": "flash dialog",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\flash-common\\base-class-debug.js",
+            "line": 2,
+            "ignore": "BaseClass for Flash Based plugin.",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\flash-common\\utils-debug.js",
+            "line": 2,
+            "ignore": "flash utilities",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\font\\cmd-debug.js",
+            "line": 2,
+            "ignore": "font command.",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\font\\ui-debug.js",
+            "line": 2,
+            "ignore": "font formatting for kissy editor",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\font-family\\cmd-debug.js",
+            "line": 2,
+            "ignore": "fontFamily command.",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\font-size\\cmd-debug.js",
+            "line": 2,
+            "ignore": "fontSize command.",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\fore-color\\cmd-debug.js",
+            "line": 2,
+            "ignore": "foreColor command.",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\heading\\cmd-debug.js",
+            "line": 2,
+            "ignore": "Adds a heading tag around a selection or insertion point line.\nRequires the tag-name string to be passed in as a value argument (i.e. \"H1\", \"H6\")",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\image\\dialog-debug.js",
+            "line": 2,
+            "ignore": "image dialog (support upload and remote)",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\indent\\cmd-debug.js",
+            "line": 2,
+            "ignore": "Add indent and outdent command identifier for KISSY Editor.",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\italic\\cmd-debug.js",
+            "line": 2,
+            "ignore": "italic command.",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\justify-center\\cmd-debug.js",
+            "line": 2,
+            "ignore": "Add justifyCenter command identifier for Editor.",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\justify-left\\cmd-debug.js",
+            "line": 2,
+            "ignore": "Add justifyCenter command identifier for Editor.",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\justify-right\\cmd-debug.js",
+            "line": 2,
+            "ignore": "Add justifyCenter command identifier for Editor.",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\link\\dialog-debug.js",
+            "line": 2,
+            "ignore": "link dialog",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\link\\utils-debug.js",
+            "line": 2,
+            "ignore": "link utils",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\list-utils\\btn-debug.js",
+            "line": 2,
+            "ignore": "Common btn for list.",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\list-utils\\cmd-debug.js",
+            "line": 2,
+            "ignore": "Add ul and ol command identifier for KISSY Editor.",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\maximize\\cmd-debug.js",
+            "line": 2,
+            "ignore": "Add maximizeWindow/restoreWindow to Editor.",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\ordered-list\\cmd-debug.js",
+            "line": 2,
+            "ignore": "orderedList command",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\outdent\\cmd-debug.js",
+            "line": 2,
+            "ignore": "Add indent and outdent command identifier for KISSY Editor.",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\remove-format\\cmd-debug.js",
+            "line": 2,
+            "ignore": "Add remove-format command for KISSY Editor.",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\strike-through\\cmd-debug.js",
+            "line": 2,
+            "ignore": "strike-through command",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\table\\dialog-debug.js",
+            "line": 2,
+            "ignore": "table dialog",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\underline\\cmd-debug.js",
+            "line": 2,
+            "ignore": "underline command",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\undo\\btn-debug.js",
+            "line": 2,
+            "ignore": "undo button",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\undo\\cmd-debug.js",
+            "line": 2,
+            "ignore": "undo,redo manager for kissy editor",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\undo\\cmd-debug.js",
+            "line": 50,
+            "description": "编辑器状态历史保存",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\undo\\cmd-debug.js",
+            "line": 123,
+            "description": "save to history",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\undo\\cmd-debug.js",
+            "line": 167,
+            "description": "restore from history",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\unordered-list\\cmd-debug.js",
+            "line": 2,
+            "ignore": "ol command",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\video\\dialog-debug.js",
+            "line": 2,
+            "ignore": "video dialog",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\xiami-music\\dialog-debug.js",
+            "line": 2,
+            "ignore": "xiami-music dialog",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\back-color-debug.js",
+            "line": 2,
+            "ignore": "backColor button.",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\bold-debug.js",
+            "line": 2,
+            "ignore": "bold command.",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\bubble-debug.js",
+            "line": 2,
+            "ignore": "bubble or tip view for kissy editor",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\button-debug.js",
+            "line": 2,
+            "ignore": "Encapsulate KISSY toggle button for kissy editor",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\code-debug.js",
+            "line": 2,
+            "ignore": "insert program code",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\contextmenu-debug.js",
+            "line": 2,
+            "ignore": "contextmenu for kissy editor",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\dent-cmd-debug.js",
+            "line": 2,
+            "ignore": "Add indent and outdent command identifier for KISSY Editor.",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\dialog-debug.js",
+            "line": 2,
+            "ignore": "custom dialog for kissy editor",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\dialog-loader-debug.js",
+            "line": 2,
+            "ignore": "load editor's dialog dynamically",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\drag-upload-debug.js",
+            "line": 2,
+            "ignore": "drag file support for html5 file&dd",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\drag-upload-debug.js",
+            "line": 175,
+            "ignore": "refer:\n- http://www.html5rocks.com/tutorials/file/filesystem/\n- http://yiminghe.iteye.com/blog/848613",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\element-path-debug.js",
+            "line": 2,
+            "ignore": "ElementPath for debug.",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\fake-objects-debug.js",
+            "line": 2,
+            "ignore": "fakeObjects for music ,video,flash",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\flash-bridge-debug.js",
+            "line": 2,
+            "ignore": "simplified flash bridge for yui swf",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\flash-debug.js",
+            "line": 2,
+            "ignore": "Add flash plugin.",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\focus-fix-debug.js",
+            "line": 2,
+            "ignore": "save and restore focus when overlay shows or hides",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\font-family-debug.js",
+            "line": 2,
+            "ignore": "font formatting for kissy editor",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\font-size-debug.js",
+            "line": 2,
+            "ignore": "font formatting for kissy editor",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\fore-color-debug.js",
+            "line": 2,
+            "ignore": "foreColor button.",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\heading-debug.js",
+            "line": 2,
+            "ignore": "Heading plugin for KISSY.",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\image-debug.js",
+            "line": 2,
+            "ignore": "insert image for kissy editor",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\indent-debug.js",
+            "line": 2,
+            "ignore": "Add indent button.",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\italic-debug.js",
+            "line": 2,
+            "ignore": "italic button.",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\justify-center-debug.js",
+            "line": 2,
+            "ignore": "justifyCenter button.",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\justify-cmd-debug.js",
+            "line": 2,
+            "ignore": "Add justify command identifier for Editor.",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\justify-left-debug.js",
+            "line": 2,
+            "ignore": "justifyLeft button.",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\justify-right-debug.js",
+            "line": 2,
+            "ignore": "justifyRight button.",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\link-debug.js",
+            "line": 2,
+            "ignore": "link editor support for kissy editor ,innovation from google doc and ckeditor",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\list-utils-debug.js",
+            "line": 2,
+            "ignore": "list Utils",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\local-storage-debug.js",
+            "line": 2,
+            "ignore": "localStorage support for ie<8",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\maximize-debug.js",
+            "line": 2,
+            "ignore": "Maximize plugin",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\menubutton-debug.js",
+            "line": 2,
+            "ignore": "select component for kissy editor.",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\ordered-list-debug.js",
+            "line": 2,
+            "ignore": "Add ul/ol button.",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\outdent-debug.js",
+            "line": 2,
+            "ignore": "Add indent button.",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\overlay-debug.js",
+            "line": 2,
+            "ignore": "custom overlay  for kissy editor",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\page-break-debug.js",
+            "line": 2,
+            "ignore": "pagebreak functionality",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\preview-debug.js",
+            "line": 2,
+            "ignore": "preview for kissy editor",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\progressbar-debug.js",
+            "line": 2,
+            "ignore": "progressbar ui",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\remove-format-debug.js",
+            "line": 2,
+            "ignore": "removeFormat for selection.",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\resize-debug.js",
+            "line": 2,
+            "ignore": "resize functionality",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\separator-debug.js",
+            "line": 2,
+            "ignore": "separator for button",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\smiley-debug.js",
+            "line": 2,
+            "ignore": "smiley button",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\source-area-debug.js",
+            "line": 2,
+            "ignore": "source editor for kissy editor",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\strike-through-debug.js",
+            "line": 2,
+            "ignore": "strikeThrough button",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\table-debug.js",
+            "line": 2,
+            "ignore": "Add table plugin for KISSY.",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\underline-debug.js",
+            "line": 2,
+            "ignore": "underline button",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\undo-debug.js",
+            "line": 2,
+            "ignore": "undo button",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\unordered-list-debug.js",
+            "line": 2,
+            "ignore": "Add ul/ol button.",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\video-debug.js",
+            "line": 2,
+            "ignore": "video button.",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\word-filter-debug.js",
+            "line": 2,
+            "ignore": "clean html pasted from word. modified from ckeditor.",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
+            "file": "build\\xiami-music-debug.js",
+            "line": 2,
+            "ignore": "xiami-music button",
+            "author": "yiminghe@gmail.com",
+            "class": "BackColor"
+        },
+        {
             "file": "guide\\src-api\\draft.js",
             "line": 30,
             "description": "可选。本地存储时的内容的键名。用于区分多编辑器。",
@@ -3282,6 +4524,358 @@
     "warnings": [
         {
             "message": "unknown tag: ignore",
+            "line": " build\\back-color\\cmd-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\bold\\cmd-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\code\\dialog-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\color\\btn-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\color\\cmd-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\color\\dialog-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\flash\\dialog-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\flash-common\\base-class-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\flash-common\\utils-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\font\\cmd-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\font\\ui-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\font-family\\cmd-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\font-size\\cmd-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\fore-color\\cmd-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\heading\\cmd-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\image\\dialog-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\indent\\cmd-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\italic\\cmd-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\justify-center\\cmd-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\justify-left\\cmd-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\justify-right\\cmd-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\link\\dialog-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\link\\utils-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\list-utils\\btn-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\list-utils\\cmd-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\maximize\\cmd-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\ordered-list\\cmd-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\outdent\\cmd-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\remove-format\\cmd-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\strike-through\\cmd-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\table\\dialog-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\underline\\cmd-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\undo\\btn-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\undo\\cmd-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\unordered-list\\cmd-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\video\\dialog-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\xiami-music\\dialog-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\back-color-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\bold-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\bubble-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\button-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\code-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\contextmenu-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\dent-cmd-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\dialog-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\dialog-loader-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\drag-upload-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\drag-upload-debug.js:175"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\element-path-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\fake-objects-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\flash-bridge-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\flash-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\focus-fix-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\font-family-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\font-size-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\fore-color-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\heading-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\image-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\indent-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\italic-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\justify-center-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\justify-cmd-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\justify-left-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\justify-right-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\link-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\list-utils-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\local-storage-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\maximize-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\menubutton-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\ordered-list-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\outdent-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\overlay-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\page-break-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\preview-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\progressbar-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\remove-format-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\resize-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\separator-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\smiley-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\source-area-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\strike-through-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\table-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\underline-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\undo-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\unordered-list-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\video-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\word-filter-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
+            "line": " build\\xiami-music-debug.js:2"
+        },
+        {
+            "message": "unknown tag: ignore",
             "line": " lib\\back-color\\cmd.js:1"
         },
         {
@@ -3631,6 +5225,370 @@
         {
             "message": "unknown tag: ignore",
             "line": " lib\\xiami-music.js:1"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\back-color\\cmd-debug.js:2"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\bold\\cmd-debug.js:2"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\code\\dialog-debug.js:2"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\color\\btn-debug.js:2"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\color\\cmd-debug.js:2"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\color\\dialog-debug.js:2"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\flash\\dialog-debug.js:2"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\flash-common\\base-class-debug.js:2"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\flash-common\\utils-debug.js:2"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\font\\cmd-debug.js:2"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\font\\ui-debug.js:2"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\font-family\\cmd-debug.js:2"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\font-size\\cmd-debug.js:2"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\fore-color\\cmd-debug.js:2"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\heading\\cmd-debug.js:2"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\image\\dialog-debug.js:2"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\indent\\cmd-debug.js:2"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\italic\\cmd-debug.js:2"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\justify-center\\cmd-debug.js:2"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\justify-left\\cmd-debug.js:2"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\justify-right\\cmd-debug.js:2"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\link\\dialog-debug.js:2"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\link\\utils-debug.js:2"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\list-utils\\btn-debug.js:2"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\list-utils\\cmd-debug.js:2"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\maximize\\cmd-debug.js:2"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\ordered-list\\cmd-debug.js:2"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\outdent\\cmd-debug.js:2"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\remove-format\\cmd-debug.js:2"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\strike-through\\cmd-debug.js:2"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\table\\dialog-debug.js:2"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\underline\\cmd-debug.js:2"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\undo\\btn-debug.js:2"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\undo\\cmd-debug.js:2"
+        },
+        {
+            "message": "Missing item type\n编辑器状态历史保存",
+            "line": " build\\undo\\cmd-debug.js:50"
+        },
+        {
+            "message": "Missing item type\nsave to history",
+            "line": " build\\undo\\cmd-debug.js:123"
+        },
+        {
+            "message": "Missing item type\nrestore from history",
+            "line": " build\\undo\\cmd-debug.js:167"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\unordered-list\\cmd-debug.js:2"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\video\\dialog-debug.js:2"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\xiami-music\\dialog-debug.js:2"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\back-color-debug.js:2"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\bold-debug.js:2"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\bubble-debug.js:2"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\button-debug.js:2"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\code-debug.js:2"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\contextmenu-debug.js:2"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\dent-cmd-debug.js:2"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\dialog-debug.js:2"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\dialog-loader-debug.js:2"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\drag-upload-debug.js:2"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\drag-upload-debug.js:175"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\element-path-debug.js:2"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\fake-objects-debug.js:2"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\flash-bridge-debug.js:2"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\flash-debug.js:2"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\focus-fix-debug.js:2"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\font-family-debug.js:2"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\font-size-debug.js:2"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\fore-color-debug.js:2"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\heading-debug.js:2"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\image-debug.js:2"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\indent-debug.js:2"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\italic-debug.js:2"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\justify-center-debug.js:2"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\justify-cmd-debug.js:2"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\justify-left-debug.js:2"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\justify-right-debug.js:2"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\link-debug.js:2"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\list-utils-debug.js:2"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\local-storage-debug.js:2"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\maximize-debug.js:2"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\menubutton-debug.js:2"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\ordered-list-debug.js:2"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\outdent-debug.js:2"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\overlay-debug.js:2"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\page-break-debug.js:2"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\preview-debug.js:2"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\progressbar-debug.js:2"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\remove-format-debug.js:2"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\resize-debug.js:2"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\separator-debug.js:2"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\smiley-debug.js:2"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\source-area-debug.js:2"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\strike-through-debug.js:2"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\table-debug.js:2"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\underline-debug.js:2"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\undo-debug.js:2"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\unordered-list-debug.js:2"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\video-debug.js:2"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\word-filter-debug.js:2"
+        },
+        {
+            "message": "Missing item type",
+            "line": " build\\xiami-music-debug.js:2"
         },
         {
             "message": "Missing item type",

@@ -1,4 +1,4 @@
-define('kg/editor-plugins/1.1.5/strike-through',["./font/ui","./strike-through/cmd","./button"],function(require, exports, module) {
+define('kg/editor-plugins/1.1.6/strike-through',["./font/ui","./strike-through/cmd","./button"],function(require, exports, module) {
 /**
  * @ignore
  * strikeThrough button

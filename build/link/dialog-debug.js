@@ -1,4 +1,4 @@
-define('kg/editor-plugins/1.1.5/link/dialog',["util","editor","../dialog","./utils"],function(require, exports, module) {
+define('kg/editor-plugins/1.1.6/link/dialog',["util","editor","../dialog","./utils"],function(require, exports, module) {
 /**
  * @ignore
  * link dialog
