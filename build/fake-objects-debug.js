@@ -1,4 +1,4 @@
-define('kg/editor-plugins/1.1.6/fake-objects',["editor","html-parser","util","node","dom"],function(require, exports, module) {
+define('kg/editor-plugins/1.1.7/fake-objects',["editor","html-parser","util","node","dom"],function(require, exports, module) {
 /**
  * @ignore
  * fakeObjects for music ,video,flash

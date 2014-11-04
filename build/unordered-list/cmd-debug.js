@@ -1,4 +1,4 @@
-define('kg/editor-plugins/1.1.6/unordered-list/cmd',["editor","../list-utils/cmd"],function(require, exports, module) {
+define('kg/editor-plugins/1.1.7/unordered-list/cmd',["editor","../list-utils/cmd"],function(require, exports, module) {
 /**
  * @ignore
  * ol command

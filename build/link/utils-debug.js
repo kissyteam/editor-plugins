@@ -1,4 +1,4 @@
-define('kg/editor-plugins/1.1.6/link/utils',["editor","node"],function(require, exports, module) {
+define('kg/editor-plugins/1.1.7/link/utils',["editor","node"],function(require, exports, module) {
 /**
  * @ignore
  * link utils

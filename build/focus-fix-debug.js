@@ -1,4 +1,4 @@
-define('kg/editor-plugins/1.1.6/focus-fix',["editor","ua"],function(require, exports, module) {
+define('kg/editor-plugins/1.1.7/focus-fix',["editor","ua"],function(require, exports, module) {
 /**
  * @ignore
  * save and restore focus when overlay shows or hides

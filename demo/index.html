@@ -25,7 +25,7 @@
 <script>
 
     (function () {
-        window.EDITOR_VERSION = '1.1.6';
+        window.EDITOR_VERSION = '1.1.7';
 
         var isDebug = location.search.indexOf('debug') > -1;
         window.EDITOR_CFG = {
@@ -34,12 +34,11 @@
         require.config({
             packages: [
                 {
-                    name: 'kg/editor-plugins/',
+                    name: 'kg/editor-plugins'+(isDebug?'/'+EDITOR_VERSION:''),
                     path: isDebug ? '../lib' : 'http://g.alicdn.com/kg/editor-plugins/'
                 }
             ]
-        })
-
+        });
     })();
 </script>
 <script src="./demo.js"></script>

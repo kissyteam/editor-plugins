@@ -1,4 +1,4 @@
-define('kg/editor-plugins/1.1.6/list-utils',["node","dom","ua"],function(require, exports, module) {
+define('kg/editor-plugins/1.1.7/list-utils',["node","dom","ua"],function(require, exports, module) {
 /**
  * @ignore
  * list Utils

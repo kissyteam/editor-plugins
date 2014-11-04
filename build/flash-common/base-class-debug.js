@@ -1,4 +1,4 @@
-define('kg/editor-plugins/1.1.6/flash-common/base-class',["./utils","base","editor","node","ua","util","../dialog-loader","../bubble","../contextmenu"],function(require, exports, module) {
+define('kg/editor-plugins/1.1.7/flash-common/base-class',["./utils","base","editor","node","ua","util","../dialog-loader","../bubble","../contextmenu"],function(require, exports, module) {
 /**
  * @ignore
  * BaseClass for Flash Based plugin.

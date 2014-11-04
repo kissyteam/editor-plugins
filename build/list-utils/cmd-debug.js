@@ -1,4 +1,4 @@
-define('kg/editor-plugins/1.1.6/list-utils/cmd',["editor","../list-utils","ua","node","dom"],function(require, exports, module) {
+define('kg/editor-plugins/1.1.7/list-utils/cmd',["editor","../list-utils","ua","node","dom"],function(require, exports, module) {
 /**
  * @ignore
  * Add ul and ol command identifier for KISSY Editor.

@@ -1,1 +1,1 @@
-define("kg/editor-plugins/1.1.6/indent/cmd",["../dent-cmd"],function(n,d,i){var t=n("../dent-cmd"),e=t.addCommand;i.exports={init:function(n){e(n,"indent")}}});
+define("kg/editor-plugins/1.1.7/indent/cmd",["../dent-cmd"],function(n,d,i){var t=n("../dent-cmd"),e=t.addCommand;i.exports={init:function(n){e(n,"indent")}}});

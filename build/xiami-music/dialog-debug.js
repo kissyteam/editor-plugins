@@ -1,4 +1,4 @@
-define('kg/editor-plugins/1.1.6/xiami-music/dialog',["util","editor","../flash/dialog","../menubutton","dom","node"],function(require, exports, module) {
+define('kg/editor-plugins/1.1.7/xiami-music/dialog',["util","editor","../flash/dialog","../menubutton","dom","node"],function(require, exports, module) {
 /**
  * @ignore
  * xiami-music dialog

@@ -1,4 +1,4 @@
-define('kg/editor-plugins/1.1.6/underline',["./font/ui","./underline/cmd","./button","node"],function(require, exports, module) {
+define('kg/editor-plugins/1.1.7/underline',["./font/ui","./underline/cmd","./button","node"],function(require, exports, module) {
 /**
  * @ignore
  * underline button
