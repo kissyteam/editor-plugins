@@ -1,4 +1,4 @@
-define('kg/editor-plugins/1.1.4/font-family',["util","editor","./font/ui","./font-family/cmd","./menubutton"],function(require, exports, module) {
+define('kg/editor-plugins/1.1.5/font-family',["util","editor","./font/ui","./font-family/cmd","./menubutton"],function(require, exports, module) {
 /**
  * @ignore
  * font formatting for kissy editor

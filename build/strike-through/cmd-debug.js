@@ -1,4 +1,4 @@
-define('kg/editor-plugins/1.1.4/strike-through/cmd',["editor","../font/cmd"],function(require, exports, module) {
+define('kg/editor-plugins/1.1.5/strike-through/cmd',["editor","../font/cmd"],function(require, exports, module) {
 /**
  * @ignore
  * strike-through command

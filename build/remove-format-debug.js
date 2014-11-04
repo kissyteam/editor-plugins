@@ -1,4 +1,4 @@
-define('kg/editor-plugins/1.1.4/remove-format',["editor","./button","./remove-format/cmd"],function(require, exports, module) {
+define('kg/editor-plugins/1.1.5/remove-format',["editor","./button","./remove-format/cmd"],function(require, exports, module) {
 /**
  * @ignore
  * removeFormat for selection.

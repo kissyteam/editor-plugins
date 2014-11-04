@@ -1,4 +1,4 @@
-define('kg/editor-plugins/1.1.4/bold',["./font/ui","./bold/cmd","node","./button"],function(require, exports, module) {
+define('kg/editor-plugins/1.1.5/bold',["./font/ui","./bold/cmd","node","./button"],function(require, exports, module) {
 /**
  * @ignore
  * bold command.

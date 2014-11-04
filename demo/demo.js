@@ -4,6 +4,7 @@ require(['util', 'node'], function (util, Node) {
         // 是否初始聚焦
         focused: true,
         attachForm: true,
+        customStyle: "p.xxx {color:red}",
         baseZIndex: 10000
         // 自定义样式
         // customStyle:"p{line-height: 1.4;margin: 1.12em 0;padding: 0;}",
@@ -22,13 +23,13 @@ require(['util', 'node'], function (util, Node) {
         "strike-through," +
         "underline," +
         "separator," +
-        "checkbox-source-area" +
-        ",image" +
+        //"checkbox-source-area," +
+        "image" +
         ",link" +
         ",fore-color" +
         ",back-color" +
         ",resize" +
-        ",draft" +
+        //",draft" +
         ",undo" +
         ",indent" +
         ",outdent" +
@@ -234,8 +235,6 @@ require(['util', 'node'], function (util, Node) {
 
     require(['editor'].concat(fullPlugins), function (Editor) {
         var args = util.makeArray(arguments);
-
-        args.shift();
         args.shift();
 
         util.each(args, function (Arg, i) {

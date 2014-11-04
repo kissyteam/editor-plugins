@@ -1,4 +1,4 @@
-define('kg/editor-plugins/1.1.4/preview',["./button","util"],function(require, exports, module) {
+define('kg/editor-plugins/1.1.5/preview',["./button","util"],function(require, exports, module) {
 /**
  * @ignore
  * preview for kissy editor
@@ -27,9 +27,8 @@ var util = require('util');
                         iHeight = 420; // 600 * 0.7,
                         iLeft = 80;	// (800 - 0.8 * 800) /2 = 800 * 0.1.
                     }
-                    var sHTML = util.substitute(editor.getDocHtml(), {
-                            title: '预览'
-                        }),
+                    // can not use substitute, customStyle error
+                    var sHTML = editor.getDocHtml().replace(/\{title\}/, '预览'),
                         sOpenUrl = '',
                         oWindow = win.open(sOpenUrl,
                             // 每次都弹出新窗口

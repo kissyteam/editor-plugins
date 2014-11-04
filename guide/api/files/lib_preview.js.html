@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>lib/preview.js - editor-plugins</title>
+    <title>lib\preview.js - editor-plugins</title>
     <link rel="stylesheet" href="http://yui.yahooapis.com/3.9.1/build/cssgrids/cssgrids-min.css">
     <link rel="stylesheet" href="../assets/vendor/prettify/prettify-min.css">
     <link rel="stylesheet" href="../assets/css/main.css" id="site_styles">
@@ -232,7 +232,7 @@
             <div class="apidocs">
                 <div id="docs-main">
                     <div class="content">
-                        <h1 class="file-heading">File: lib/preview.js</h1>
+                        <h1 class="file-heading">File: lib\preview.js</h1>
 
 <div class="file">
     <pre class="code prettyprint linenums">
@@ -264,9 +264,8 @@ var util = require(&#x27;util&#x27;);
                         iHeight = 420; // 600 * 0.7,
                         iLeft = 80;	// (800 - 0.8 * 800) /2 = 800 * 0.1.
                     }
-                    var sHTML = util.substitute(editor.getDocHtml(), {
-                            title: &#x27;预览&#x27;
-                        }),
+                    // can not use substitute, customStyle error
+                    var sHTML = editor.getDocHtml().replace(/\{title\}/, &#x27;预览&#x27;),
                         sOpenUrl = &#x27;&#x27;,
                         oWindow = win.open(sOpenUrl,
                             // 每次都弹出新窗口

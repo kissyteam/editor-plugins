@@ -1,4 +1,4 @@
-define('kg/editor-plugins/1.1.4/flash-bridge',["logger-manager","util","editor","swf","event-custom"],function(require, exports, module) {
+define('kg/editor-plugins/1.1.5/flash-bridge',["logger-manager","util","editor","swf","event-custom"],function(require, exports, module) {
 /**
  * @ignore
  * simplified flash bridge for yui swf

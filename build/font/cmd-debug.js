@@ -1,4 +1,4 @@
-define('kg/editor-plugins/1.1.4/font/cmd',["editor"],function(require, exports, module) {
+define('kg/editor-plugins/1.1.5/font/cmd',["editor"],function(require, exports, module) {
 /**
  * @ignore
  * font command.

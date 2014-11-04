@@ -1,4 +1,4 @@
-define('kg/editor-plugins/1.1.4/fore-color',["./color/btn","./fore-color/cmd"],function(require, exports, module) {
+define('kg/editor-plugins/1.1.5/fore-color',["./color/btn","./fore-color/cmd"],function(require, exports, module) {
 /**
  * @ignore
  * foreColor button.
