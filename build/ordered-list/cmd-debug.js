@@ -1,4 +1,4 @@
-define('kg/editor-plugins/1.1.7/ordered-list/cmd',["editor","../list-utils/cmd"],function(require, exports, module) {
+define('kg/editor-plugins/1.1.8/ordered-list/cmd',["editor","../list-utils/cmd"],function(require, exports, module) {
 /**
  * @ignore
  * orderedList command

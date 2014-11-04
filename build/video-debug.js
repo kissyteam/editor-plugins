@@ -1,4 +1,4 @@
-define('kg/editor-plugins/1.1.7/video',["editor","./flash-common/utils","./flash-common/base-class","./fake-objects","./button"],function(require, exports, module) {
+define('kg/editor-plugins/1.1.8/video',["editor","./flash-common/utils","./flash-common/base-class","./fake-objects","./button"],function(require, exports, module) {
 /**
  * @ignore
  * video button.

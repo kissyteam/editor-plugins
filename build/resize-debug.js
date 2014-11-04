@@ -1,4 +1,4 @@
-define('kg/editor-plugins/1.1.7/resize',["dd","node","util"],function(require, exports, module) {
+define('kg/editor-plugins/1.1.8/resize',["dd","node","util"],function(require, exports, module) {
 /**
  * @ignore
  * resize functionality
@@ -45,6 +45,7 @@ Resize.prototype = {
 
         var d = new Draggable({
                 node: resizer,
+                shim:true,
                 groups: false
             }),
             height = 0,
@@ -61,9 +62,13 @@ Resize.prototype = {
         d.on('drag', function (e) {
             if (util.inArray('y', direction)) {
                 editor.set('height', height + e.deltaY);
+            } else{
+                 editor._onSetHeight(height);
             }
             if (util.inArray('x', direction)) {
                 editor.set('width', width + e.deltaX);
+            } else {
+                editor._onWidth('width');
             }
             editor.fire('resize');
         });

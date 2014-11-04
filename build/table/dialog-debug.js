@@ -1,4 +1,4 @@
-define('kg/editor-plugins/1.1.7/table/dialog',["util","editor","../dialog","../menubutton","ua","node","dom"],function(require, exports, module) {
+define('kg/editor-plugins/1.1.8/table/dialog',["util","editor","../dialog","../menubutton","ua","node","dom"],function(require, exports, module) {
 /**
  * @ignore
  * table dialog

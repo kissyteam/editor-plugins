@@ -1,4 +1,4 @@
-define('kg/editor-plugins/1.1.7/heading',["./menubutton","editor","./heading/cmd"],function(require, exports, module) {
+define('kg/editor-plugins/1.1.8/heading',["./menubutton","editor","./heading/cmd"],function(require, exports, module) {
 /**
  * @ignore
  * Heading plugin for KISSY.

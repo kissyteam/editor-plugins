@@ -1,4 +1,4 @@
-define('kg/editor-plugins/1.1.7/indent',["editor","./indent/cmd","./button"],function(require, exports, module) {
+define('kg/editor-plugins/1.1.8/indent',["editor","./indent/cmd","./button"],function(require, exports, module) {
 /**
  * @ignore
  * Add indent button.

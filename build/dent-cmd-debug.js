@@ -1,4 +1,4 @@
-define('kg/editor-plugins/1.1.7/dent-cmd',["editor","./list-utils","dom","node","ua"],function(require, exports, module) {
+define('kg/editor-plugins/1.1.8/dent-cmd',["editor","./list-utils","dom","node","ua"],function(require, exports, module) {
 /**
  * @ignore
  * Add indent and outdent command identifier for KISSY Editor.

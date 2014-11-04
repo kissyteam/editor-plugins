@@ -282,6 +282,7 @@ Resize.prototype = {
 
         var d = new Draggable({
                 node: resizer,
+                shim:true,
                 groups: false
             }),
             height = 0,
@@ -298,9 +299,13 @@ Resize.prototype = {
         d.on(&#x27;drag&#x27;, function (e) {
             if (util.inArray(&#x27;y&#x27;, direction)) {
                 editor.set(&#x27;height&#x27;, height + e.deltaY);
+            } else{
+                 editor._onSetHeight(height);
             }
             if (util.inArray(&#x27;x&#x27;, direction)) {
                 editor.set(&#x27;width&#x27;, width + e.deltaX);
+            } else {
+                editor._onWidth(&#x27;width&#x27;);
             }
             editor.fire(&#x27;resize&#x27;);
         });

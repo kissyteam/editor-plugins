@@ -1,4 +1,4 @@
-define('kg/editor-plugins/1.1.7/code',["editor","./button","./dialog-loader"],function(require, exports, module) {
+define('kg/editor-plugins/1.1.8/code',["editor","./button","./dialog-loader"],function(require, exports, module) {
 /**
  * @ignore
  * insert program code
