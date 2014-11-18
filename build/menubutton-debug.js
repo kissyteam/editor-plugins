@@ -1,4 +1,4 @@
-define('kg/editor-plugins/1.1.8/menubutton',["editor","util","menubutton"],function(require, exports, module) {
+define('kg/editor-plugins/1.1.10/menubutton',["editor","util","menubutton"],function(require, exports, module) {
 /**
  * @ignore
  * select component for kissy editor.

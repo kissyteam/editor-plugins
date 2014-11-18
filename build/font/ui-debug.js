@@ -1,4 +1,4 @@
-define('kg/editor-plugins/1.1.8/font/ui',["editor","../button","../menubutton"],function(require, exports, module) {
+define('kg/editor-plugins/1.1.10/font/ui',["editor","../button","../menubutton"],function(require, exports, module) {
 /**
  * @ignore
  * font formatting for kissy editor

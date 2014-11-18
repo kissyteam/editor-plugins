@@ -1,4 +1,4 @@
-define('kg/editor-plugins/1.1.8/color/cmd',["editor"],function(require, exports, module) {
+define('kg/editor-plugins/1.1.10/color/cmd',["editor"],function(require, exports, module) {
 /**
  * @ignore
  * color command.

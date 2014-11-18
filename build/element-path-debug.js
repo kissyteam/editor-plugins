@@ -1,4 +1,4 @@
-define('kg/editor-plugins/1.1.8/element-path',["editor","node"],function(require, exports, module) {
+define('kg/editor-plugins/1.1.10/element-path',["editor","node"],function(require, exports, module) {
 /**
  * @ignore
  * ElementPath for debug.

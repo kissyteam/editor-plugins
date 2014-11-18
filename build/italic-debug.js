@@ -1,4 +1,4 @@
-define('kg/editor-plugins/1.1.8/italic',["./font/ui","./italic/cmd","./button","node"],function(require, exports, module) {
+define('kg/editor-plugins/1.1.10/italic',["./font/ui","./italic/cmd","./button","node"],function(require, exports, module) {
 /**
  * @ignore
  * italic button.

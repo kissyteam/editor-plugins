@@ -1,4 +1,4 @@
-define('kg/editor-plugins/1.1.8/justify-cmd',["editor"],function(require, exports, module) {
+define('kg/editor-plugins/1.1.10/justify-cmd',["editor"],function(require, exports, module) {
 /**
  * @ignore
  * Add justify command identifier for Editor.

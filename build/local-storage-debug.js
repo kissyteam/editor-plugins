@@ -1,4 +1,4 @@
-define('kg/editor-plugins/1.1.8/local-storage',["editor","overlay","./flash-bridge","util","ua"],function(require, exports, module) {
+define('kg/editor-plugins/1.1.10/local-storage',["editor","overlay","./flash-bridge","util","ua"],function(require, exports, module) {
 /**
  * @ignore
  * localStorage support for ie<8
