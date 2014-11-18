@@ -4,6 +4,7 @@ var gulp = require('gulp'),
     kmc = require('gulp-kmc'),
     minify = require('gulp-minify'),
     gulpJoycss =require('gulp-joycss'),
+    through2 = require('through2'),
     packageJson = require('./package.json');
 
 kmc.config({
@@ -17,7 +18,22 @@ kmc.config({
     ]
 });
 
-gulp.task('kmc', function(cb){
+gulp.task('turnHtmlAsModule', function(cb){   //先将html文件转为nodejs风格的模块代码
+    gulp.src('./lib/**/*.html')
+        .pipe(through2.obj(function(file, enc, callback){
+            file.contents = new Buffer("module.exports=" + JSON.stringify(file.contents.toString()));
+            this.push(file);
+            callback();
+        }))
+        .pipe(rename(function(path){
+            path.basename = path.basename.replace('.tpl', '-tpl');
+            path.extname = '.js';
+        }))
+        .pipe(gulp.dest('./lib'));
+    cb();
+});
+
+gulp.task('kmc', ['turnHtmlAsModule'], function(cb){
     gulp.src('./lib/**/*.js')
         .pipe(gulpKmd())
         .pipe(kmc.convert({
